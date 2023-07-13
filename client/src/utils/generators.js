@@ -23,3 +23,9 @@ export const generateDescriptors = () => {
 
     return descriptorsTable[roll.total - 1];
 };
+
+export const simpleRoll = (diceString) => {
+    const roll = new DiceRoll(diceString);
+
+    return roll.total;
+};
