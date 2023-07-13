@@ -1,10 +1,15 @@
 <template>
     <v-container>
-        <div class="mb-4">
+        <v-btn color="primary" @click="createCharacter">
+            GENERATE A CHARACTER
+        </v-btn>
+    </v-container>
+    <v-container v-if="data.showSheet">
+        <div class="mb-6 text-center">
             <h1>You are {{ 'a' }} {{ data.descriptor }} {{ data.species }}.</h1>
-            <h4>{{data.species}}: {{ data.speciesDesc }}</h4>
+            <h4>{{ data.species }}: {{ data.speciesDesc }}</h4>
         </div>
-       
+
         <v-row>
             <v-col cols="6" md="4">
                 <v-card class="bg-primary text-secondary pa-3">
@@ -62,7 +67,9 @@
 
 <script setup>
 
-import {reactive, computed} from 'vue';
+import { reactive, computed } from 'vue';
+
+import { generateSpecies, generateDescriptor, simpleRoll } from '../utils/generators.js';
 
 const data = reactive({
 
@@ -76,6 +83,23 @@ const data = reactive({
     descriptor: 'Dorky',
     speciesDesc: 'Dogs, Wolves, Foxes, etc.',
 
-})
+});
+
+const createCharacter = () => {
+    const species = generateSpecies();
+
+    data.species = species.name;
+    data.speciesDesc = species.description;
+
+    data.descriptor = generateDescriptor();
+
+    data.body = simpleRoll('3d6');
+    data.speed = simpleRoll('3d6');
+    data.mind = simpleRoll('3d6');
+    data.hp = simpleRoll('1d6');
+    data.coin = simpleRoll('1d6');
+
+    data.showSheet = true;
+}
 
 </script>

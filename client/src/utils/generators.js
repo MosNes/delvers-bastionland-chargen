@@ -14,7 +14,7 @@ export const generateSpecies = () => {
     return speciesTable[roll.total - 1];
 };
 
-export const generateDescriptors = () => {
+export const generateDescriptor = () => {
 
     //generate die size based on number of descriptors in table
     const dieSize = descriptorsTable.length;
