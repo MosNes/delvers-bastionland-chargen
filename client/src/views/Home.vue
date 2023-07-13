@@ -6,7 +6,7 @@
     </v-container>
     <v-container v-if="data.showSheet">
         <div class="mb-6 text-center">
-            <h1>You are {{ 'a' }} {{ data.descriptor }} {{ data.species }}.</h1>
+            <h1>You are {{ vowelCheck }} {{ data.descriptor }} {{ data.species }}.</h1>
             <h4>{{ data.species }}: {{ data.speciesDesc }}</h4>
         </div>
 
@@ -70,6 +70,7 @@
 import { reactive, computed } from 'vue';
 
 import { generateSpecies, generateDescriptor, simpleRoll } from '../utils/generators.js';
+import { isVowel } from '../utils/helpers.js';
 
 const data = reactive({
 
@@ -103,5 +104,12 @@ const createCharacter = () => {
 }
 
 //todo: add computed value to change a/an based on species name
+const vowelCheck = computed( () => {
+    if ( isVowel(data.descriptor.charAt(0)) ) {
+        return 'an';
+    } else {
+        return 'a';
+    }
+})
 
 </script>
