@@ -5,7 +5,7 @@ import Navbar from './components/Navbar.vue';
 
 <template>
 
-  <v-app class="bg-background">
+  <v-app class="bg-background text-secondary">
     <v-main>
       <Navbar />
       <Home />
