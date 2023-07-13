@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@dice-roller/rpg-dice-roller": "^5.4.0",
     "@mdi/font": "^7.2.96",
+    "gh-pages": "^5.0.0",
     "vue": "^3.3.4",
     "vuetify": "^3.3.8"
   },
