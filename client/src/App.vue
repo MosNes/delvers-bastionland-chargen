@@ -4,8 +4,8 @@ import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  
-  <v-app>
+
+  <v-app class="bg-background">
     <v-main>
       <Navbar />
       <Home />
