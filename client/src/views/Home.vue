@@ -102,4 +102,6 @@ const createCharacter = () => {
     data.showSheet = true;
 }
 
+//todo: add computed value to change a/an based on species name
+
 </script>
