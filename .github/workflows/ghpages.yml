@@ -1,0 +1,12 @@
+name: Deploy to GH Pages
+on:
+  push:
+    branches:
+      -main
+jobs:
+  deployment:
+    runs-on: ubuntu-lates
+    environment: production
+    steps:
+      - name: deploy
+        
