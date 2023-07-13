@@ -13,3 +13,13 @@ export const generateSpecies = () => {
     //return the species at the index of the roll result
     return speciesTable[roll.total - 1];
 };
+
+export const generateDescriptors = () => {
+
+    //generate die size based on number of descriptors in table
+    const dieSize = descriptorsTable.length;
+
+    const roll = new DiceRoll(`1d${dieSize}`);
+
+    return descriptorsTable[roll.total - 1];
+};
