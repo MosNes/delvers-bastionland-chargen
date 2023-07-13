@@ -1,4 +1,4 @@
-import {DiceRoll} from '@dice-roller/rpg-dice-roller';
+import { DiceRoll } from '@dice-roller/rpg-dice-roller';
 import { speciesTable, descriptorsTable } from './randomTables.js';
 
 export const generateSpecies = () => {
@@ -24,6 +24,7 @@ export const generateDescriptors = () => {
     return descriptorsTable[roll.total - 1];
 };
 
+// takes in diceString, e.g. '3d6' and returns the roll total
 export const simpleRoll = (diceString) => {
     const roll = new DiceRoll(diceString);
 
