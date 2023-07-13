@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MosNes/delvers-bastionland-chargen/issues"
   },
-  "homepage": "https://github.com/MosNes/delvers-bastionland-chargen#readme"
+  "homepage": "https://github.com/MosNes/delvers-bastionland-chargen#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
