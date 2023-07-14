@@ -718,28 +718,193 @@ export const careerTable = [
         }
     }, 
     {
-        title: 'Street Judge',
-        desc: `Bastion has so many courts, the whole city is effectively legal ground. With questionable credentials, you dealt with street quarrels.`,
-        names: 'Flinch, Todor, Bogey, Flare',
-        debtholder: `Slerrence Tingeon-Larney: Offers d10 x 100 Coin for any item of sufficient curiosity and won't budge an inch. If you don't sell it to him, he sends thugs after you.`,
-        gear: 'Martial-Gavel (d6), Book of Laws (incomplete)',
-        careerLabel1: `WHY DO YOU NO LONGER PRACTICE?`,
-        careerLabel2: `WHAT DO YOU ALWAYS HAVE WITH YOU?`,
+        title: 'Muddled Mixologist',
+        desc: `One drink is too many. A thousand never enough.`,
+        names: 'Murphy, Dervish, Swinburne, Lill',
+        debtholder: `Red Devil Distilleries: You're technically banned from every pub, bar or drinking establishment owned by one of their many, many subsidiaries, and every drink you have in contravention of the ban adds to your tab.`,
+        gear: 'Bottle of fancy spirit, bottle of rotgut, an excellent bow tie.',
+        careerLabel1: `WHAT WAS YOUR BAR KNOWN FOR?`,
+        careerLabel2: `WHAT DID YOU MANAGE TO BOTTLE? (TAKE ONE BOTTLE)`,
         coinTable: {
-            1: `Mushroom Binge: Take a bag of psychedelic mushrooms.`,
-            2: `Notorious Drunk: Take a bottle of absinthe.`,
-            3: `Took the Fall: A judge owes you a favour.`,
-            4: `Disillusioned with the Law: Burn your Book of Laws and take a blunderbuss (d6 BLAST, short range).`,
-            5: `Quietly Discharged: For filling up prisons too quickly.Take ceremonial judge armour (ARMOUR 1, BULKY).`,
-            6: `Caught Taking Bribes: Other judges hate you, some just for getting caught.`
+            1: `Flair:Take a reinforced throwing glass and a rubberised practice bottle.You know how to throw things; if really pushed, you can probably juggle.`,
+            2: `Molecular Mixology:Take a set of tiny syringes and a specialised foamer.You know enough basic chemistry to make almost any liquid into jelly.`,
+            3: `Classics:Take a copper jigger and a sturdy muddler (d4). If pressed, you can recount the history of the city's bars in a surprising amount of detail.`,
+            4: `Tiki:Take an entire pineapple and a set of earthenware mugs. You can whittle a fancy animal garnish out of almost any fruit.`,
+            5: `Obscure:Take a leather-wrapped assortment of tiny bottles of home-made bitters and shrubs.You can pickle, preserve, or infuse virtually anything, given enough time.`,
+            6: `Highly Illegal:Take a small assortment of mostly food-safe powders wrapped in paper.You can pull favours to get drugs if you must - only the fun ones, not the hard ones.`
         },
         hpTable: {
-            1: `A symbolic, but aggressive Raptoryx (3HP, d6 claws, Flies).`,
-            2: `Your Loyal Scribe (1HP, STR 5, DEX 7, CHA 7, elderly, does nothing but scribe).`,
-            3: `Pop-Up Gallows with noose and hood.`,
-            4: `Smoke Bomb and a sense of showmanship`,
-            5: `Prosthetic Leg with grasping talon.`,
-            6: `Bad Reputation. Anyone on the wrong side of the law knows and dislikes you.`
+            1: `Navigation: Black rum, lime, orange liqueur, cacao bitters.The drinker can always find their way home, no
+            matter how drunk they get.`,
+            2: `Flaneur:Whisky, red vermouth, amaro, bitters. Liquid elegance.`,
+            3: `Golden Serpent: Cinnamon liqueur, gold leaf, fresh mint, apple juice, absinthe. Causes powerful
+            hallucinations.`,
+            4: `Red Fireball: Sweet aniseed liqueur with wild strawberry moonshine. Highly flammable (d6).`,
+            5: `Corpse Reviver No. 23: Lemon, sweet wine, gin. Brings back the dead. Literally. One use.`,
+            6: `Pregabalin: Smoky, sweet and lemony. Just a very, very good drink. Definitely not a nerve agent`
         }
-    }
+    },
+    {
+        title: 'Void Blessed',
+        desc: `You don't just worship the Stars in the Void. One of them has gifted you.`,
+        names: 'Pollux, Vega, Rigella, Hamal',
+        debtholder: `Baztuon Order of Vaultkeepers: You have shared ownership of a vault-buster bomb (d12, must be set in place).`,
+        gear: 'Mace (d6), ceremonial headband.',
+        careerLabel1: `WHAT WAS YOUR DUTY WITHIN THE VOID-BLESSED UNION?`,
+        careerLabel2: `WHAT'S YOUR STAR GIFT?`,
+        coinTable: {
+            1: `Preacher: Take a Star Book.`,
+            2: `Bell Ringer: You can climb ropes really fast.`,
+            3: `Sacrificial Executioner: Swap your mace for an executioner bludgeon (d8, BULKY).`,
+            4: `Observer: Take a telescope and flask of chicken broth.`,
+            5: `Flagellant: Take a whip (d6) and lash marks.`,
+            6: `Cook: Take a cleaver (d6) and mass-catering certificate.`
+        },
+        hpTable: {
+            1: `Broken Basilisk Symbol - Two pieces of an eye-like symbol set in lead. Anyone holding the pieces
+            together while looking at it loses d20 CHA.`,
+            2: `Wild Tongue - You can talk with any living thing, but what they tell you might not make sense.`,
+            3: `Noble Tumour - This visible growth absorbs the next harmful effect to enter your body, whether poison,
+            parasite, curse, or otherwise, before dropping off and turning to dust.`,
+            4: `Alien Bone - Looks like a wishbone, but if broken sends out a psychic wave of pain to all within 10m
+            (d20 CHA loss).`,
+            5: `Air-Sac - A membranous sac on your chest that you can inflate to 2m in diameter.Your lungs can draw
+            on the air within, but remember the inflated sac floats.`,
+            6: `Saucer Burn - Tingles in the presence of artificial light.You can will yourself to levitate slowly towards
+            the light.`
+        }
+    },
+    {
+        title: 'Un-Revolutionary',
+        desc: `Every day another revolution, another barricade. Civil flow design demands that somebody put things back in order.`,
+        names: 'Gav, Apollo, Joy, Cuffwhack',
+        debtholder: `The Pittance Society: Your debt can only be paid in loose change`,
+        gear: 'Five-point hat, broom.',
+        careerLabel1: `WHAT DID YOU BRING FROM HOME?`,
+        careerLabel2: `WHAT HELPED YOU BREAK UP BARRICADES?`,
+        coinTable: {
+            1: `A bottle of Nectar Brew, bright yellow, lightly alcoholic, doubles as a medium-strength glue.`,
+            2: `Tin of Dust Snuff, enough for three doses. Causes a sneeze violent enough to expel any harmful substance from your body.`,
+            3: `A spoiled Pet Beetle (2HP).`,
+            4: `Pack of Gum (smoke) with a comical dispenser.`,
+            5: `A Bright Green Talking Hook Glider(3HP, Flies), knows a few anti-revolution phrases.`,
+            6: `A Fantastic Sandwich in a ridiculously sturdy lunchbox`
+        },
+        hpTable: {
+            1: `Flamethrower: d6, BULKY, BLAST.`,
+            2: `Breaching Rifle: d6, +d10 against structures or massive targets, BULKY.`,
+            3: `5 Proximity Mines: d8 BLAST, fails to detonate on a 1.`,
+            4: `3 Toxic Smoke Bombs: d6 BLAST and smoke cloud. Ongoing DAMAGE each turn for anyone that stays
+            within.`,
+            5: `3 Spike Bombs: d8 BLAST. Only activates if it is spiked into place.Very short fuse.`,
+            6: `3 Safety Firebombs: d6 DAMAGE each round until extinguished. Has no effect on living tissue.`
+        }
+    },
+    {
+        title: 'Kin Unionist',
+        desc: `The world is full of strange and powerful things. None of them deserve our worship.`,
+        names: 'Jerigiza, Clovik, Inogus, Tangetta',
+        debtholder: `The Masterphagers: You have learned the technique to safely eat anything up to the size of your fist, but only food provides nourishment.`,
+        gear: 'Tall hat and sash.',
+        careerLabel1: `WHAT WAS YOUR DAY JOB?`,
+        careerLabel2: `WHAT MADE YOU JOIN THE UNION?`,
+        coinTable: {
+            1: `Butcher: Take a cleaver (d6).`,
+            2: `Schoolteacher: Take a cane (d6).`,
+            3: `Baker: Take a breadknife (d6).`,
+            4: `Private Investigator: Take a pistol (d6).`,
+            5: `River Serpent Hunter:Take a bow (d6).`,
+            6: `Steeplejack: Take climbing boots and a pick (d6).`
+        },
+        hpTable: {
+            1: `You survived Cosmic Abduction.When otherworldly creatures speak another language, you get a tingly sense of what they're saying`,
+            2: `You just Love Kin-kind and want to keep it pure.Take a firebomb (d6 DAMAGE each round until extinguished).`,
+            3: `You were denied entry to the Dead-Blessed Union.Take a stolen dead-snake symbol.`,
+            4: `Your Parents were high ranking members.You have some sway within the Union.`,
+            5: `Mostly for Recreational reasons.Take a keg of beer.`,
+            6: `Your home was destroyed in an Unexplained Explosion.Take some burnt skin.`
+        }
+    },
+    {
+        title: 'Liberal Engineer',
+        desc: `We sit on the spear-tip of modernity. There's always the risk of blood.`,
+        names: 'Ferrance, Piero, Racuse, Geobert',
+        debtholder: `The Tin Soldiers:The first of you to die can be reproduced in living metal form (ARMOUR 2, but much slower than normal) if you wish.`,
+        gear: 'Duck pistol (d6, BLAST, very short range), sack of ball bearings and screws.',
+        careerLabel1: `WHAT DID YOU BUY IN PREPARATION FOR TODAY?`,
+        careerLabel2: `WHAT'S YOUR MOST RECENT PROJECT? (IT WAS A FLUKE, YOU CAN'T RECREATE IT)`,
+        coinTable: {
+            1: `A bicycle.`,
+            2: `A sturdy umbrella (d6).`,
+            3: `A flask of goose soup.`,
+            4: `A long scarf and very warm hat.`,
+            5: `A tinned pie.`,
+            6: `A can of beast repellent.`
+        },
+        hpTable: {
+            1: `Minion-Maker - A copper headband that turns the wearer into a mindless automaton, obeying any
+            command given to it.`,
+            2: `Pawn Tube - A big golden funnel that can be spiked into the ground. Feed any item into it and a rock or
+            gem worth half of its market value is shot out. If the same stone is returned to the funnel, the item is
+            traded back.`,
+            3: `Air-Mine - A floating sac of explosive gas (d10 BLAST). Far too sensitive once activated, so a 1 in 6 chance
+            that it goes off prematurely`,
+            4: `Crank Bomb - Turn a crank to power it up. Roll d6 for each turn you crank it, adding to the total
+            DAMAGE that is released when you do throw it. If the charge exceeds 12 DAMAGE it blows up in your face.`,
+            5: `Impact Claw - Causes d10 DAMAGE, but if you roll a 10 you hit yourself for the DAMAGE instead.`,
+            6: `Primordial Slime - Can be rubbed onto skin, leaving it soft and jelly-like.You can now bend and squeeze
+            as if you had no bones or internal organs, but you only benefit from RESTS while in water. If you spend a
+            day out of water the effects wear off.`
+        }
+    },
+    {
+        title: 'Maked Horrorist',
+        desc: `Horrors rise from the Underground. We must make a friend of fear, and scare them back down.`,
+        names: 'Bota, Lombina, Volter, Sonny',
+        debtholder: `The Populads: You can never remember the name or face of somebody in this Union, or what they really do, but you can always find a member when you need one.`,
+        gear: 'Handcannon (d6, very loud), horrific mask.',
+        careerLabel1: `WHAT'S YOUR MASK?`,
+        careerLabel2: `WHAT ABOUT WHEN YOU TAKE THE MASK OFF?`,
+        coinTable: {
+            1: `The Famine Machine: You can eat metal in place of food.`,
+            2: `The Red Beast: You have the enhanced scent and hearing of a dog.`,
+            3: `The Horned Child: When you make a demand, those that refuse it feel an intense (but ultimately harmless) pain.`,
+            4: `The Iron Snake: If you eat a living thing whole you learn all that it has seen.`,
+            5: `The Blank Mask: You cause no sound and leave no footprints.`,
+            6: `The Grey Man: All living things understand your speech, but are under no obligation to cooperate.`
+        },
+        hpTable: {
+            1: `You can choose how your face appears each time you take it off.`,
+            2: `Animals take a disliking to your face.`,
+            3: `You had it surgically attached and can never take it off.`,
+            4: `You need to wear glasses to see well, but the mask lets you see just fine.`,
+            5: `You’re mute when not wearing the mask.`,
+            6: `Your face is disfigured underneath.`
+        }
+    },
+    {
+        title: 'Maked Horrorist',
+        desc: `Horrors rise from the Underground. We must make a friend of fear, and scare them back down.`,
+        names: 'Bota, Lombina, Volter, Sonny',
+        debtholder: `The Populads: You can never remember the name or face of somebody in this Union, or what they really do, but you can always find a member when you need one.`,
+        gear: 'Handcannon (d6, very loud), horrific mask.',
+        careerLabel1: `WHAT'S YOUR MASK?`,
+        careerLabel2: `WHAT ABOUT WHEN YOU TAKE THE MASK OFF?`,
+        coinTable: {
+            1: `The Famine Machine: You can eat metal in place of food.`,
+            2: `The Red Beast: You have the enhanced scent and hearing of a dog.`,
+            3: `The Horned Child: When you make a demand, those that refuse it feel an intense (but ultimately harmless) pain.`,
+            4: `The Iron Snake: If you eat a living thing whole you learn all that it has seen.`,
+            5: `The Blank Mask: You cause no sound and leave no footprints.`,
+            6: `The Grey Man: All living things understand your speech, but are under no obligation to cooperate.`
+        },
+        hpTable: {
+            1: `You can choose how your face appears each time you take it off.`,
+            2: `Animals take a disliking to your face.`,
+            3: `You had it surgically attached and can never take it off.`,
+            4: `You need to wear glasses to see well, but the mask lets you see just fine.`,
+            5: `You’re mute when not wearing the mask.`,
+            6: `Your face is disfigured underneath.`
+        }
+    },
 ]
