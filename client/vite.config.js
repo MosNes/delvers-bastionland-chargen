@@ -8,5 +8,6 @@ export default defineConfig({
     outDir: '../build',
     emptyOutDir: true,
   },
+  //need this line for gh-pages deployment to function
   base: "/delvers-bastionland-chargen/"
 })
