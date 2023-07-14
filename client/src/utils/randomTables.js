@@ -688,7 +688,7 @@ export const careerTable = [
             2: `Your Ratty Pet Critter (4HP, d6 bite) smells awful.`,
             3: `You're very protective of your Pet Mole Bug (1HP).`,
             4: `Your Metal Allergy (causes an unpleasant rash).Take a set of gloves.`,
-            5: `You’re secretly a Gifted Dancer.`,
+            5: `You're secretly a Gifted Dancer.`,
             6: `Your Awful Dress Sense.Take a mustard jacket with a mauve shirt.`
         }
     },
@@ -1036,29 +1036,31 @@ export const careerTable = [
         },
     },
     {
-        title: 'Haunted North Bounty Hunter',
-        desc: `The endless polar mists of the Haunted North are a great place to hide. You did your best to bring the lost home, one way or another.`,
-        names: 'Podel, Vichler, Worfhand, Beegull',
-        debtholder: `Fictioneers: In their office is a large, empty book with your names written on the front. If you're late paying your debt, the Fictioneers can make unpleasant things happen to you by writing them within.`,
-        gear: 'Pole axe (d8, BULKY).',
-        careerLabel1: `JUST HOW TOUGH ARE YOU?`,
-        careerLabel2: `WHAT POWER DID THE MIST GRANT YOU?`,
+        title: 'Necro-Engineer',
+        desc: `Of all Bastion's industry, the city produces corpses faster than anything. Production on this scale calls for modern methods.`,
+        names: 'Do, Jincey, Gognon, Zephryne',
+        debtholder: `The Jolity Engine: A sentient, building-sized gambling machine.Whenever you visit it offers a spin of its wheels to halve the debt, or double in the case of a loss. Odds are 52% in favour of the Engine.`,
+        gear: 'Sombre formal wear, shovel.',
+        careerLabel1: `HOW DID YOU GET YOUR START IN THE CORPSE DISPOSAL INDUSTRY?`,
+        careerLabel2: `WHAT WAS YOUR GREAT PROJECT? (YOU COULDN'T GET FUNDING)`,
         coinTable: {
-            1: `Take an Arctic Wolf Spider (5HP, d6 bite, Terrifyingly Soft and Fuzzy) that follows your every command.`,
-            2: `Take an Adoring Follower (1HP, club d6).`,
-            3: `You can Whistle loud enough to cut through any noise, and over vast distances.`,
-            4: `You're Immune to alcohol and other toxins.`,
-            5: `If you can pick up a container, you can Break It Open with just your hands and teeth.`,
-            6: `Take an Eyepatch and a captivating story about how you got it.`
+            1: `Digging the Deepest Graves for Uncooperative Cadavers: Replace your shovel with a powered grave-burrower (d8, BULKY, extremely loud, tears through earth at an alarming rate).`,
+            2: `Professional Grave Visitor: You have a lifetime supply of bouquets from a handful of Bastion's florists.`,
+            3: `Silencing Birdsong: Take a pigeon-gun (d6, BULKY).`,
+            4: `Widow Tender: Take an expandable umbrella.`,
+            5: `You were Born in a Mausoleum: You can sense a corpse up to one room away.`,
+            6: `Chasing Scavengers Away: One nearly feral hyena (5HP, d6 bite) stuck with you.`
         },
         hpTable: {
-            1: `Fogwhisper: As long as you make eye contact with another, they can hear anything you whisper.`,
-            2: `Snowblood: You suffer no harm from extreme cold.`,
-            3: `Iceclap: You can extinguish small flames with a loud clap`,
-            4: `Chillsight: You have white eyes, which people don't like.`,
-            5: `Mistlung: You can always see your breath.`,
-            6: `Seathirst: You can only survive on saltwater. Freshwater doesn't quench you.`
+            1: `The Incineration Dome: Take a fire-proof protective suit that fits over your formal wear.`,
+            2: `The Pyramid of Final Rest: You can tell the exact height and rough age of a building with a glance.`,
+            3: `The Feasting Garden: Take a sack of carrion seed (irresistible to crows, vultures and other scavenging birds).`,
+            4: `The Protein Reclamation Initiative: Take a jar of flavour-masking rub (makes anything palatable).`,
+            5: `The Eternal Cruise: Take a morbidly decorated naval captain's hat.`,
+            6: `The Star Burial: You feel that the Void is taunting your failure. If left alone under the night sky you are DEPRIVED.`
         },
     },
+    
 ]
-]
+
+
