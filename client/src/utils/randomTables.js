@@ -1200,30 +1200,207 @@ export const careerTable = [
         },
     },
     {
-        title: 'Repurposed Augmental',
-        desc: `Mechanically adapted for a purpose you were unable to fulfil. You found a job somewhere else.`,
-        names: 'Ewes, Clarick, Ante, Casey',
-        debtholder: `Drumm Personal Security: Weapons pay off this debt at twice their normal value.`,
-        gear: 'Mallet (d6).',
-        careerLabel1: `WHAT WAS YOUR JOB?`,
-        careerLabel2: `HOW ARE YOU AUGMENTED?`,
+        title: 'Noble-In-Waiting',
+        desc: `The chances of you actually inheriting your title are microscopic. You decided to take your fate into your own hands.`,
+        names: 'Quith, Champ, Pursey, Frottescue',
+        debtholder: `Stubb Prosthetics: You each have a rudimentary prosthetic, but it cannot be a limb.`,
+        gear: 'Fire poker (d6), fur cloak.',
+        careerLabel1: `WHAT TITLE ARE YOU DUE TO INHERIT?`,
+        careerLabel2: `HOW MANY PEOPLE MUST DIE BEFORE YOU INHERIT?`,
         coinTable: {
-            1: `Civic Planning: Take a nice jacket.`,
-            2: `Electricity Station Labour: Take a set of rubberised tongs.`,
-            3: `Private Security: Take a concealed pistol (d6).`,
-            4: `Personal Errands: Take an umbrella.`,
-            5: `Housekeeping: Take a telescopic brush.`,
-            6: `Municipal Cleaning: Take a broom.`
+            1: `Arch-Hellion of Jules:Take a set of ugly red ARMOUR (ARMOUR 1).`,
+            2: `Metagon of Ram: Take an ancestral horn (curly and loud).`,
+            3: `Inactor of Discave: Take a fancy spike-rod (d8, BULKY) that is also a periscope`,
+            4: `Cryptor of Hyde: As a gift from your ancestors, you can ask any recently dead being one question, but they are only as cooperative as they were in life.`,
+            5: `Faux-Reiner of Trave: Take a box of fancy cigars and bottle of brandy`,
+            6: `Eminent-Raider of Ruther's Ford: Take a warmount (7HP, d8 trample).`
         },
         hpTable: {
-            1: `Part-Metal Body: You always have at least ARMOUR 1.`,
-            2: `Bile Valve: You can spew acid spray (d6, BLAST, continues until washed off) once per day.`,
-            3: `Chest Compartment: A barely visible seam in your chest can open up to discreetly store a fist-sized object.`,
-            4: `Steel Jaw: You can bite through most anything you can fit in your mouth.`,
-            5: `Detachable Arms: They still function as you wish if removed.`,
-            6: `Remodelled Internals: You do not need to eat or breathe.`
+            1: `Nobody Knows, so succession has turned into a bit of a free-for-all, and as such has drifted far from your family`,
+            2: `Fourteen, and they're very far apart.`,
+            3: `Twelve, but you aren't sure which twelve`,
+            4: `Nine, and they're incredibly powerful and unified against you.`,
+            5: `Eight, and their holdings are far from Bastion.`,
+            6: `Nobody.You technically hold the title, but the lands were utterly obliterated before you inherited. It isn't
+            on maps anymore.`
         },
     },
+    {
+        title: 'Vault Cracker',
+        desc: `Most vaults are old enough that nobody can agree who owns them. You're just tidying up forgotten things.`,
+        names: 'Garrun, Fatimax, Ruffy, Stanbar',
+        debtholder: `Slumborn Sisterhood: Share £100 in Slum Vouchers, valid only in the worst boroughs.`,
+        gear: 'Shovel (d6, BULKY)',
+        careerLabel1: `WHAT GETS YOU IN?`,
+        careerLabel2: `WHAT DID YOU FIND?`,
+        coinTable: {
+            1: `A Key Flute that has a 1-in-6 chance of opening any lock you play to. If it fails once, it never works on that lock.`,
+            2: `Take a Crowbar (d6).`,
+            3: `Take three Mining Charges (d10 BLAST, must be set in place and shot).`,
+            4: `Take a Portable Ram.`,
+            5: `Take a bent Coat Hanger.`,
+            6: `Take a Breaching Rocket (d10 BLAST, one shot).`
+        },
+        hpTable: {
+            1: `Macro-Telescope - Essentially infinite zoom`,
+            2: `Portable Raft - Carries four people, compresses down to briefcase size`,
+            3: `Brace of Fancy Pistols - d8 each, but won't fire if separated.`,
+            4: `Case of Poisons - One dose each of ingested, injected, and inhaled poisons`,
+            5: `Cursed Music Box - Sounds awful to you, everybody else hears their favourite tune.`,
+            6: `Unlabelled Food Can - 50/50 chance of pet food (expired), or pressurised potato (explodes in a d8 BLAST when exposed to air).`
+        },
+    },
+    {
+        title: 'Revolutionary Duelist',
+        desc: `You are the sword tip of change in Bastion. Sometimes change for its own sake.`,
+        names: 'Eppay, Saybo, Foal, Geanne',
+        debtholder: `Doctor Harold Pang,Archaeologist: Pays double the value for items still dusty from excavation.`,
+        gear: 'Puffy clothes, mirror',
+        careerLabel1: `WHAT'S YOUR WEAPON OF CHOICE?`,
+        careerLabel2: `WHAT'S YOUR FLAIR?`,
+        coinTable: {
+            1: `Crow-Sword (d6, doubles as crowbar)`,
+            2: `Military-Fork (d8, BULKY`,
+            3: `Pointman's Duelling Pistol (d8, requires a REST to clean and reload).`,
+            4: `Compound Bow (d6, silent).`,
+            5: `Fixed-Rifle (Does not function as a gun, but with included bayonet is d6, BULKY, melee)`,
+            6: `Claymore (d8, BULKY).`
+        },
+        hpTable: {
+            1: `You attempt a Fancy Finishing Move with your signature weapon for +d10 DAMAGE, but if it doesn't cause CRITICAL DAMAGE then you take CRITICAL DAMAGE yourself.`,
+            2: `Take a pocket of Blinding Powder (DEX SAVE or blinded for one turn. After use, you must visit your supplier for a free refill).`,
+            3: `Take a pack of Tiny Smoke Bombs (Make enough smoke for you to quickly dash away. After use, you must visit your supplier for a free refill).`,
+            4: `You can HurlYourWeapon for d8 DAMAGE. If you roll an 8 the weapon is broken.`,
+            5: `You can Mimic Any Voice you hear, and use it mockingly`,
+            6: `Take an Extra-Fancy Hat with a famous backstory`
+        },
+    },
+    {
+        title: 'Newspaper Intern',
+        desc: `You were technically paid to write technically-non-lies. It never really got off the ground.`,
+        names: 'Gurney, Dunker, Flindell, Shelina',
+        debtholder: `Society for the Punishment of Wayward Students: Your debt is to pay for breakages you caused by some prank in your youth.You know a load of dumb code words that only you understand.`,
+        gear: 'Notepad.',
+        careerLabel1: `WHAT WAS THE WORST STORY YOU HAD TO COVER?`,
+        careerLabel2: `WHAT DID YOU TAKE FROM THE PRESS OFFICE BEFORE YOUR INTERNSHIP ENDED?`,
+        coinTable: {
+            1: `Local Stag Beetle Races: Take a slow disowned stag beetle (2HP).`,
+            2: `Escaped Daggerfly: Take a net.`,
+            3: `Mine Collapse: Take a whistlemite in a cage.`,
+            4: `Snooker Tournament: Take a flask of very strong coffee.`,
+            5: `Collapse of Order at a Zoo: Take a sack of animal feed`,
+            6: `Prison Riots: Take a pack of gum (bread) and a pair of handcuffs.`
+        },
+        hpTable: {
+            1: `Paper-Boy that has nowhere else to go (DEX 15, 2HP) and blindly obeys you.`,
+            2: `Snubbed Shotgun (d6, +d6 at point blank range) from the editor's office.`,
+            3: `Sabre (d6) owned by some famous revolutionary.`,
+            4: `Cricket Bat (d6, BULKY) signed by a disgraced general.`,
+            5: `Letter Opener (d6) and a book of one-hour-delivery stamps.`,
+            6: `Heavy Rod (d6, BULKY) from the printing press`
+        },
+    },
+    {
+        title: 'Rural Tax Collector',
+        desc: `You've spent more time than you care on the roads of Deep Country. Squinting at obsolete currencies was your life.`,
+        names: 'Pearl, Eyp, Dewie, Heritance',
+        debtholder: `Bastiard Free Press Council: You have a shared subscription to a local newspaper, delivered daily to a personal box nearby`,
+        gear: `Taxman's pistol (d6, extremely loud).`,
+        careerLabel1: `WHAT DID THE TAX OFFICE PROVIDE YOU WITH?`,
+        careerLabel2: `WHAT DO YOU HATE MOST ABOUT BASTION?`,
+        coinTable: {
+            1: `Can of Beast Repellent (enough for 3 uses, a Specialist refills it for free).`,
+            2: `An Ornate Baton (d6, strikes fear into tax-dodgers).`,
+            3: `A Shaggy Bramblemutt (4HP, d6 bite)`,
+            4: `Ceremonial Armour (ARMOUR 1, BULKY).`,
+            5: `An Automaton Ferret Snake (1HP, knows two songs).`,
+            6: `A book of Simple Country Jokes`
+        },
+        hpTable: {
+            1: `Unionised Workers: Take membership badge for the Anti-Union Coalition.`,
+            2: `Bureaucracy:Take a portable shredder.`,
+            3: `People in General: Take an enemies list.`,
+            4: `Organised Religion: If you participate in a religious ceremony without complaining, you are DEPRIVED for the remainder of the day`,
+            5: `Modern Clothes:You are DEPRIVED if you are fashionably dressed.`,
+            6: `Pigeons:They hate you back.`
+        },
+    },
+    {
+        title: 'Academic Debater',
+        desc: `Somebody must argue the positions that nobody cares about. You were that somebody.`,
+        names: 'Stroman, Slipper, Huminum, Peel',
+        debtholder: `Conglomerated Taxes: You are exempt from certain taxes, gaining an effective 50% discount on pets, hair products, and offal.`,
+        gear: `Cane (d6), pocket-watch.`,
+        careerLabel1: `WHAT CAN YOU DEBATE FOREVER?`,
+        careerLabel2: `WHAT DID YOUR UNIVERSITY PROVIDE AS A LEAVING GIFT?`,
+        coinTable: {
+            1: `Public Transport: Choose a favourite type.`,
+            2: `Libraries: Choose a heretical library opinion.`,
+            3: `Taxation: Choose a favourite tax`,
+            4: `Food History: Choose an ingredient that you can never resist.`,
+            5: `FormalWear: Choose a favourite bodypart to clothe.`,
+            6: `Types of Roof: Choose one thing you hate about modern roofs.`
+        },
+        hpTable: {
+            1: `A box of Psychedelic Mushrooms (two doses, instant effect).`,
+            2: `An extremely satisfying but dangerous Back-Scratcher (d6 DAMAGE)`,
+            3: `A tiny mechanical Steel Butterfly (obeys any commands, but has all the limits and fragility of a normal butterfly).`,
+            4: `A Wind Chime (somewhat relaxing)`,
+            5: `A Novelty Umbrella (also a clarinet).`,
+            6: `A Glass Bust of your Head (worth nothing to anyone else)`
+        },
+    },
+    {
+        title: 'Associated Burglar',
+        desc: `You burgled only sanctioned properties. You don't fully understand the legality.`,
+        names: 'Spit, Hucker, Loam, Parthia',
+        debtholder: `Young Errant's University for Practical Studies:You share ownership of a set of basic engine repair tools.`,
+        gear: `Bow-pistol (d6).`,
+        careerLabel1: `WHAT'S YOUR CHOICE OF BURGLARY EQUIPMENT?`,
+        careerLabel2: `WHICH TYPE OF BUILDING DID YOU TARGET?`,
+        coinTable: {
+            1: `Bottle of Ether with long-range spray attachment.`,
+            2: `Sticky-Rope (sticks to metal and stone, supports one person).`,
+            3: `Crowbar (d6, passes for a walking stick).`,
+            4: `Portable Ram (folds down to pocket size).`,
+            5: `3 Slumber Bombs (anybody in the BLAST who is already asleep cannot be woken by any means for an hour).`,
+            6: `Burglar Shotgun (d6, +d6 at point blank range, silent).`
+        },
+        hpTable: {
+            1: `Offices: Take a poison pen (d4, d12 DEX Loss on CRITICAL DAMAGE).`,
+            2: `Alienist Temples: Take a handful of incense sticks`,
+            3: `Barracks: Take a military uniform and medals.`,
+            4: `Hospitals: Take a stethoscope.`,
+            5: `Workhouses: Take a steam-whistle.`,
+            6: `Orphanages: Take a broken doll.`
+        },
+    },
+    {
+        title: 'Associated Burglar',
+        desc: `You burgled only sanctioned properties. You don't fully understand the legality.`,
+        names: 'Spit, Hucker, Loam, Parthia',
+        debtholder: `Young Errant's University for Practical Studies:You share ownership of a set of basic engine repair tools.`,
+        gear: `Bow-pistol (d6).`,
+        careerLabel1: `WHAT'S YOUR CHOICE OF BURGLARY EQUIPMENT?`,
+        careerLabel2: `WHICH TYPE OF BUILDING DID YOU TARGET?`,
+        coinTable: {
+            1: `Bottle of Ether with long-range spray attachment.`,
+            2: `Sticky-Rope (sticks to metal and stone, supports one person).`,
+            3: `Crowbar (d6, passes for a walking stick).`,
+            4: `Portable Ram (folds down to pocket size).`,
+            5: `3 Slumber Bombs (anybody in the BLAST who is already asleep cannot be woken by any means for an hour).`,
+            6: `Burglar Shotgun (d6, +d6 at point blank range, silent).`
+        },
+        hpTable: {
+            1: `Offices: Take a poison pen (d4, d12 DEX Loss on CRITICAL DAMAGE).`,
+            2: `Alienist Temples: Take a handful of incense sticks`,
+            3: `Barracks: Take a military uniform and medals.`,
+            4: `Hospitals: Take a stethoscope.`,
+            5: `Workhouses: Take a steam-whistle.`,
+            6: `Orphanages: Take a broken doll.`
+        },
+    },
+
 
 ]
 
