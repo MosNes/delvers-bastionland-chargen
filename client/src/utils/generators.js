@@ -72,9 +72,15 @@ export const generateCareer = (body, speed, mind) => {
     }
 
     //determine index of career array to use based on lowest ability score
-    const careerNum = careerArray[abilityArr[0] - 3];
+    let lowestScore = abilityArr[0];
+
+    if (lowestScore >= 12) {
+        lowestScore = 12;
+    }
+
+    const careerNum = careerArray[lowestScore - 3];
 
     //return career at index of careerNum
     return careerTable[careerNum];
-    
+
 };
