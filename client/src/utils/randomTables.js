@@ -960,29 +960,105 @@ export const careerTable = [
         }
     },
     {
-        title: 'Contract Castaway',
-        desc: `Paid a petty fee to occupy a desolate rock, in place of a flag. The years have been dull, so you return to the mainland.`,
-        names: 'Thargis, Grotter, Ferno, Abraman',
-        debtholder: `The Holy Carcass-Sons: You bear their mark (a black hourglass). You feel no pain but your wounds never heal. The mark is lost when the debt is paid.`,
-        gear: 'Walking stick (d6), net, pack of gum (parrot).',
-        careerLabel1: `WHAT WAS YOUR FINAL PAYMENT FOR LONG SERVICE?`,
-        careerLabel2: `WHAT DID YOU FIND ON THE ISLAND?`,
+        title: 'Repressed Psychic',
+        desc: `It's inside your head. You can't hold it any longer.`,
+        names: 'Ural, Marlake, Yorris, Franson',
+        debtholder: `Under-Kin: Their office is far, far underground and they're very, very mutated.`,
+        gear: 'Glass marbles.',
+        careerLabel1: `HOW DID YOU TRY TO HIDE YOUR POWER?`,
+        careerLabel2: `WHAT'S YOUR HIDDEN POWER?`,
         coinTable: {
-            1: `A tin Medal.`,
-            2: `A big Chocolate Bar.`,
-            3: `Lifetime supply of Pet Food, if you don't take advantage.`,
-            4: `A small Painting of you on your island.`,
-            5: `A Golden Ticket that gets you passage on any one voyage or trip leaving Bastion.`,
-            6: `A smart set of Shoes.`
+            1: `Worked in a Distant Mine: Take a pick-axe (d6, BULKY).`,
+            2: `You've Never Hidden: Take a pistol (d6).`,
+            3: `Drifted Alone on a River Raft: Take a fishing spear (d6).`,
+            4: `Mercenary Enlistment: Take a part-broken horse rifle (d8, BULKY, breaks forever on a1).`,
+            5: `Spiritual Pilgrimage: Take a dagger (d6) and growing cynicism.`,
+            6: `Blinding Yourself: Take a cane (d6).`
         },
         hpTable: {
-            1: `Crystal Ball - Once per day it answers any question yes or no, as helpfully as it can. It knows everything.`,
-            2: `Pack of Fat Beans - Eating one makes you unable to run or jump until you get a night's sleep.`,
-            3: `Jar of Black Air - Releasing it plunges the room into darkness until fresh light it brought in. One use only`,
-            4: `Jar of Unidentified Blood - If poured into a dead body, the body serves you in one task before vomiting up the blood and dying even more.`,
-            5: `Star Atlas - Shows constellations that you do not recognise from the sky. Anyone harming the book is
-            struck by lightning (d12, ignore ARMOUR).`,
-            6: `Badly Stitched Doll - Terrifies children and animals.`
+            1: `Magnetism over unheld metal objects, with the force of your own hand.`,
+            2: `Phase Throug hWalls or doors at will. If the wall is too thick, you don't phase into it at all.`,
+            3: `You can Transfer your Consciousness into a fresh corpse. Each time you undertake a stressful situation
+            in your new body you must pass a CHA SAVE or return to your own body`,
+            4: `You can Perfectly Predict coin tosses that other people make.`,
+            5: `You Appear Invisible to one person that you focus on.`,
+            6: `You can Sense the Motives of anyone you touch.`
         }
     },
+    {
+        title: 'Amateur Amputator',
+        desc: `Not trained in the finesse stuff. Major structural work only.`,
+        names: 'Hullock, Jeig, Handel, Dent',
+        debtholder: `Deb Worldkiller: You technically owe her money from a cult membership you don't remember agreeing to.`,
+        gear: 'Bonesaw (d6), ether.',
+        careerLabel1: `WHAT UNSETTLED YOUR PATIENTS?`,
+        careerLabel2: `WHAT ELSE DID YOU BRING TO WORK?`,
+        coinTable: {
+            1: `Your Loud Cutting Machinery: Replace your bonesaw with a grinding saw (d8, BULKY).`,
+            2: `Mistrust of Anaesthetic: Swap your ether for a healing-hand symbol.`,
+            3: `Your Unhygienic Surroundings:Take a filthy ferret-snake (2HP, d4 bite, stinks).`,
+            4: `Your Sense of Humour:Take a book of anatomy jokes.`,
+            5: `Your Paranoia: Take a tiny pistol (d6) that you always keep one hand on.`,
+            6: `Your Eyesight: Take very thick glasses (you cannot see well without them)`
+        },
+        hpTable: {
+            1: `Universal Suture that perfectly conjoins two bits of organic matter, becoming one being. One use only`,
+            2: `Tank of Laughing Gas.`,
+            3: `Magnifying Lens with adjustable focus.`,
+            4: `Heavily-used Forceps.`,
+            5: `A Hook in place of your off-hand.`,
+            6: `A bottle of Strong Perfume.`
+        }
+    },
+    {
+        title: 'Haunted North Bounty Hunter',
+        desc: `The endless polar mists of the Haunted North are a great place to hide. You did your best to bring the lost home, one way or another.`,
+        names: 'Podel, Vichler, Worfhand, Beegull',
+        debtholder: `Fictioneers: In their office is a large, empty book with your names written on the front. If you're late paying your debt, the Fictioneers can make unpleasant things happen to you by writing them within.`,
+        gear: 'Pole axe (d8, BULKY).',
+        careerLabel1: `JUST HOW TOUGH ARE YOU?`,
+        careerLabel2: `WHAT POWER DID THE MIST GRANT YOU?`,
+        coinTable: {
+            1: `Take an Arctic Wolf Spider (5HP, d6 bite, Terrifyingly Soft and Fuzzy) that follows your every command.`,
+            2: `Take an Adoring Follower (1HP, club d6).`,
+            3: `You can Whistle loud enough to cut through any noise, and over vast distances.`,
+            4: `You're Immune to alcohol and other toxins.`,
+            5: `If you can pick up a container, you can Break It Open with just your hands and teeth.`,
+            6: `Take an Eyepatch and a captivating story about how you got it.`
+        },
+        hpTable: {
+            1: `Fogwhisper: As long as you make eye contact with another, they can hear anything you whisper.`,
+            2: `Snowblood: You suffer no harm from extreme cold.`,
+            3: `Iceclap: You can extinguish small flames with a loud clap`,
+            4: `Chillsight: You have white eyes, which people don't like.`,
+            5: `Mistlung: You can always see your breath.`,
+            6: `Seathirst: You can only survive on saltwater. Freshwater doesn't quench you.`
+        },
+    },
+    {
+        title: 'Haunted North Bounty Hunter',
+        desc: `The endless polar mists of the Haunted North are a great place to hide. You did your best to bring the lost home, one way or another.`,
+        names: 'Podel, Vichler, Worfhand, Beegull',
+        debtholder: `Fictioneers: In their office is a large, empty book with your names written on the front. If you're late paying your debt, the Fictioneers can make unpleasant things happen to you by writing them within.`,
+        gear: 'Pole axe (d8, BULKY).',
+        careerLabel1: `JUST HOW TOUGH ARE YOU?`,
+        careerLabel2: `WHAT POWER DID THE MIST GRANT YOU?`,
+        coinTable: {
+            1: `Take an Arctic Wolf Spider (5HP, d6 bite, Terrifyingly Soft and Fuzzy) that follows your every command.`,
+            2: `Take an Adoring Follower (1HP, club d6).`,
+            3: `You can Whistle loud enough to cut through any noise, and over vast distances.`,
+            4: `You're Immune to alcohol and other toxins.`,
+            5: `If you can pick up a container, you can Break It Open with just your hands and teeth.`,
+            6: `Take an Eyepatch and a captivating story about how you got it.`
+        },
+        hpTable: {
+            1: `Fogwhisper: As long as you make eye contact with another, they can hear anything you whisper.`,
+            2: `Snowblood: You suffer no harm from extreme cold.`,
+            3: `Iceclap: You can extinguish small flames with a loud clap`,
+            4: `Chillsight: You have white eyes, which people don't like.`,
+            5: `Mistlung: You can always see your breath.`,
+            6: `Seathirst: You can only survive on saltwater. Freshwater doesn't quench you.`
+        },
+    },
+]
 ]
