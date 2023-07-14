@@ -141,7 +141,7 @@ export const careerTable = [
         title: 'Gutter Minder',
         desc: "You're the bottom of the barrel. Bastion's crust.",
         names: 'Hopkin, Cork, Derrow, Jorgun',
-        debtor: 'Associated Reanimators: You all died and were re-animated.You are fully functional, but carry a chemical odour.',
+        debtholder: 'Associated Reanimators: You all died and were re-animated.You are fully functional, but carry a chemical odour.',
         gear: 'Stick-hook (d6, BULKY), rags.',
         careerLabel1: 'What Happened to you?',
         careerLabel2: 'What are you hiding under your rags?',
@@ -166,7 +166,7 @@ export const careerTable = [
         title: 'Curisosity Compiler',
         desc: "An entire life spent looking at dusty things and squinting at books. It's time to get out there for yourself.",
         names: 'Coop, Hawk, Trebic, Salvation',
-        debtor: 'The Loot Office: Until you pay off the debt you have a Loot Bounty on your head, meaning you can be stolen from without any illegality.',
+        debtholder: 'The Loot Office: Until you pay off the debt you have a Loot Bounty on your head, meaning you can be stolen from without any illegality.',
         gear: 'Antique pistol (d6, permanently breaks on a roll of 6), magnifying glass, tweed jacket.',
         careerLabel1: 'WHAT DO YOU KNOW EVERYTHING ABOUT?',
         careerLabel2: "WHAT'S YOUR PRIZED ODDITY?",
@@ -200,7 +200,7 @@ export const careerTable = [
         title: 'Trench Conscript',
         desc: `You survived a trench battle with little to write home about. Except for that one thing you found in a strange tunnel.`,
         names: 'Kariana, Jops, Galea, Jools',
-        debtor: 'Koppler and Klanger High Risk Investments:Whenever you return after a significant length of time there is a 50/50 chance that your remaining debt has halved/doubled.',
+        debtholder: 'Koppler and Klanger High Risk Investments:Whenever you return after a significant length of time there is a 50/50 chance that your remaining debt has halved/doubled.',
         gear: 'Trench gun (d8, BULKY, very short range), shovel, pack of gum (oxtail).',
         careerLabel1: 'WHAT WAS YOUR ROLE IN YOUR UNIT?',
         careerLabel2: "WHAT DID YOU FIND IN THAT TUNNEL?",
@@ -235,7 +235,7 @@ export const careerTable = [
         title: 'Debt Squeezer',
         desc: `Someone paid you a pittance to look intimidating in dark alleyways. If needed, you shed some blood, but there's no extra pay.`,
         names: 'Hooper, Keyes, Doric, Pontiac',
-        debtor: 'The Cosmica Casino:Together you own a personalised roulette wheel.',
+        debtholder: 'The Cosmica Casino:Together you own a personalised roulette wheel.',
         gear: 'Hammer (d6), scattergun (d6, BLAST, concealable).',
         careerLabel1: 'WHAT DO YOU DO TO UNWIND AFTER A HORRIBLE TASK?',
         careerLabel2: "WHAT'S THE BEST THING YOU'VE STOLEN FROM A DEBTOR?",
@@ -265,7 +265,7 @@ export const careerTable = [
         title: 'Dead-Shoresman',
         desc: `You died, but found a way back from where you went. Nobody believes you, and everyone you once knew is long gone.`,
         names: 'Peker, Abbie, Serpina, Lars',
-        debtor: 'King Haffwun of Shambly Hole:You are all branded as property of this Deep Country King.',
+        debtholder: 'King Haffwun of Shambly Hole:You are all branded as property of this Deep Country King.',
         gear: 'Flintpistol (d8, outdated and hard to repair), broken oar (d6), cold blood.',
         careerLabel1: 'WHAT DO YOU BARELY REMEMBER ABOUT YOUR BACKGROUND?',
         careerLabel2: "WHAT DID YOU BRING BACK FROM THE DEAD PLACE?",
@@ -297,7 +297,7 @@ export const careerTable = [
         title: 'Criminal Bureaucrat',
         desc: `The laws of Bastion are written so every crime has a loophole. People paid you to perform crimes, legally.`,
         names: 'Ranulph, Morrison, Carrock, Nika',
-        debtor: 'The Backward Legion: They accept stolen items of modern technology for twice their value against your debt, but destroy them immediately.',
+        debtholder: 'The Backward Legion: They accept stolen items of modern technology for twice their value against your debt, but destroy them immediately.',
         gear: 'Crowbar (d6), Book of Law.',
         careerLabel1: 'WHAT WAS YOUR SPECIALITY?',
         careerLabel2: "WHAT DID YOUR LAST CLIENT PAY YOU IN PLACE OF MONEY?",
@@ -327,7 +327,7 @@ export const careerTable = [
         title: 'Sanctioned Executioner',
         desc: `You've done your time on firing squads. Now you're allowed to do a little freelance work.`,
         names: 'Helmut, Dina, Erich, Dalia',
-        debtor: 'The Psycho-Pack: You are all mind-tethered together. If you focus really hard you can project one word per minute to your pack.',
+        debtholder: 'The Psycho-Pack: You are all mind-tethered together. If you focus really hard you can project one word per minute to your pack.',
         gear: 'Rifle (d8, BULKY), killing licence (one person per day, non-transferable).',
         careerLabel1: 'HOW DO YOU LIVE WITH YOURSELF?',
         careerLabel2: "WHAT WAS YOUR BONUS FOR GOOD SERVICE?",
@@ -361,7 +361,7 @@ export const careerTable = [
         title: 'Fringe Investigator',
         desc: `Everything must be revealed. From petty crime to the secrets of the cosmos.`,
         names: 'Blanche, Leo, Mazarin, Bo',
-        debtor: 'White Apricot Cable Cars: You are technically banned from using any other form of public transit.',
+        debtholder: 'White Apricot Cable Cars: You are technically banned from using any other form of public transit.',
         gear: 'Collapsible gun (d6, concealable, requires a SPEED SAVE to unfold under pressure), pack of gum (snail).',
         careerLabel1: `WHAT'S YOUR OBSESSION? (INDULGING IN IT RESTORES YOUR MIND)`,
         careerLabel2: `WHAT'S UNDER YOUR COAT?`,
@@ -394,7 +394,7 @@ export const careerTable = [
         title: 'Disinherited Socialite',
         desc: `Whatever happened between you and your family, you're off the will. You took what you could.`,
         names: 'Churl, Emile, Anno, Bronwill',
-        debtor: 'Troffem Canal Diggers: You have been given a Chaperone Slug to carry around with you, feeding information back to your Debtholders. If the Toad is lost a £1k fee is added onto your Debt.',
+        debtholder: 'Troffem Canal Diggers: You have been given a Chaperone Slug to carry around with you, feeding information back to your Debtholders. If the Toad is lost a £1k fee is added onto your Debt.',
         gear: 'Claymore (d8, BULKY), 3 bottles of fancy wine, frilly shirt.',
         careerLabel1: `WHAT DO YOU LEGALLY STILL HAVE FROM THE ESTATE?`,
         careerLabel2: `WHAT DID YOU SNEAK OUT OF THE VAULT? (THE FAMILY WANT IT BACK)`,
@@ -424,7 +424,7 @@ export const careerTable = [
         title: 'Verminator',
         desc: `Every type of animal can be found in some corner of Bastion. When they were unwanted, you went to work.`,
         names: 'Jock, Malair, Rig, Eddey',
-        debtor: 'Glassmount Day Spa: You have all recently received their top treatment and so your skin and fur is in excellent condition.',
+        debtholder: 'Glassmount Day Spa: You have all recently received their top treatment and so your skin and fur is in excellent condition.',
         gear: 'Gas-gun (d6 BLAST, BULKY, only affects things that breathe), tox-mask (protects from airborne toxins).',
         careerLabel1: `WHAT SPECIALIST GEAR DO YOU HAVE?`,
         careerLabel2: `WHAT'S THE ONE CREATURE YOU COULDN'T KILL? (THEY NOW ACCOMPANY YOU)`,
@@ -458,7 +458,7 @@ export const careerTable = [
         title: 'Lost Expeditioneer',
         desc: `You've been on a treasure-hunting expedition before. You were the only survivor.`,
         names: 'Ugo, Backara, Lillyhart, Bass',
-        debtor: 'The Elephant Reimbursement House: Reclaimed ivory goods pay double their value against your debt.',
+        debtholder: 'The Elephant Reimbursement House: Reclaimed ivory goods pay double their value against your debt.',
         gear: 'Pair of pistols (d6 each).',
         careerLabel1: `WHAT WAS YOUR POSITION ON THE CREW?`,
         careerLabel2: `WHAT DID YOU BRING BACK FROM THE EXPEDITION?`,
@@ -487,7 +487,7 @@ export const careerTable = [
         title: 'Wall-Born',
         desc: `Homes and businesses creep down the edges of the great pit, into the dark. You were both warden and resident.`,
         names: 'Corbel, Dog-Leg, Noggin, Plinth',
-        debtor: 'The Augmentarium: You can each choose to have an artificial ear, nose, tongue, or eye.They have a control that can turn down sensitivity, but cannot go higher than normal human level.',
+        debtholder: 'The Augmentarium: You can each choose to have an artificial ear, nose, tongue, or eye.They have a control that can turn down sensitivity, but cannot go higher than normal human level.',
         gear: 'Baton (d6), grappling hook, pack of gum (rust).',
         careerLabel1: `WHAT WAS YOUR JOB ON THE PIT WALL?`,
         careerLabel2: `WHAT DID YOU FIND BEHIND A LOOSE BRICK?`,
@@ -506,7 +506,7 @@ export const careerTable = [
             3: `Stem-Stone - Pebble that transforms into whatever non-living material it last touched. Currently the
             leather of your pouch.`,
             4: `Plague Wart - A carefully extracted wart sealed in a jar. Anyone that touches it contracts a disgusting
-            plague, losing d6 STR every hour.The victim’s touch immediately spreads the plague.There is no cure that
+            plague, losing d6 STR every hour.The victim's touch immediately spreads the plague.There is no cure that
             you know of.`,
             5: `Jerk Sprite - A statuette of dried meat.Whatever eats this acts like an utter jerk for the next hour, even
             to their most loved ones.`,
@@ -515,34 +515,231 @@ export const careerTable = [
         }
     },
     {
-        title: 'Wall-Born',
-        desc: `Homes and businesses creep down the edges of the great pit, into the dark. You were both warden and resident.`,
-        names: 'Corbel, Dog-Leg, Noggin, Plinth',
-        debtor: 'The Augmentarium: You can each choose to have an artificial ear, nose, tongue, or eye.They have a control that can turn down sensitivity, but cannot go higher than normal human level.',
-        gear: 'Baton (d6), grappling hook, pack of gum (rust).',
-        careerLabel1: `WHAT WAS YOUR JOB ON THE PIT WALL?`,
-        careerLabel2: `WHAT DID YOU FIND BEHIND A LOOSE BRICK?`,
+        title: 'Professional Gambler',
+        desc: `You know how to play well and cheat even better.`,
+        names: 'Bushka, Bagger, Virgo, Lemon',
+        debtholder: `Rod & Pearl Sanctioned Looters: You can request a blueprint map of any building in Bastion, but it's likely to be outdated.`,
+        gear: 'Slug-gun (d6, very short range), pack of gum (cedar).',
+        careerLabel1: `WHAT'S YOUR GAME?`,
+        careerLabel2: `WHAT DID YOU WIN? (THE OTHER PERSON STILL ISN'T HAPPY ABOUT THIS)`,
         coinTable: {
-            1: `Grouter : Take a trowel and bucket of grout.`,
-            2: `Gutter Scraper: Take a scraping pole (d6).`,
-            3: `Bird Scarer: Take a fake pistol (fires blanks only).`,
-            4: `High Militia Guard: Take a fancy hat.`,
-            5: `Nightwatch: Take a spot-lamp.`,
-            6: `Militia Sergeant: Take a fancy hat with a feather, a loud yell, and a disgraced record.`
+            1: `Street Snooker: Take a cue (d6) and waistcoat`,
+            2: `One-Card Bluff: Take a pocket full of tiny mirrors that stick to any surface.`,
+            3: `Gutter Dice:Take two pairs of dice: one rigged, one honest.`,
+            4: `Conkers: Take competition conker-string and you know where all the best trees are.`,
+            5: `Shoe-Throwing: You can throw shoe-like things really far with perfect accuracy.`,
+            6: `Bird Darts: Take a set of darts (d4, +d8 against small flying things).`
         },
         hpTable: {
-            1: `Beastmode Formula - A liquid tonic that grants the drinker the properties of a specific animal for one
-            minute. Examples are: eyes of a hawk, nose of a dog, strength of a bear. Three doses.`,
-            2: `Orphan's Ruin - 6oz of milky drink. 1oz pacifies any unease, 2oz causes a deep sleep, 3oz eternal sleep.`,
-            3: `Stem-Stone - Pebble that transforms into whatever non-living material it last touched. Currently the
-            leather of your pouch.`,
-            4: `Plague Wart - A carefully extracted wart sealed in a jar. Anyone that touches it contracts a disgusting
-            plague, losing d6 STR every hour.The victim’s touch immediately spreads the plague.There is no cure that
-            you know of.`,
-            5: `Jerk Sprite - A statuette of dried meat.Whatever eats this acts like an utter jerk for the next hour, even
-            to their most loved ones.`,
-            6: `Universal Pin - A hairpin that sticks into any surface, no matter the material. Causes no pain if stuck into
-            flesh.`
+            1: `Master Monocle - Can move any object through telekinesis, but more than a coin's weight requires a
+            CHA SAVE, or else the monocle shatters.`,
+            2: `Ego-Mirror - A pocket mirror that reflects the most offensive version of whoever is looking in.`,
+            3: `Anti-Matter Key - When placed in a keyhole, utterly annihilates the door and itself`,
+            4: `Tiny Shield Generator - A rat-sized collar that creates a force-field (ARMOUR 3) around the tiny
+            wearer.`,
+            5: `Gamma Tube - If broken, fires a green beam that causes d6 STR gain.The target grows 50% in size, and
+            their physical attacks receive +d10. If their STR would exceed 18 they can only act in rage. Any effects
+            wear off when combat dies down. One use.`,
+            6: `Terror Salts - Awakens any creature from sleep or unconsciousness, but they flail and scream in terror
+            for a few seconds first.They have no memory of this afterwards.`
+        }
+    },
+    {
+        title: 'Integrated Alien',
+        desc: `You came to Bastion a long time ago, almost passing for one of the Folk. Under a foreign star, reached by sea or Underground.`,
+        names: 'Awax, Urrelin, Grese, Kraub',
+        debtholder: `The Queuing Office: When you go back to pay your debt, the queue takes d4 x d4 hours. Every four hours, add
+        d4 hours.There is a drinks trolley available at all times.`,
+        gear: 'Weird gun, steel rope, vague accent',
+        careerLabel1: `WHAT'S YOUR WEIRD GUN?`,
+        careerLabel2: `WHAT'S YOUR BARELY-REMEMBERED HOME?`,
+        coinTable: {
+            1: `Fires Screaming Disks (d8, loud, BULKY).`,
+            2: `Fires Maggot-Bullets (d8 against organic tissue only, BULKY).`,
+            3: `Fires egg-like Explosive Pellets (d6 BLAST, BULKY).`,
+            4: `Fires Purple Light (d6, ignore ARMOUR, BULKY).`,
+            5: `FiresVibro-Wave (d8, no pain, but explosion on death, BULKY).`,
+            6: `Fires Black Spike (d10, spike must be retrieved to fire again, BULKY).`
+        },
+        hpTable: {
+            1: `Sunk - The Abyssal City. You have gills and can see in the dark.`,
+            2: `Parasitica - The Slave Hive. You can sense any insect nearby and hate them.`,
+            3: `Dar-Rag - The Crystal Mountains. Climb natural unworked stone as a spider.`,
+            4: `Incineration - The Burning Hole. Fire does not harm you.`,
+            5: `Fester - The Plague Fort. Leech disease out of others with a touch, infecting yourself with a minor version of that ailment.`,
+            6: `Nebula - The Light of the Void. Glow in multicolour at will.`
+        }
+    },
+    {
+        title: 'Underwhaler',
+        desc: `The biggest catches are deep in water and in ground. One catch makes a fortune for the captain, but you got a pittance.`,
+        names: 'Scrimshaw, Dork, Langus, Goose',
+        debtholder: `Doug &Wale Exhumauctions: Your clothes are slightly fancier than you'd expect, but all have the faint stench of death.`,
+        gear: 'Speargun (d8, BULKY, spear must be retrieved), pack of gum (humpback whale).',
+        careerLabel1: `HOW DID YOU COPE IN THE DARKNESS?`,
+        careerLabel2: `WHAT UNDERWHALE PRODUCT DID YOU MANAGE TO POCKET?`,
+        coinTable: {
+            1: `Carrot Diet: You can see perfectly in the dark.`,
+            2: `You Didn't: Take a dazzling but explosive lamp.`,
+            3: `Music: You can whistle excellently, it's comforting`,
+            4: `Lots of Smoking: Take a pack of cigars.`,
+            5: `Lots of Alcohol: Take a bottle of naval gin.`,
+            6: `Being Extremely Prepared: Take a whale-bomb (d8 BLAST, +d12 underwater).`
+        },
+        hpTable: {
+            1: `Stinkincense - A pot of wax with a wick.When burned, sewage slowly drips over from the top of the jar.
+            If left for an hour it burns out, but produces enough sewage to fill a large room.`,
+            2: `Animation Oil -When rubbed onto an object, it springs to life for the next hour as your loyal
+            servant. One dose.`,
+            3: `Evacuation Syrup - Removes any ill effects the drinker is suffering from, including anything short of
+            death, but flushes the body clean in every sense. One dose.`,
+            4: `Genesis Molasses - A tin of deep green treacle that causes lush vegetation to grow within minutes, no
+            matter where it is spread. If eaten, the victim loses d6 STR and begins coughing up moss. One use.`,
+            5: `CocoonWax - Anything covered in this wax is sealed off in a cocoon. After 24 hours it bursts free as a
+            winged, hostile version of its previous self. One use.`,
+            6: `Agony-Tendon - Causes instant agony when touched by bare skin (you have gloves). 10m in length when
+            uncoiled. Not very effective as an outright weapon (d6).`
+        }
+    },
+    {
+        title: 'Travelling Show-Person',
+        desc: `Stunts and tricks are your game. You've got a final trick up your sleeve if you start to lose the crowd.`,
+        names: 'Case, Olifanta, Archie, Wicket',
+        debtholder: `Danger-Worker's Union: For each of you that comes back with a visible injury you reduce the debt by £500.`,
+        gear: 'Hidden knife (d6), stage clothes.',
+        careerLabel1: `WHAT'S YOUR ACT?`,
+        careerLabel2: `WHAT'S YOUR SHOWSTOPPER?`,
+        coinTable: {
+            1: `Trick-Shooting: Take a long pistol (d6).`,
+            2: `Knife-Throwing: Take throwing knives (d6).`,
+            3: `Contortionism: You're double-jointed all over.`,
+            4: `Gross-Out Body Horror:You do not feel pain.`,
+            5: `Hypnotism: Take a pocket-watch. It's all a ruse, you always used stooges`,
+            6: `Swallowing and Regurgitation: Eat anything you can plausibly swallow and regurgitate it at will. You're still bound by the physical limits of a normal stomach.`
+        },
+        hpTable: {
+            1: `Space Folder - Create a gate between two flat surfaces that you can see.The gate closes if you pass
+            through or break line of sight.`,
+            2: `Spider Skin - Climb surfaces as if you were a spider.`,
+            3: `Heat Ray - Useless as a conventional weapon, but can be focused on a stationary target to gradually
+            increase its heat. One turn of focus warms, two turns burns/melts, and three turns reduces to ashes.`,
+            4: `Mirror Engine - A perfect duplicate of you is formed. It acts independently, just like you, but cannot
+            interact with anything physically. Lasts until dismissed or a new double is created.`,
+            5: `Bone Magnet - Attract or repel a single target that has a skeleton, unless they pass a STR SAVE. No effect
+            on cartilage.`,
+            6: `Gallon-Syringe - A tiny syringe that can draw up to a bath-sized amount of liquid.`
+        }
+    },
+    {
+        title: 'Gang Enforcer',
+        desc: `Internal threats can tear a gang apart. Enforcers keep things in order.`,
+        names: 'Yurlick, Gannet, Bap, Sol',
+        debtholder: `Specialist Individual's Grooming Lounge: You are all groomed in a way that looks fantastic today, but looks tired tomorrow unless you return for an appointment (£100 each).`,
+        gear: 'Busted face.',
+        careerLabel1: `WHO WERE YOUR GANG, BEFORE YOU ABANDONED THEM?`,
+        careerLabel2: `WHAT HELPED YOU INSPIRE FEAR IN YOUR VICTIMS?`,
+        coinTable: {
+            1: `Junkyard Agenda:Take a dog rifle (d8, BULKY) and goggles.`,
+            2: `Solid Nation:Take a sledgehammer (d6, BULKY) and silver face paint.`,
+            3: `Gladiators of Toil:Take a trident (d6) and ridiculous headdress`,
+            4: `Urban Grace:Take a rapier (d6) and ultra-lacy clothes.`,
+            5: `Meat Hive:Take a huge sword (d8, BULKY) and lots of piercings.`,
+            6: `Snail Crew:Take a pistol (d6) and pot of grease.`
+        },
+        hpTable: {
+            1: `Mind Probe -The target must pass a CHA SAVE or you learn one of their innermost secrets.`,
+            2: `Inferno Device - Cause an open flame you can see to explode (d8 BLAST, further d6 per round in the
+                flames).`,
+            3: `Ovality Bomb - Explodes in a cloud of beige dust, forming a 2m high egg around the BLAST area. Nothing
+            inside can break out, but the outside is easily broken.The egg keeps its contents alive in a happy stasis until
+            released. One use.`,
+            4: `Piranha Bomb - Spawns a swarm of hungry piranhas (10HP, d6 devour).When no food is left they
+            devour each other. Obviously ineffective out of water.`,
+            5: `Proxy Chain -When two or more beings are in contact with the chain, any harmful effects that affect
+            one of them affect all.`,
+            6: `Banishment Stake - Can be used as a regular weapon (d6), but if stabbed into a living heart (CRITICAL
+                DAMAGE) the victim is transported deep into the Underground without harm. If they get back to you they'll
+                undoubtedly be changed.`
+        }
+    },
+    {
+        title: 'Deconstructor',
+        desc: `Before the new can arise, the old must come down. Doesn't mean we can't enjoy it.`,
+        names: 'Dommie, Kokey Winnie, Smiff',
+        debtholder: `Redway Relief Fund:You share a survival pack containing star-water, a moon crystal, and some sacred dirt. They're all useless.`,
+        gear: 'Sledgehammer (d6, BULKY), blowtorch.',
+        careerLabel1: `WHAT'S YOUR BEST BIT OF SALVAGE?`,
+        careerLabel2: `WHY DID YOUR COLLEAGUES MOCK YOU?`,
+        coinTable: {
+            1: `Slam Bomb - Causes all doors and windows in a large-room-sized BLAST to slam open or shut, even if secured. One use.`,
+            2: `Sabotage Disc - A disc of metal that can be slipped into even the most tightly cased machine, causing it to immediately malfunction in the most serious way possible.`,
+            3: `Time Bomb - Time slows down sixty times in a 10m sphere around the BLAST. Lasts for a minute outside
+            the sphere, or one second inside. One use.`,
+            4: `Pyrophone - A klaxon-like horn that repels fire away from it.`,
+            5: `Sub-Flare - A one-shot pistol that launches a burning flare immediately skywards, burning through any
+            substance in the way and leaving a fist-width hole.`,
+            6: `Murder Lizard - A black and red terrier-sized lizard (5HP,ARMOUR 1, d6 venomous bite, paralysis on
+                CRITICAL DAMAGE).
+                If given a taste of any organic tissue it hunts down the source unerringly and murders it, before seeking out
+                a new master nearby.`
+        },
+        hpTable: {
+            1: `Your Annoying Sibling follows you everywhere (2d6 ABILITY SCORES, 1HP, d6 hammer).`,
+            2: `Your Ratty Pet Critter (4HP, d6 bite) smells awful.`,
+            3: `You're very protective of your Pet Mole Bug (1HP).`,
+            4: `Your Metal Allergy (causes an unpleasant rash).Take a set of gloves.`,
+            5: `You’re secretly a Gifted Dancer.`,
+            6: `Your Awful Dress Sense.Take a mustard jacket with a mauve shirt.`
+        }
+    },
+    {
+        title: 'Street Judge',
+        desc: `Bastion has so many courts, the whole city is effectively legal ground. With questionable credentials, you dealt with street quarrels.`,
+        names: 'Flinch, Todor, Bogey, Flare',
+        debtholder: `Slerrence Tingeon-Larney: Offers d10 x 100 Coin for any item of sufficient curiosity and won't budge an inch. If you don't sell it to him, he sends thugs after you.`,
+        gear: 'Martial-Gavel (d6), Book of Laws (incomplete)',
+        careerLabel1: `WHY DO YOU NO LONGER PRACTICE?`,
+        careerLabel2: `WHAT DO YOU ALWAYS HAVE WITH YOU?`,
+        coinTable: {
+            1: `Mushroom Binge: Take a bag of psychedelic mushrooms.`,
+            2: `Notorious Drunk: Take a bottle of absinthe.`,
+            3: `Took the Fall: A judge owes you a favour.`,
+            4: `Disillusioned with the Law: Burn your Book of Laws and take a blunderbuss (d6 BLAST, short range).`,
+            5: `Quietly Discharged: For filling up prisons too quickly.Take ceremonial judge armour (ARMOUR 1, BULKY).`,
+            6: `Caught Taking Bribes: Other judges hate you, some just for getting caught.`
+        },
+        hpTable: {
+            1: `A symbolic, but aggressive Raptoryx (3HP, d6 claws, Flies).`,
+            2: `Your Loyal Scribe (1HP, STR 5, DEX 7, CHA 7, elderly, does nothing but scribe).`,
+            3: `Pop-Up Gallows with noose and hood.`,
+            4: `Smoke Bomb and a sense of showmanship`,
+            5: `Prosthetic Leg with grasping talon.`,
+            6: `Bad Reputation. Anyone on the wrong side of the law knows and dislikes you.`
+        }
+    }, 
+    {
+        title: 'Street Judge',
+        desc: `Bastion has so many courts, the whole city is effectively legal ground. With questionable credentials, you dealt with street quarrels.`,
+        names: 'Flinch, Todor, Bogey, Flare',
+        debtholder: `Slerrence Tingeon-Larney: Offers d10 x 100 Coin for any item of sufficient curiosity and won't budge an inch. If you don't sell it to him, he sends thugs after you.`,
+        gear: 'Martial-Gavel (d6), Book of Laws (incomplete)',
+        careerLabel1: `WHY DO YOU NO LONGER PRACTICE?`,
+        careerLabel2: `WHAT DO YOU ALWAYS HAVE WITH YOU?`,
+        coinTable: {
+            1: `Mushroom Binge: Take a bag of psychedelic mushrooms.`,
+            2: `Notorious Drunk: Take a bottle of absinthe.`,
+            3: `Took the Fall: A judge owes you a favour.`,
+            4: `Disillusioned with the Law: Burn your Book of Laws and take a blunderbuss (d6 BLAST, short range).`,
+            5: `Quietly Discharged: For filling up prisons too quickly.Take ceremonial judge armour (ARMOUR 1, BULKY).`,
+            6: `Caught Taking Bribes: Other judges hate you, some just for getting caught.`
+        },
+        hpTable: {
+            1: `A symbolic, but aggressive Raptoryx (3HP, d6 claws, Flies).`,
+            2: `Your Loyal Scribe (1HP, STR 5, DEX 7, CHA 7, elderly, does nothing but scribe).`,
+            3: `Pop-Up Gallows with noose and hood.`,
+            4: `Smoke Bomb and a sense of showmanship`,
+            5: `Prosthetic Leg with grasping talon.`,
+            6: `Bad Reputation. Anyone on the wrong side of the law knows and dislikes you.`
         }
     }
 ]
