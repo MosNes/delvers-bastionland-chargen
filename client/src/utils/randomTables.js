@@ -1060,7 +1060,171 @@ export const careerTable = [
             6: `The Star Burial: You feel that the Void is taunting your failure. If left alone under the night sky you are DEPRIVED.`
         },
     },
-    
+    {
+        title: 'Alpha Tester',
+        desc: `For safety, you had to push the button, flip the switch, taste the glue. Your contract was the only thing worse than your pay.`,
+        names: 'Alfo, Bater, Gramme, Delter',
+        debtholder: `The Stamp Appreciation Society: You owe back-dated subscription fees, but share ownership of a worthless postage stamp collection.`,
+        gear: 'Telescopic rod (d6), protective suit (Armour 2 against explosions and fire only, BULKY).',
+        careerLabel1: `WHAT WAS THE WORST THING TO HAPPEN TO YOU?`,
+        careerLabel2: `WHICH UNSAFE DEVICE DID YOU MANAGE TO KEEP?`,
+        coinTable: {
+            1: `Lost All of your fur/scales/feathers in an acid eruption.`,
+            2: `Lost a Leg riding an electric staircase.Take a low-quality prosthetic.`,
+            3: `Your Heart Stopped after too long in a relaxation-booth.Take a mechanical heart.`,
+            4: `Lost an Eye to an overly powerful toy crossbow.`,
+            5: `Fur/scales/feathers Turned Green by experimental cosmetics.`,
+            6: `Lost an Arm to a mechanical-caniform.Take a low-quality prosthetic.`
+        },
+        hpTable: {
+            1: `3 Jolt Cans - A combination of drink and electric charge. When a can is consumed you require no sleep
+            for 24 hours, and during that time you are never surprised, always alert.
+            After 24 hours passes you are DEPRIVED until you sleep for a full 24 hours`,
+            2: `Essence Projector - Project and inhabit a ghost version of yourself up to ten feet away. The ghost form is
+            immaterial, can pass through walls, but any contact with fire or electricity deals d12 DAMAGE to your real
+            body.`,
+            3: `Chronophone - Can call any regular phone provided you are at least a few blocks away. Can either call an
+            hour in the past, or an hour in the future.
+            Any attempt to create a paradox disconnects the line and you take d12 DAMAGE as your conflicting
+            timelines are forced into one.`,
+            4: `Mechanical Caniform - 1HP,Armour 3, d6 bite.Only understands its own name, speak, sit, and kill.
+            Otherwise just follows you clumsily`,
+            5: `Blizzard Popper - Plastic tube with a string hanging from the bottom. Pulling the string has a 50/50
+            chance of two effects. Recharges in 12 hours:
+            Blizzard: After a celebratory chime, harmless fake snow blasts from the popper.
+            Ash Storm:After an off-key chime, foul burning ash (d8 BLAST) is fired from the popper`,
+            6: `Temperance Band - Speak one need such as “hunger” or “thirst” and snap the band around your wrist.
+            While you wear the band you no longer have that need and cannot even partake willingly.
+            When you remove the band all of the hunger or thirst catches up with you, and you die if you do not
+            immediately sate the backed-up need.`
+        },
+    },
+    {
+        title: 'Failed Citizen',
+        desc: `None of the Failed Cities could keep up with Bastion. You left your pathetic home for the real deal.`,
+        names: 'Burnlum, Tunner, Longun, Fenson',
+        debtholder: `Ruff & Collar Kennels: You have shared responsibility for a disobedient bramblemutt (3HP, d6 bite) for the duration of the Debt. If you lose the mutt, add £500 to your Debt.`,
+        gear: 'Nail plank (d6, BULKY), barbed wire.',
+        careerLabel1: `WHAT WAS THE FIRST THING YOU BOUGHT IN BASTION?`,
+        careerLabel2: `WHAT'S THE ONLY THING YOU MISS FROM HOME?`,
+        coinTable: {
+            1: `A Modern Hat: It's recently out of fashion.`,
+            2: `A Case of FancyWines: Well past their best.`,
+            3: `A Dragonfly: (1HP) The seller insisted it could dance. It cannot.`,
+            4: `Night Goggles: Only work very slightly.`,
+            5: `A Guidebook: Outdated and full of adverts.`,
+            6: `A Can of Gruel: You were told it is a delicacy`
+        },
+        hpTable: {
+            1: `The Brass Bands: Take a trumpet.`,
+            2: `The Salt-Boiled Humbugs: Take a pack of disgusting sweets.`,
+            3: `The Lawn Games: Take a set of boules.`,
+            4: `The Strider Hunts: Take an obsolete long-rifle (d6, BULKY).`,
+            5: `The Moss-Pipe Cafés: Take a pipe and smoking moss`,
+            6: `The Underground Living Quarters: You can always sense the most direct route to the surface.`
+        },
+    },
+    {
+        title: 'Urban Safarist',
+        desc: `People watching makes for fascinating viewing. At least for those too rich to have worries.`,
+        names: 'Saction, Rightly, Gourd, Croton',
+        debtholder: `Baroness Joleen Mast of Rosevine: Rules from a distant Failed City, but has relatives in Bastion. Insists on payment in person.`,
+        gear: 'Tall hat.',
+        careerLabel1: `WHAT KEEPS YOU SAFE?`,
+        careerLabel2: `WHAT GETS YOU INTO HIDDEN PLACES?`,
+        coinTable: {
+            1: `A Sword Cane (d6, easily concealable).`,
+            2: `A Wooden Stake (d6, adorned with useless symbols).`,
+            3: `A Machete (d6, with a fake jungle story).`,
+            4: `A Scrap Launcher (d8, BLAST, BULKY, requires a REST to reload).`,
+            5: `A Startle-Gun (fires loud but blank shots).`,
+            6: `A Scary but Cowardly bramblemutt (6HP, d8 maul).`
+        },
+        hpTable: {
+            1: `A knack for Picking Locks.`,
+            2: `A collection of Fake Identification Documents.`,
+            3: `You're the Exact Double of somebody very powerful and influential.`,
+            4: `You know the Layout of Bastion perfectly, even as it changes.`,
+            5: `You were Raised in the Underground and have weird family down there, but you look remarkably normal.`,
+            6: `You have perfect Dark-Vision.`
+        },
+    },
+    {
+        title: 'Lockholder',
+        desc: `Canal locks charge a toll, but nobody's certain who owns them. You held a lock for a while.`,
+        names: 'Bingeen, Fourley, Boxton, Feau',
+        debtholder: `Severin Sistern's Underground Cruises: You each have a poor quality imitation naval uniform in addition to your normal clothes.`,
+        gear: 'Unused pistol (d6), smart uniform.',
+        careerLabel1: `WHICH LOCK KEEPER'S UNION DID YOU BELONG TO?`,
+        careerLabel2: `WHAT WENT WRONG?`,
+        coinTable: {
+            1: `The Wristwatchmen: Take a utility watch (d4 micro-shot) that has similar tools to a Swiss army knife.`,
+            2: `The Very-Strong-Group: You can pull out somebody's heart if you cause CRITICAL DAMAGE with an unarmed attack.`,
+            3: `TheWind Order: Replace your unused pistol with an unused marksman's rifle (d8, BULKY) and your uniform is extra-smart.`,
+            4: `The New Sonic-Dogs: Take two sonic bombs (d6 BLAST and shatter all glass in the area).`,
+            5: `Total Data: You have a machine-eye that automatically reads and remembers any text passed in front of it. You can recall this at will.`,
+            6: `Worm Storm: Take worm tattoos.You can speak a language that worms understand, but they are not bound to obey you.`
+        },
+        hpTable: {
+            1: `Urban Apes TookYour Lock, but a small chimp (5HP, d6 bite) decided to go with you.`,
+            2: `The local council paid you off, but You Squandered The Money.Take a gold tooth (worth £500, not easy to remove) and bottle of expensive perfume..`,
+            3: `After foiling a plot to blow up your lock for insurance purposes, YouWere Dismissed From Duty. Take a bomb (d10 BLAST).`,
+            4: `Canal PiratesWiped OutYour Organisation.Take a bloody cutlass (d6).`,
+            5: `You were sent on a supply run, and Came Back To A Ruined Lock. Take a pack beetle (4HP).`,
+            6: `A water wraith Scared You All From The Lock.Take a flask of star-blessed water said to repel strange beings (is actually acid).`
+        },
+    },
+    {
+        title: 'Repurposed Augmental',
+        desc: `Mechanically adapted for a purpose you were unable to fulfil. You found a job somewhere else.`,
+        names: 'Ewes, Clarick, Ante, Casey',
+        debtholder: `Drumm Personal Security: Weapons pay off this debt at twice their normal value.`,
+        gear: 'Mallet (d6).',
+        careerLabel1: `WHAT WAS YOUR JOB?`,
+        careerLabel2: `HOW ARE YOU AUGMENTED?`,
+        coinTable: {
+            1: `Civic Planning: Take a nice jacket.`,
+            2: `Electricity Station Labour: Take a set of rubberised tongs.`,
+            3: `Private Security: Take a concealed pistol (d6).`,
+            4: `Personal Errands: Take an umbrella.`,
+            5: `Housekeeping: Take a telescopic brush.`,
+            6: `Municipal Cleaning: Take a broom.`
+        },
+        hpTable: {
+            1: `Part-Metal Body: You always have at least ARMOUR 1.`,
+            2: `Bile Valve: You can spew acid spray (d6, BLAST, continues until washed off) once per day.`,
+            3: `Chest Compartment: A barely visible seam in your chest can open up to discreetly store a fist-sized object.`,
+            4: `Steel Jaw: You can bite through most anything you can fit in your mouth.`,
+            5: `Detachable Arms: They still function as you wish if removed.`,
+            6: `Remodelled Internals: You do not need to eat or breathe.`
+        },
+    },
+    {
+        title: 'Repurposed Augmental',
+        desc: `Mechanically adapted for a purpose you were unable to fulfil. You found a job somewhere else.`,
+        names: 'Ewes, Clarick, Ante, Casey',
+        debtholder: `Drumm Personal Security: Weapons pay off this debt at twice their normal value.`,
+        gear: 'Mallet (d6).',
+        careerLabel1: `WHAT WAS YOUR JOB?`,
+        careerLabel2: `HOW ARE YOU AUGMENTED?`,
+        coinTable: {
+            1: `Civic Planning: Take a nice jacket.`,
+            2: `Electricity Station Labour: Take a set of rubberised tongs.`,
+            3: `Private Security: Take a concealed pistol (d6).`,
+            4: `Personal Errands: Take an umbrella.`,
+            5: `Housekeeping: Take a telescopic brush.`,
+            6: `Municipal Cleaning: Take a broom.`
+        },
+        hpTable: {
+            1: `Part-Metal Body: You always have at least ARMOUR 1.`,
+            2: `Bile Valve: You can spew acid spray (d6, BLAST, continues until washed off) once per day.`,
+            3: `Chest Compartment: A barely visible seam in your chest can open up to discreetly store a fist-sized object.`,
+            4: `Steel Jaw: You can bite through most anything you can fit in your mouth.`,
+            5: `Detachable Arms: They still function as you wish if removed.`,
+            6: `Remodelled Internals: You do not need to eat or breathe.`
+        },
+    },
+
 ]
 
-
+console.log("number of careers: ", careerTable.length);
