@@ -30,3 +30,51 @@ export const simpleRoll = (diceString) => {
 
     return roll.total;
 };
+
+export const generateCareer = (body, speed, mind) => {
+    //sort ability scores from lowest to highest
+    const abilityArr = [body, speed, mind].sort((a, b) => a - b);
+
+    const careerArray = [];
+
+    //determine which array of careers to use based on highest ability score
+    switch (abilityArr[2]) {
+        case (abilityArr[2] <= 9):
+            careerArray = [1, 2, 3, 4, 5, 6, 7];
+            break;
+        case 10:
+            careerArray = [8, 9, 10, 11, 12, 13, 14, 15];
+            break;
+        case 11:
+            careerArray = [16, 17, 18, 19, 20, 21, 22, 23, 24];
+            break;
+        case 12:
+            careerArray = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34];
+            break;
+        case 13:
+            careerArray = [35, 36, 37, 38, 39, 40, 41, 42, 43, 44];
+            break;
+        case 14:
+            careerArray = [45, 46, 47, 48, 49, 50, 51, 52, 53, 54];
+            break;
+        case 15:
+            careerArray = [55, 56, 57, 58, 59, 60, 61, 62, 63, 64];
+            break;
+        case 16:
+            careerArray = [65, 66, 67, 68, 69, 70, 71, 72, 73, 74];
+            break;
+        case 17:
+            careerArray = [75, 76, 77, 78, 79, 80, 81, 82, 83, 84];
+            break;
+        case 18:
+            careerArray = [85, 86, 87, 88, 89, 90, 91, 92, 93, 94];
+            break;
+    }
+
+    //determine index of career array to use based on lowest ability score
+    const careerNum = careerArray[abilityArr[0] - 3];
+
+    //return career at index of careerNum
+    return careerTable[careerNum];
+    
+};
