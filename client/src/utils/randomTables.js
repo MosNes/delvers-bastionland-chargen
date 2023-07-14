@@ -1376,28 +1376,153 @@ export const careerTable = [
         },
     },
     {
-        title: 'Associated Burglar',
-        desc: `You burgled only sanctioned properties. You don't fully understand the legality.`,
-        names: 'Spit, Hucker, Loam, Parthia',
-        debtholder: `Young Errant's University for Practical Studies:You share ownership of a set of basic engine repair tools.`,
-        gear: `Bow-pistol (d6).`,
-        careerLabel1: `WHAT'S YOUR CHOICE OF BURGLARY EQUIPMENT?`,
-        careerLabel2: `WHICH TYPE OF BUILDING DID YOU TARGET?`,
+        title: 'Retail Therapist',
+        desc: `You helped people spend money you had no hope of ever earning. None of it rubbed off onto you.`,
+        names: 'Sleffy, Debbum, Frozer, Bloom',
+        debtholder: `Finbrake Re-burglary: They accept reclaimed stolen goods for twice their value.`,
+        gear: `Self-defence shock-prod (d6, on a roll of 1 it requires recharging)`,
+        careerLabel1: `WHAT WAS YOUR SPECIALITY?`,
+        careerLabel2: `WHO WAS YOUR BEST CLIENT?`,
         coinTable: {
-            1: `Bottle of Ether with long-range spray attachment.`,
-            2: `Sticky-Rope (sticks to metal and stone, supports one person).`,
-            3: `Crowbar (d6, passes for a walking stick).`,
-            4: `Portable Ram (folds down to pocket size).`,
-            5: `3 Slumber Bombs (anybody in the BLAST who is already asleep cannot be woken by any means for an hour).`,
-            6: `Burglar Shotgun (d6, +d6 at point blank range, silent).`
+            1: `Clothes: You're always exquisitely dressed.`,
+            2: `Drinks: You can claim a free drink in most bars`,
+            3: `Offal: You can identify most organs.`,
+            4: `Cigars: Smoke doesn't bother you.`,
+            5: `Luxury Pets: Take a chameleon scuttlefish (1HP)`,
+            6: `Jewellery: You recognise fakes right away.`
         },
         hpTable: {
-            1: `Offices: Take a poison pen (d4, d12 DEX Loss on CRITICAL DAMAGE).`,
-            2: `Alienist Temples: Take a handful of incense sticks`,
-            3: `Barracks: Take a military uniform and medals.`,
-            4: `Hospitals: Take a stethoscope.`,
-            5: `Workhouses: Take a steam-whistle.`,
-            6: `Orphanages: Take a broken doll.`
+            1: `A Military Officer: Take a prototype repeater-pistol (d6, BLAST, jams on a 1, requiring Specialist repair).`,
+            2: `A Paranoid Vault-Keeper: Take a peeker-lens (place against metal doors to see what's on the other side in fuzzy vision).`,
+            3: `A Deep Country Feral King: Take a clumsy but ornate sword (BULKY, d8).`,
+            4: `A Wild Ocean Treasure Hunter: Take a returning knife (d6, flies back into your hand with a whistle).`,
+            5: `A Washed-Up Stage Comedian: Take a water-squirting flower.`,
+            6: `A Hygiene-Obsessed Millionaire: Take a bottle of universal cleaning fluid (cleans anything to a shine in no time at all).`
+        },
+    },
+    {
+        title: 'Apprentice Sweep',
+        desc: `Your master died. They took your terrible career prospects along with them.`,
+        names: 'Flo, Rod, Leek, Moley',
+        debtholder: `Soddup Burials: The debt is for a parent's funeral. Whether through blood or not, you're all siblings to each other`,
+        gear: `Chisel (d6), extendable brushes`,
+        careerLabel1: `WHAT DID YOU SWEEP?`,
+        careerLabel2: `WHAT DID YOU DREAM ABOUT AS YOU SWEPT?`,
+        coinTable: {
+            1: `Narrow Chimneys: You can get through any gap you can get your head into.`,
+            2: `Sewers: You can see in the dark perfectly.`,
+            3: `Railway Lines: You can sense the speed and direction of the nearest train or tram by touching the rail.`,
+            4: `Bookshelves: Dust does not bother you.`,
+            5: `Gruel-Chutes: You can only eat solid food.`,
+            6: `Kennels: Houndlike creatures such as bramblemutts love you.`
+        },
+        hpTable: {
+            1: `Being a Highwayman: Take a fake pistol (only fires blanks).`,
+            2: `Visiting the Void: Take a spyglass.`,
+            3: `Avenging your Master: Take a dose of powdered poison.`,
+            4: `Being in High Society:Take a fashionable hat.`,
+            5: `Being a Musician:Take a banjo.`,
+            6: `Becoming a Master Sweep:Take a sweeper's tattoo that only impresses other sweeps.`
+        },
+    },
+    {
+        title: 'Sky Trooper',
+        desc: `Your training was so intense that the academy closed after graduation. Now there is no mission, but you still have your gear.`,
+        names: 'Teekay, Forth, Tooey, Wun',
+        debtholder: `Titan Chimney Stacks: Take shared ownership of an extremely long chimney brush`,
+        gear: `Cutlass (d6), glider-wings (decent for gliding, unsuitable for flight), uniform.`,
+        careerLabel1: `HOW COOL IS YOUR UNIFORM?`,
+        careerLabel2: `WHAT'S IN YOUR HIDDEN POUCH?`,
+        coinTable: {
+            1: `It has your Name in Rhinestones across the back.`,
+            2: `It has Mirrored Panels.`,
+            3: `It has ARMOUR (ARMOUR 1) and a masked helmet.`,
+            4: `It has an Ultra-Fancy Belt Buckle`,
+            5: `It has a Cape.`,
+            6: `It has Tassels.`
+        },
+        hpTable: {
+            1: `A Flash Bomb (dazzles anyone that doesn't avert their eyes for one turn).`,
+            2: `Glow-Dust (spread over an item to cause it to glow brightly for an hour).`,
+            3: `A Pen that can fire a single shot (d6).`,
+            4: `A Poison Capsule.`,
+            5: `1 metre roll of Unbreakable Wire`,
+            6: `A Very Loud Whistle.`
+        },
+    },
+    {
+        title: 'Sky Trooper',
+        desc: `Your training was so intense that the academy closed after graduation. Now there is no mission, but you still have your gear.`,
+        names: 'Teekay, Forth, Tooey, Wun',
+        debtholder: `Titan Chimney Stacks: Take shared ownership of an extremely long chimney brush`,
+        gear: `Cutlass (d6), glider-wings (decent for gliding, unsuitable for flight), uniform.`,
+        careerLabel1: `HOW COOL IS YOUR UNIFORM?`,
+        careerLabel2: `WHAT'S IN YOUR HIDDEN POUCH?`,
+        coinTable: {
+            1: `It has your Name in Rhinestones across the back.`,
+            2: `It has Mirrored Panels.`,
+            3: `It has ARMOUR (ARMOUR 1) and a masked helmet.`,
+            4: `It has an Ultra-Fancy Belt Buckle`,
+            5: `It has a Cape.`,
+            6: `It has Tassels.`
+        },
+        hpTable: {
+            1: `A Flash Bomb (dazzles anyone that doesn't avert their eyes for one turn).`,
+            2: `Glow-Dust (spread over an item to cause it to glow brightly for an hour).`,
+            3: `A Pen that can fire a single shot (d6).`,
+            4: `A Poison Capsule.`,
+            5: `1 metre roll of Unbreakable Wire`,
+            6: `A Very Loud Whistle.`
+        },
+    },
+    {
+        title: 'Urbalist',
+        desc: `The walls of Bastion have a language of their own. The right ones reveal secrets, with the help of your herbs.`,
+        names: 'Risper, Zipra, Thior, Haloper',
+        debtholder: `Lower-Offerbog Mercenary Regiment: You have a token to call in the regiment for one murder whenever you like.`,
+        gear: `Sabre (d6), 3 doses of hallucinogenic herbs (£20 each to restock).`,
+        careerLabel1: `WHAT DO THE WALLS TELL YOU WHEN YOU'RE HERBED UP?`,
+        careerLabel2: `WHAT DO THE FLOORS TELL YOU WHEN YOU'RE HERBED UP?`,
+        coinTable: {
+            1: `Lick a wall to learn its Original Purpose`,
+            2: `Listen closely to hear the name of the building's Legal Owner.`,
+            3: `Stroke the walls to sense the Nearest Exit.`,
+            4: `Smell the walls to know the Last Thing that was Cooked in here.`,
+            5: `Eat a small part of the wall to know if there is a Hidden Door (but not where).`,
+            6: `Push some fragments of the wall into your ear to know a Trivial Fact about a being that calls this place home (if any).`
+        },
+        hpTable: {
+            1: `Observe a candle's shadow to learn the path of the Last Person toWalk By`,
+            2: `Throw some dust to hear a few echoes from the most Recent Conversation here.`,
+            3: `Splash some water to see the best Path to a Destination you're chanting`,
+            4: `Spit on the floor to hear the name of the PersonWho Thinks They're in Charge.`,
+            5: `Sleep on the floor to dream about the Most Interesting Thing to happen here.`,
+            6: `Follow a trail of freshly spilled blood to find something that Doesn't Belong here`
+        },
+    },
+    {
+        title: 'Under-Laborer',
+        desc: `Construction work on the Underground continues. Despite its lack of regard for time and space.`,
+        names: 'Cutver, Trunch, Bore, Ducton',
+        debtholder: `Camwick & Bodeyman Herbal Remedies: Each take a pack of all-purpose herbal tablets.`,
+        gear: `Hammer (d6), drill, gum (coal).`,
+        careerLabel1: `WHAT DO YOU KNOW ABOUT THE UNDERGROUND?`,
+        careerLabel2: `WHY DON'T YOU LIKE THE SURFACE?`,
+        coinTable: {
+            1: `The Secret of Darkness: If you gaze into a dark passageway, you know what lies at the end of the darkness.`,
+            2: `The Secret of Space: If a passageway leads to somewhere you have been before, you know immediately`,
+            3: `The Secret of Time: When underground, you can look around and see roughly what's changed in the last hour.`,
+            4: `The Secret of the Maze: You can sense a dead-end as soon as you enter a passageway that ends in one`,
+            5: `The Secret of Connection: If there is a quicker underground route between two points than the one you have planned, you know it.`,
+            6: `The Secret of Cruelty: You can make a whistling noise that causes discomfort to underground vermin.`
+        },
+        hpTable: {
+            1: `You are Extremely Ugly.`,
+            2: `You're Faintly Magnetic, and you're sick of showing it to people`,
+            3: `You're Sensitive To Sunlight.Take some tinted goggles, and your attacks are IMPAIRED in daylight unless you wear them.`,
+            4: `You Hate Warm Food, and cannot keep it down.`,
+            5: `You can only Speak Gibberish, but understand everyone else just fine.`,
+            6: `You have Severe Agoraphobia.You are DEPRIVED whenever outdoors.`
         },
     },
 
