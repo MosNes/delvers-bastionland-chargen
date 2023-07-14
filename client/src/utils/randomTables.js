@@ -12,7 +12,7 @@ export const speciesTable = [
         description: 'Bears, Pandas, etc.'
     },
     {
-        name:'Avian',
+        name: 'Avian',
         description: 'Songbirds, Waterfowl, Raptors, etc'
     },
     {
@@ -28,7 +28,7 @@ export const speciesTable = [
         description: 'Badgers, Raccoons, Weasels, Ferrets, Otters, etc.'
     },
     {
-        name:  'Lizardkin',
+        name: 'Lizardkin',
         description: 'Lizards, Snakes, Crocodiles, Turtles etc.'
     },
     {
@@ -356,7 +356,7 @@ export const careerTable = [
             6: `Threatening Stave - Has no function, but glows and vibrates in a way that suggests it could be used for
             distributing extreme pain.`
         }
-    }, 
+    },
     {
         title: 'Fringe Investigator',
         desc: `Everything must be revealed. From petty crime to the secrets of the cosmos.`,
@@ -716,7 +716,7 @@ export const careerTable = [
             5: `Prosthetic Leg with grasping talon.`,
             6: `Bad Reputation. Anyone on the wrong side of the law knows and dislikes you.`
         }
-    }, 
+    },
     {
         title: 'Muddled Mixologist',
         desc: `One drink is too many. A thousand never enough.`,
@@ -878,33 +878,111 @@ export const careerTable = [
             2: `Animals take a disliking to your face.`,
             3: `You had it surgically attached and can never take it off.`,
             4: `You need to wear glasses to see well, but the mask lets you see just fine.`,
-            5: `You’re mute when not wearing the mask.`,
+            5: `You're mute when not wearing the mask.`,
             6: `Your face is disfigured underneath.`
         }
     },
     {
-        title: 'Maked Horrorist',
-        desc: `Horrors rise from the Underground. We must make a friend of fear, and scare them back down.`,
-        names: 'Bota, Lombina, Volter, Sonny',
-        debtholder: `The Populads: You can never remember the name or face of somebody in this Union, or what they really do, but you can always find a member when you need one.`,
-        gear: 'Handcannon (d6, very loud), horrific mask.',
-        careerLabel1: `WHAT'S YOUR MASK?`,
-        careerLabel2: `WHAT ABOUT WHEN YOU TAKE THE MASK OFF?`,
+        title: 'Rollocker Club Alumni',
+        desc: `Good times, fair play, school spirit!`,
+        names: 'Willand, Gidiver, Feffle, Rocurd',
+        debtholder: `Time Enforcer 2nd Regiment: You have synchronised watches.`,
+        gear: 'Sports bat (d6, BULKY), club jacket.',
+        careerLabel1: `WHAT DID YOU SUPPOSEDLY STUDY DURING YOUR TIME AS A STUDENT?`,
+        careerLabel2: `WHAT DID YOU REALLY SPEND YOUR TIME DOING?`,
         coinTable: {
-            1: `The Famine Machine: You can eat metal in place of food.`,
-            2: `The Red Beast: You have the enhanced scent and hearing of a dog.`,
-            3: `The Horned Child: When you make a demand, those that refuse it feel an intense (but ultimately harmless) pain.`,
-            4: `The Iron Snake: If you eat a living thing whole you learn all that it has seen.`,
-            5: `The Blank Mask: You cause no sound and leave no footprints.`,
-            6: `The Grey Man: All living things understand your speech, but are under no obligation to cooperate.`
+            1: `Take a set of unread Science textbooks.`,
+            2: `Take a set of unread Fine Art textbooks.`,
+            3: `Take a set of unread History textbooks.`,
+            4: `Take a set of unread Engineering textbooks.`,
+            5: `Take a set of unread Medicine textbooks.`,
+            6: `Take a set of unread Bureaucracy textbooks.`
         },
         hpTable: {
-            1: `You can choose how your face appears each time you take it off.`,
-            2: `Animals take a disliking to your face.`,
-            3: `You had it surgically attached and can never take it off.`,
-            4: `You need to wear glasses to see well, but the mask lets you see just fine.`,
-            5: `You’re mute when not wearing the mask.`,
-            6: `Your face is disfigured underneath.`
+            1: `Pratfalls: You can fall up to 20ft without any harm.`,
+            2: `Pranking a Rival Club: Take a smokebomb, a stinkbomb, and a firebomb (d6 DAMAGE each round until
+                extinguished).`,
+            3: `Mixing Drinks: You know every cocktail recipe, and take a bottle of industrial rum.`,
+            4: `You Don't Remember: Take a pigrat (4HP, d4 bite) dressed in club colours`,
+            5: `Raiding Wine Cellars: Take a bottle of fortified wine and you can see in the dark.`,
+            6: `Hazing Initiates: Take a bottle of ether.`
+        }
+    },
+    {
+        title: 'Backward Legionnaire',
+        desc: `The future holds only darkness. BACKWARDS! NEVER FORWARDS!`,
+        names: 'Monnier, Thelmy, Jerreth, Bramiah',
+        debtholder: `The Fly Heralds: While you are in debt to them, swarming insects of any type do not bother you.`,
+        gear: 'Un-modern clothes, firebomb (d6 DAMAGE each round until extinguished).',
+        careerLabel1: `WHAT OBSOLETE WEAPON DO YOU CLING TO?`,
+        careerLabel2: `WHAT'S THE MOST OBSOLETE THING YOU OWN?`,
+        coinTable: {
+            1: `A hickory longbow (d6).`,
+            2: `3 javelins (d6), you've named them all.`,
+            3: `Pole-club (d6, BULKY).`,
+            4: `Blunted falx (d6, BULKY).`,
+            5: `Morning star (d6).`,
+            6: `Sling (d4) with antique stones.`
+        },
+        hpTable: {
+            1: `A set of Chain Armour (ARMOUR 1, BULKY).`,
+            2: `£10 in Stone Coins. Someone far out in Deep Country might take it.`,
+            3: `A Lute. Nobody makes the right strings anymore.`,
+            4: `Portable but heavy Sundial.`,
+            5: `Carrying Pole with two buckets.`,
+            6: `A Chariot (with nothing to draw it).`
+        }
+    },
+    {
+        title: 'Contract Castaway',
+        desc: `Paid a petty fee to occupy a desolate rock, in place of a flag. The years have been dull, so you return to the mainland.`,
+        names: 'Thargis, Grotter, Ferno, Abraman',
+        debtholder: `The Holy Carcass-Sons: You bear their mark (a black hourglass). You feel no pain but your wounds never heal. The mark is lost when the debt is paid.`,
+        gear: 'Walking stick (d6), net, pack of gum (parrot).',
+        careerLabel1: `WHAT WAS YOUR FINAL PAYMENT FOR LONG SERVICE?`,
+        careerLabel2: `WHAT DID YOU FIND ON THE ISLAND?`,
+        coinTable: {
+            1: `A tin Medal.`,
+            2: `A big Chocolate Bar.`,
+            3: `Lifetime supply of Pet Food, if you don't take advantage.`,
+            4: `A small Painting of you on your island.`,
+            5: `A Golden Ticket that gets you passage on any one voyage or trip leaving Bastion.`,
+            6: `A smart set of Shoes.`
+        },
+        hpTable: {
+            1: `Crystal Ball - Once per day it answers any question yes or no, as helpfully as it can. It knows everything.`,
+            2: `Pack of Fat Beans - Eating one makes you unable to run or jump until you get a night's sleep.`,
+            3: `Jar of Black Air - Releasing it plunges the room into darkness until fresh light it brought in. One use only`,
+            4: `Jar of Unidentified Blood - If poured into a dead body, the body serves you in one task before vomiting up the blood and dying even more.`,
+            5: `Star Atlas - Shows constellations that you do not recognise from the sky. Anyone harming the book is
+            struck by lightning (d12, ignore ARMOUR).`,
+            6: `Badly Stitched Doll - Terrifies children and animals.`
+        }
+    },
+    {
+        title: 'Contract Castaway',
+        desc: `Paid a petty fee to occupy a desolate rock, in place of a flag. The years have been dull, so you return to the mainland.`,
+        names: 'Thargis, Grotter, Ferno, Abraman',
+        debtholder: `The Holy Carcass-Sons: You bear their mark (a black hourglass). You feel no pain but your wounds never heal. The mark is lost when the debt is paid.`,
+        gear: 'Walking stick (d6), net, pack of gum (parrot).',
+        careerLabel1: `WHAT WAS YOUR FINAL PAYMENT FOR LONG SERVICE?`,
+        careerLabel2: `WHAT DID YOU FIND ON THE ISLAND?`,
+        coinTable: {
+            1: `A tin Medal.`,
+            2: `A big Chocolate Bar.`,
+            3: `Lifetime supply of Pet Food, if you don't take advantage.`,
+            4: `A small Painting of you on your island.`,
+            5: `A Golden Ticket that gets you passage on any one voyage or trip leaving Bastion.`,
+            6: `A smart set of Shoes.`
+        },
+        hpTable: {
+            1: `Crystal Ball - Once per day it answers any question yes or no, as helpfully as it can. It knows everything.`,
+            2: `Pack of Fat Beans - Eating one makes you unable to run or jump until you get a night's sleep.`,
+            3: `Jar of Black Air - Releasing it plunges the room into darkness until fresh light it brought in. One use only`,
+            4: `Jar of Unidentified Blood - If poured into a dead body, the body serves you in one task before vomiting up the blood and dying even more.`,
+            5: `Star Atlas - Shows constellations that you do not recognise from the sky. Anyone harming the book is
+            struck by lightning (d12, ignore ARMOUR).`,
+            6: `Badly Stitched Doll - Terrifies children and animals.`
         }
     },
 ]
