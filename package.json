@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mosnes.github.io/delvers-bastionland-chargen/",
   "name": "delvers-bastionland-chargen",
   "version": "1.0.0",
   "description": "Character generator app for the Delvers setting of Electric Bastionland",
@@ -8,6 +9,7 @@
     "start": "node server/server.js",
     "install": "cd",
     "build": "cd client && npm run build",
+    "predeploy": "cd client && npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
@@ -19,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/MosNes/delvers-bastionland-chargen/issues"
   },
-  "homepage": "https://github.com/MosNes/delvers-bastionland-chargen#readme",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
