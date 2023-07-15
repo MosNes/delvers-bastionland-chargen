@@ -2327,28 +2327,153 @@ export const careerTable = [
         },
     },
     {
-        title: 'Massifist of Massifcountry',
-        desc: `Everything is big in Massifcountry. You stopped growing just below the ceiling.`,
-        names: 'Throngon, Paximart, Ulvulca, Jeckeride',
-        debtholder: `Doggarly Artful Latturs: Share ownership of a set of foot-tall capital letters.There are plenty of each letter but no Es or Ns.`,
-        gear: `Huge fists (d6 each when unarmed), huge body (swap your highest ABILITY SCORE into STR).`,
-        careerLabel1: `WHAT BIG THING DO YOU HAVE?`,
-        careerLabel2: `HOW HAVE YOU FITTED IN TO LIFE AMONGST THE SMALL?`,
+        title: 'Divine Prodigy',
+        desc: `Raised in a cult retreat for a single purpose, which didn't work out. Now cast out into the world.`,
+        names: 'Baztum, Lontanchene, Romecca, Shalutahen',
+        debtholder: `Walken Civic Spider Studies: You have a Civic Spider chaperone (5HP, d8 maul). It is highly civilised and obedient, but never violent and still bound by the limits of being a giant spider. If it returns to your Debtholder having learned something about the world your Debt is halved. If it is lost, your Debt is doubled.`,
+        gear: `Fancy silk robes, ornate sceptre (d6).`,
+        careerLabel1: `WHAT WAS YOUR PURPOSE?`,
+        careerLabel2: `WHAT WENT WRONG?`,
         coinTable: {
-            1: `Big Cauldron (BULKY).`,
-            2: `Big Crossbow (d8, BULKY).`,
-            3: `Big Armour (ARMOUR 1, BULKY).`,
-            4: `Big Spoon (d8, BULKY).`,
-            5: `Big Bramblemutt (6HP, d8 bite).`,
-            6: `Big Hammer (d8, BULKY).`
+            1: `To Sing the Song of the Old Stars: It sounds awful.`,
+            2: `To Birth/Sire the Voidchild: You have a chastity belt welded on.`,
+            3: `The First Meal of the Cosmic Swarm: You were bathed in honey since birth.You always attract bugs.`,
+            4: `To Speak only Truth: You have no tongue.`,
+            5: `To Remain Pure: Your ears have been blocked up with lead, but you can just about hear if people shout.`,
+            6: `To Become a Truth Oracle: You can never lie, but you can refuse to answer a question.`
         },
         hpTable: {
-            1: `Unerringly Careful: You move in complete silence.`,
-            2: `Food and Medicine Tester: Ignore the effect of any toxins or poisons.`,
-            3: `Gravestone Carver: Take a chisel and brush.`,
-            4: `Wind Prodigy: You can play wind instruments without stopping for breath. Take an oversized clarinet.`,
-            5: `Clerk at Large: You know the fundamentals of bureaucracy. Take an oversized pen.`,
-            6: `Experimental Vocal Softening: Now you can only speak in a whisper.`
+            1: `You got Too Old: Take reading glasses, you cannot read without them.`,
+            2: `The Temple Burned Down: Take a jar of holy ashes.`,
+            3: `The Cult was Absorbed into a Faith Conglomerate: Take a “non-messianic” brand on your arm.`,
+            4: `Ascension Day Came and Nothing Happened: Take a cheap pocket-watch given as compensation for your time.`,
+            5: `You Lost a Cult War: Lose an arm.`,
+            6: `You Snuck Away: The cult are still looking for you.`
+        },
+    },
+    {
+        title: 'Exotic Food Supplier',
+        desc: `When people tire of sundry dishes, you step in with new delicacies.`,
+        names: 'Ravenor, Mimsy, Calcobrina, Mox',
+        debtholder: `Corbin Cortez the Zoo Keeper: A fearsome hunter who collected most of the animals that are displayed in his zoo. Assisted by a spider butler and a mocking bird.`,
+        gear: `Large bucket of the appropriate food, long-handled fork (d6).`,
+        careerLabel1: `WHAT IS THE EXOTIC FOOD THAT YOU PROCURED?`,
+        careerLabel2: `WHO DID YOU SELL TO?`,
+        coinTable: {
+            1: `Sausage Maker: Take a sausage maker's cloak.While you are wearing it and loudly declaring that you are a sausage maker, Bastiards pay no attention to casual murder on their streets, as long as it is followed by swift dismemberment and removal of the body.`,
+            2: `Gigantic Pumpkin Merchant:Take an acupuncture needle of prodigious growth. Any living organism pricked doubles in size over a minute. Effects doubled on vegetables. Effects doubled on orange things.`,
+            3: `Pickled Eggler: Take a pickling jar. Currently full of delicious dolphin eggs. Anything you put in it becomes both edible and preserved.`,
+            4: `Jellyfish Farmer: Popular among those who have no time for lunch. Gain a jelly serving tube in your sleeve, capable of discreetly serving jellyfish at pistol-range.`,
+            5: `Pigeon Hunter: You collect their tongues for candy. Gain a reciprocating bird-caller, capable of imitating any bird call with absolute perfection.`,
+            6: `Calf Suplexer: You make the most tender veal. Gain an acoustic beast-scaring device.`
+        },
+        hpTable: {
+            1: `The Hungry Hole: Take one of the intelligent, loyal skeletal companions (1HP) that the Hungry Hole occasionally burps out as payment.`,
+            2: `Lady Skeletonhands: Take three of the Lady's prank incinerators, used to incinerate food after 'giving' it to a homeless person.Ten seconds after being inserted into a small object, the object catches fire. Looks like a cocktail olive on a toothpick.`,
+            3: `The Slobbermen: Take a jar of digestive acid.`,
+            4: `The Starvation Artists: Take an incredibly lifelike fake leg with a secret compartment inside, normally used to smuggle food.`,
+            5: `The Lords of Aluminium and Lumber: Take a powerful rotary saw (d8, BULKY, can cut metal, but slowly and loudly).`,
+            6: `The Rubber Barons:Take a rubber jumpsuit.`
+        },
+    },
+    {
+        title: 'Worthless Graduate',
+        desc: `You've spent a long time in colleges, arguing about words. Your career prospects are poor.`,
+        names: 'Tolly, Langelle, Befloma, Tut',
+        debtholder: `Forssa Hook and Anchor: Share ownership of a small rowboat (with wheels and handles for pushing on land).`,
+        gear: `Worthless certificate.`,
+        careerLabel1: `WHAT WAS YOUR SUBJECT?`,
+        careerLabel2: `WHAT WAS YOUR FAVOURITE EXTRA-CURRICULAR ACTIVITY?`,
+        coinTable: {
+            1: `Theoretical Economics: Bankers hate you.`,
+            2: `Occult Medicine: You can “order off-menu” when you visit a surgeon.`,
+            3: `Urban Philosophy: You can justify anything weird in Bastion.`,
+            4: `Animal Ethics: You know animals' true feelings by watching their behaviour.`,
+            5: `Emulsification Studies: You know what will happen when any two liquids are mixed.`,
+            6: `Technological Arts: You can see the beauty in any piece of machinery.`
+        },
+        hpTable: {
+            1: `Chopping Logs: Take a long axe (d8, BULKY).`,
+            2: `Target Shooting: Take a rifle (d8, BULKY).`,
+            3: `Rock Climbing: Take two climbing picks (d6 each).`,
+            4: `Whittling: Take a knife (d6).`,
+            5: `Merkrid Hunting: Take a hand-spear (d6).`,
+            6: `Canal Punting: Take a pole (d6, BULKY).`
+        },
+    },
+    {
+        title: 'Alternative Groomer',
+        desc: `You make things pretty and nice-smelling. But not people.`,
+        names: 'Laurel, Fanten, Tresser, Newtrog',
+        debtholder: `Zonar Municipal Acoustics: You each get an experimental electronic musical instrument, temperamental enough to be worthless.`,
+        gear: `Perfume spritzer.`,
+        careerLabel1: `WHAT WAS YOUR SPECIALITY?`,
+        careerLabel2: `WHAT WENT WRONG?`,
+        coinTable: {
+            1: `Overgrown Trees: Take a pole-saw (d6, BULKY).`,
+            2: `Transport Crawlers: Take a scratching pole (d6, BULKY).`,
+            3: `Long-Hair Livestock: Take a pair of shears (d6).`,
+            4: `Pet Lizards: Take a scale-scraper (d6).`,
+            5: `Celebrity Skulls: Take a brain hook (d6).`,
+            6: `Forgotten Statues: Take a pick-axe (d6, BULKY).`
+        },
+        hpTable: {
+            1: `You Smell so Bad that Nobody Wanted to HireYou: Upgrade your perfume to extra-strong.`,
+            2: `Filthy Rumours: Take a wig and glasses to disguise yourself.`,
+            3: `Your Style was just Too Radical: Take a weird haircut.`,
+            4: `You Slipped and took off your own Nose: Take a prosthetic nose.`,
+            5: `You were Ruined by a Rival, but got Revenge: Take a half-full bucket of tar and sack of feathers.`,
+            6: `You Slipped and Murdered a Client: Take a £1k bounty on your head.`
+        },
+    },
+    {
+        title: 'Avant Guardsman',
+        desc: `Not all militias are conventional. Yours was quite interesting before it collapsed.`,
+        names: 'Hatta, Moglithe, Katsey, Glum',
+        debtholder: `Small Aethertech Board: Share ownership of a bag full of tangled wires and blown fuses.`,
+        gear: `Flashy uniform, knife (d6).`,
+        careerLabel1: `WHAT MADE YOUR UNIT DIFFERENT?`,
+        careerLabel2: `WHAT ELSE?`,
+        coinTable: {
+            1: `Strangling was the only permitted method of combat. Strangle for d6 DAMAGE when using both hands.`,
+            2: `You have a somewhat-trained Attack Brushreaver (7HP, d8 bite).`,
+            3: `You used Prototype Electric Swords (d6, ignores ARMOUR, rolls of 1 cause DAMAGE to you instead).`,
+            4: `You were focused purely on Pest Control. Take a bug bomb (d10 BLAST, only affects insects).`,
+            5: `You Replaced your Hand with a repeating pistol (d6).`,
+            6: `Your voice box was replaced with a Mechanical Voice, which can focus a deadly soundbeam (d6).`
+        },
+        hpTable: {
+            1: `You Served a Machine: Take a mechanical eye (limited zoom function).`,
+            2: `You Served under the Void: 1-in-3 chance that you speak a little of any Alien language.`,
+            3: `You have Unreliable Grav-Boots: You can land from any height with a DEX SAVE, otherwise you hit the ground as normal.`,
+            4: `You Swore an Oath Against Pack Animals: You are DEPRIVED for the remainder of the day if you have to ride or serve a pack animal.`,
+            5: `You were Stitched into your Uniform: It can only be removed by destroying it.`,
+            6: `You would only Fight Drunk: Take a bottle of brandy and you're DEPRIVED when sober.`
+        },
+    },
+    {
+        title: 'Avant Guardsman',
+        desc: `Not all militias are conventional. Yours was quite interesting before it collapsed.`,
+        names: 'Hatta, Moglithe, Katsey, Glum',
+        debtholder: `Small Aethertech Board: Share ownership of a bag full of tangled wires and blown fuses.`,
+        gear: `Flashy uniform, knife (d6).`,
+        careerLabel1: `WHAT MADE YOUR UNIT DIFFERENT?`,
+        careerLabel2: `WHAT ELSE?`,
+        coinTable: {
+            1: `Strangling was the only permitted method of combat. Strangle for d6 DAMAGE when using both hands.`,
+            2: `You have a somewhat-trained Attack Brushreaver (7HP, d8 bite).`,
+            3: `You used Prototype Electric Swords (d6, ignores ARMOUR, rolls of 1 cause DAMAGE to you instead).`,
+            4: `You were focused purely on Pest Control. Take a bug bomb (d10 BLAST, only affects insects).`,
+            5: `You Replaced your Hand with a repeating pistol (d6).`,
+            6: `Your voice box was replaced with a Mechanical Voice, which can focus a deadly soundbeam (d6).`
+        },
+        hpTable: {
+            1: `You Served a Machine: Take a mechanical eye (limited zoom function).`,
+            2: `You Served under the Void: 1-in-3 chance that you speak a little of any Alien language.`,
+            3: `You have Unreliable Grav-Boots: You can land from any height with a DEX SAVE, otherwise you hit the ground as normal.`,
+            4: `You Swore an Oath Against Pack Animals: You are DEPRIVED for the remainder of the day if you have to ride or serve a pack animal.`,
+            5: `You were Stitched into your Uniform: It can only be removed by destroying it.`,
+            6: `You would only Fight Drunk: Take a bottle of brandy and you're DEPRIVED when sober.`
         },
     },
 ]
