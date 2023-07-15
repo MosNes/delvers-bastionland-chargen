@@ -1451,31 +1451,6 @@ export const careerTable = [
         },
     },
     {
-        title: 'Sky Trooper',
-        desc: `Your training was so intense that the academy closed after graduation. Now there is no mission, but you still have your gear.`,
-        names: 'Teekay, Forth, Tooey, Wun',
-        debtholder: `Titan Chimney Stacks: Take shared ownership of an extremely long chimney brush`,
-        gear: `Cutlass (d6), glider-wings (decent for gliding, unsuitable for flight), uniform.`,
-        careerLabel1: `HOW COOL IS YOUR UNIFORM?`,
-        careerLabel2: `WHAT'S IN YOUR HIDDEN POUCH?`,
-        coinTable: {
-            1: `It has your Name in Rhinestones across the back.`,
-            2: `It has Mirrored Panels.`,
-            3: `It has ARMOUR (ARMOUR 1) and a masked helmet.`,
-            4: `It has an Ultra-Fancy Belt Buckle`,
-            5: `It has a Cape.`,
-            6: `It has Tassels.`
-        },
-        hpTable: {
-            1: `A Flash Bomb (dazzles anyone that doesn't avert their eyes for one turn).`,
-            2: `Glow-Dust (spread over an item to cause it to glow brightly for an hour).`,
-            3: `A Pen that can fire a single shot (d6).`,
-            4: `A Poison Capsule.`,
-            5: `1 metre roll of Unbreakable Wire`,
-            6: `A Very Loud Whistle.`
-        },
-    },
-    {
         title: 'Urbalist',
         desc: `The walls of Bastion have a language of their own. The right ones reveal secrets, with the help of your herbs.`,
         names: 'Risper, Zipra, Thior, Haloper',
@@ -1525,7 +1500,31 @@ export const careerTable = [
             6: `You have Severe Agoraphobia.You are DEPRIVED whenever outdoors.`
         },
     },
-
+    {
+        title: 'Science Mystic',
+        desc: `The past was nothing but lies. There is hidden truth in these modern ways.`,
+        names: 'Brunder, Loeb, Formosa, Lyonelle',
+        debtholder: `Flex Restaurant: You are blacklisted from every reputable eatery in Bastion until you pay`,
+        gear: `Ceramic staff (d6, BULKY, non-reactive to chemicals), glue, solvent`,
+        careerLabel1: `WHERE IS THE TRUTH HIDDEN?`,
+        careerLabel2: `WHAT HAVE YOU FORESEEN?`,
+        coinTable: {
+            1: `In the Electric Lamps:Take a multi-setting lamp.`,
+            2: `In Ether-Induced Sleep: Take two doses of ether`,
+            3: `In Patterns of Corrosion: Take two flasks of acid.`,
+            4: `In Magnetism: Take a very strong magnet`,
+            5: `In Hidden Sounds: Take a sound amplifier (handheld, allows you to hear very faint sounds).`,
+            6: `In Tension Formulae: Take a variety of springs.`
+        },
+        hpTable: {
+            1: `Our Bodies are Destined to be Cast Aside: Take a mechanical hand`,
+            2: `The End is Nigh: Take a bottle of absinthe.`,
+            3: `The Folk are not in Control of Bastion: Take an othergauge (syringe that glows when filled with non-Kin blood).`,
+            4: `Our Eyes Cannot be Trusted: Take a blindfold.`,
+            5: `The Void Men will Come for Us: Take a star symbol.`,
+            6: `There is Power in Our Minds: Take a useless pink crystal.`
+        },
+    },
 
 ]
 
