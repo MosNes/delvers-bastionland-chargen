@@ -2452,28 +2452,178 @@ export const careerTable = [
         },
     },
     {
-        title: 'Avant Guardsman',
-        desc: `Not all militias are conventional. Yours was quite interesting before it collapsed.`,
-        names: 'Hatta, Moglithe, Katsey, Glum',
-        debtholder: `Small Aethertech Board: Share ownership of a bag full of tangled wires and blown fuses.`,
-        gear: `Flashy uniform, knife (d6).`,
-        careerLabel1: `WHAT MADE YOUR UNIT DIFFERENT?`,
-        careerLabel2: `WHAT ELSE?`,
+        title: 'Factory Retainer',
+        desc: `Your family left you to the factory. Your time in there is done, so you've ended up on the street.`,
+        names: 'Kaywither, Ganning, Unger, Sofskey',
+        debtholder: `Allied Birdwatchers and Snoops: Share ownership of a huge encyclopaedia of birds and other flying creatures, with eye-holes poked out of the back.`,
+        gear: `Flat cap, industrial pole (d6, BULKY).`,
+        careerLabel1: `WHAT HAVE YOU SPENT YOUR ENTIRE LIFE STARING AT THROUGH MACHINERY?`,
+        careerLabel2: `WHAT DID YOU GET TO PREPARE YOU FOR THIS?`,
         coinTable: {
-            1: `Strangling was the only permitted method of combat. Strangle for d6 DAMAGE when using both hands.`,
-            2: `You have a somewhat-trained Attack Brushreaver (7HP, d8 bite).`,
-            3: `You used Prototype Electric Swords (d6, ignores ARMOUR, rolls of 1 cause DAMAGE to you instead).`,
-            4: `You were focused purely on Pest Control. Take a bug bomb (d10 BLAST, only affects insects).`,
-            5: `You Replaced your Hand with a repeating pistol (d6).`,
-            6: `Your voice box was replaced with a Mechanical Voice, which can focus a deadly soundbeam (d6).`
+            1: `Eggs: Take a dozen.`,
+            2: `Biscuits: Take a box of broken shortbread.`,
+            3: `Bullets: Take a small pouch of gunpowder.`,
+            4: `Coffins: Take a hammer (d6) and nails.`,
+            5: `Boxes: Take an unassembled box big enough to fit you inside.`,
+            6: `Coal: Take a shovel.`
         },
         hpTable: {
-            1: `You Served a Machine: Take a mechanical eye (limited zoom function).`,
-            2: `You Served under the Void: 1-in-3 chance that you speak a little of any Alien language.`,
-            3: `You have Unreliable Grav-Boots: You can land from any height with a DEX SAVE, otherwise you hit the ground as normal.`,
-            4: `You Swore an Oath Against Pack Animals: You are DEPRIVED for the remainder of the day if you have to ride or serve a pack animal.`,
-            5: `You were Stitched into your Uniform: It can only be removed by destroying it.`,
-            6: `You would only Fight Drunk: Take a bottle of brandy and you're DEPRIVED when sober.`
+            1: `A broken compass.`,
+            2: `A broken radio.`,
+            3: `An empty paint can.`,
+            4: `A broken pistol.`,
+            5: `A fake coin (unconvincing).`,
+            6: `An empty brandy bottle.`
+        },
+    },
+    {
+        title: 'Grief Diplomat',
+        desc: `A life of carrying bad messages and managing expectations. You appreciated their patience.`,
+        names: 'Hamidal, Berrast, Augoner, Rudlamp',
+        debtholder: `Alligator Yul: A crime lord with a terrible alligator gimmick. If anybody laughs at him he adds £500 to their Debt.`,
+        gear: `Cane (d6).`,
+        careerLabel1: `WHAT WAS YOUR SPECIALITY?`,
+        careerLabel2: `WHAT WENT WRONG?`,
+        coinTable: {
+            1: `Informing Relatives of the Dead: Take a bottle of cheap whisky.`,
+            2: `Down-Scaling Poorhouses: Take a pocket shock prod (d6, non-lethal).`,
+            3: `Deep Country Liaison: Take a shotgun (d6, +d6 at point blank).`,
+            4: `Comforting Survivors: Take a council joke book.`,
+            5: `Reclaiming Erroneous Tax Rebates: Take a crowbar.`,
+            6: `Spelling Correction: Take a dictionary.`
+        },
+        hpTable: {
+            1: `Your Tongue is Too Big for your Mouth, so people don't always understand you first time.`,
+            2: `You were Too Empathetic.Take a locket with portrait (worthless).`,
+            3: `You Developed a Limp.You can move quickly enough but it looks silly and you can't hide it.`,
+            4: `You have Bugspots, a harmless but hideous disease that has a 50% chance to be transmitted with any contact.`,
+            5: `You were Used as a Scapegoat for a gross scandal.The public hate you, but you've earned some favours in the Borough Council.`,
+            6: `You got Too Involved in a Revolt. Replace one hand with a hook.`
+        },
+    },
+    {
+        title: 'Lone Stargazer',
+        desc: `You're not watching for clues, you're watching for incoming threats. Alone in your observatory for too long, your shift is over.`,
+        names: 'Asti, Wulf, Oberto, Len',
+        debtholder: `Future Foods: Share ownership of three unmarked tins of prototype tinned meals (jellied bird, ice-cream pie, full cooked breakfast).`,
+        gear: `Pocket telescope, cuff-pistol (d4).`,
+        careerLabel1: `WHAT'S THE BEST THING YOU'VE SEEN?`,
+        careerLabel2: `WHAT HAS ALL THAT TIME ALONE DONE TO YOU?`,
+        coinTable: {
+            1: `A Rift into an Undersea Nightmare: All sea creatures hate you.`,
+            2: `A Vision of your Death, Falling into a Pit: If you face this situation, you automatically fail any SAVES to avoid it.`,
+            3: `A Cosmic Swarm Approaching: You are DEPRIVED if you are in a room with bugs of any sort.`,
+            4: `A Vision of your Death, Being Eaten by a Huge Bird: If you face this situation, you automatically fail any SAVES to avoid it.`,
+            5: `A Bright Reflection of Bastion, where all Conflict is Solved: Swap your cuff-pistol for a book of optimistic poetry.`,
+            6: `A Vision of your Death, Being Burned Alive: If you face this situation, you automatically fail any SAVES to avoid it.`
+        },
+        hpTable: {
+            1: `Your body Rejects Non-Processed Food.`,
+            2: `You've Emotionally Bonded with your Woolly Hat.You are DEPRIVED unless wearing it, or one exactly like it.`,
+            3: `You Learned Every Solitaire Card Game.Take a worn deck of cards.`,
+            4: `The eye that you close when peering into your telescope has Completely Fused Shut.`,
+            5: `You've Forgotten How to Talk.`,
+            6: `You Hate the Sun.You are DEPRIVED in direct sunlight.`
+        },
+    },
+    {
+        title: 'Tunnel Stray',
+        desc: `You wandered dark places for too long, tormented by Underground entities. You came out less than human.`,
+        names: 'Veyron, Jeene, Ox, Mara',
+        debtholder: `Captain Rumtutty's Maritime Experience: You all have matching, poorly drawn, naval-themed tattoos.`,
+        gear: `Pasty skin or fur, flask of gear-oil, dagger (d6).`,
+        careerLabel1: `WHAT'S WRONG WITH YOU?`,
+        careerLabel2: `SERIOUSLY, WHAT ELSE IS WRONG WITH YOU?`,
+        coinTable: {
+            1: `Feral Appetite: Cooked food is poison to you.`,
+            2: `Ear-Splitter: Your voice is awful, everybody hates it.`,
+            3: `Tar-Blooded: Your blood has turned black, sticky, and foul smelling.`,
+            4: `Night Terrors: You always scream in your sleep.`,
+            5: `Slug-Skin: You secrete a thin layer of slime across your whole body.`,
+            6: `Atonal: You are DEPRIVED in the presence of tuneful music.`
+        },
+        hpTable: {
+            1: `Weird things in the Underground Just Let You Pass, if you don't cause any fuss.`,
+            2: `You're Double-Jointed in a disgusting way.`,
+            3: `Your saliva is Mildly Acidic, enough to dissolve paper.`,
+            4: `Food Goes Bad if you possess it for more than a few minutes.`,
+            5: `Your Bones make a Cracking Sound when you walk.`,
+            6: `You've had your Teeth Pulled Out.`
+        },
+    },
+    {
+        title: 'Body Jockey',
+        desc: `You have a fantastic body, but it is simply your vehicle. Keep your fragile self hidden.`,
+        names: 'Tubett, Cyrel, Snive, Squill',
+        debtholder: `The Machine Shop: Take shared ownership of a pair of broken typewriters.`,
+        gear: `Complete control of a fake body (which has the ABILITY SCORES you rolled). Your true form rides on top.`,
+        careerLabel1: `WHAT'S UP WITH YOUR FAKE BODY?`,
+        careerLabel2: `WHAT'S YOUR TRUE FORM?`,
+        coinTable: {
+            1: `It's a Man-Machine. It has ARMOUR 1.`,
+            2: `It's a Regular Person, but with an utterly blank mind.`,
+            3: `It's a Mock Person. Children love it, adults find it creepy.`,
+            4: `It's a Re-Animated Person. It can lash out (d8) like a wild animal.`,
+            5: `It's a Man-Ape, it can leap and climb accordingly.`,
+            6: `It's a Heap of White Slime that happens to take a humanoid form.`
+        },
+        hpTable: {
+            1: `Small Sentient Lobstrosity (2d6 for all ABILITY SCORES, 4HP).`,
+            2: `Tiny Clay Person (d10 for all ABILITY SCORES, 3HP).`,
+            3: `Smoke-Being (Immaterial, but if your fake body dies then you die, 2HP).`,
+            4: `Mechanical Raptoryx (d8 for all ABILITY SCORES, 2HP, clumsy flight).`,
+            5: `Parasitic Fungus (d6 for all ABILITY SCORES, 1HP).`,
+            6: `Brain Slug (d4 for all ABILITY SCORES, 1HP).`
+        },
+    },
+    {
+        title: 'Underground Weirdo',
+        desc: `Born and raised in the Underground, below space and time. You've always been odd, and have gotten much worse.`,
+        names: 'Eater, Scram, Pattie, Proutnay',
+        debtholder: `Seapress Aquatic Pest Control: Take shared ownership of a Salt-Unsalt-Bomb.Throwing it into a pond-sized body of water turns saltwater fresh or freshwater salted.`,
+        gear: `Club (d6).`,
+        careerLabel1: `WHAT MAKES YOU APPEAR UNNATURAL?`,
+        careerLabel2: `WHAT KEEPS YOU A PERSON?`,
+        coinTable: {
+            1: `Five Eyes (Your eyes can see all around you).`,
+            2: `Shaggy Translucent Fur All Over (With some fleas).`,
+            3: `No Bones (Supported by cartilage).`,
+            4: `Fly Wings (Clumsy flight).`,
+            5: `Stubby Metallic Horns (+d6 when you charge).`,
+            6: `Tiny Second Head (Roll a separate d12 for CHA and give them a name).`
+        },
+        hpTable: {
+            1: `Your Pet: Take a misshapen dog-thing (2HP, d4 bite).`,
+            2: `Your Appreciation for Science: Take a lens and biology book.`,
+            3: `Your Love of the Theatre: Take a costume that helps you pass for a normal person.`,
+            4: `Your Music: Take a rusty glockenspiel.`,
+            5: `Your Paperwork: Take a set of “Certified Person” papers.`,
+            6: `Your Love of Fine Wine: You can identify practically any alcoholic drink blind.`
+        },
+    },
+    {
+        title: 'Inseparable Twins',
+        desc: `There are two of you, identical in most ways. SPECIAL: Divide ABILITY SCORES and HP equally, remainders to the eldest.`,
+        names: 'Mucka/Macka, Toiler/Tol, Scraph/Scon, Aben/Abid',
+        debtholder: `Helping Gland Organ Surrogates: Take shared ownership of a heart in a box. It's well preserved if it is kept sealed.`,
+        gear: `Matching sabres (d6), matching clothes.`,
+        careerLabel1: `WHAT DOES THE ELDER TWIN GET?`,
+        careerLabel2: `WHAT DOES THE YOUNGER TWIN GET?`,
+        coinTable: {
+            1: `The Family Hunting Rifle (d8, BULKY).`,
+            2: `All of the Athletic Prowess. Gain 7 STR.`,
+            3: `A Shield (BULKY, +1 ARMOUR) with the family crest.`,
+            4: `All of the Grace and Subtlety. Gain 7 DEX.`,
+            5: `Significantly Nicer Clothes.`,
+            6: `Beautiful Hair and Voice. Gain 7 CHA.`
+        },
+        hpTable: {
+            1: `Yes indeed you have 0HP. You're alive, just Ultra-Sickly.You never gain more HP, and always face the worst consequences for exposure to disease or toxins.`,
+            2: `A Messed-Up Face.`,
+            3: `A Home-Made Bomb (d8, BLAST).`,
+            4: `A Missing Ear.`,
+            5: `A Gum Addiction (DEPRIVED if you go a day without a stick).`,
+            6: `One Useless Arm.`
         },
     },
 ]
