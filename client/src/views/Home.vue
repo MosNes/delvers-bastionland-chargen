@@ -3,8 +3,8 @@
         <v-btn size ="x-large" block color="primary" @click="createCharacter" class="my-3">
             GENERATE A CHARACTER
         </v-btn>
-        <v-btn size ="x-large" block color="primary" class="my-3" @click="newCareer">
-            GENERATE NEW CAREER
+        <v-btn v-if="data.showSheet" size ="x-large" block color="primary" class="my-3" @click="newCareer">
+            REDO CAREER
         </v-btn>
     </v-container>
     <v-container v-if="data.showSheet">
@@ -137,7 +137,7 @@
 
 import { reactive, computed } from 'vue';
 
-import { generateSpecies, generateDescriptor, simpleRoll, generateCareer } from '../utils/generators.js';
+import { generateSpecies, generateDescriptor, simpleRoll, generateCareer, randomCareer } from '../utils/generators.js';
 import { isVowel } from '../utils/helpers.js';
 
 const data = reactive({
@@ -164,7 +164,17 @@ const data = reactive({
 });
 
 const newCareer = () => {
-    
+    const career = randomCareer();
+
+    data.title = career.title;
+    data.careerDesc = career.desc;
+    data.names = career.names;
+    data.debtholder = career.debtholder;
+    data.gear = career.gear;
+    data.careerLabel1 = career.careerLabel1;
+    data.careerLabel2 = career.careerLabel2;
+    data.coinResult = career.coinTable[data.coin];
+    data.hpResult = career.hpTable[data.hp];
 }
 
 const createCharacter = () => {

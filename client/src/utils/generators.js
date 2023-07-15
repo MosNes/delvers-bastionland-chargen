@@ -86,3 +86,11 @@ export const generateCareer = (body, speed, mind) => {
     return careerTable[careerNum];
 
 };
+
+//randomly returns a career based on number of careers in the table
+export const randomCareer = () => {
+
+    const diceString = `1d${careerTable.length}`
+
+    return careerTable[simpleRoll(diceString)];
+}
