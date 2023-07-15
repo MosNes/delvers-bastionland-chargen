@@ -2051,6 +2051,81 @@ export const careerTable = [
             6: `If you take CRITICAL DAMAGE you can only be roused by a Jolt of Electricity.`
         },
     },
+    {
+        title: 'Fashionista',
+        desc: `There are none more tragic than those that lack the Modern Look. SPECIAL:You are DEPRIVED if you dress without making a statement.`,
+        names: 'Sensation, Remark, Wave, Mode',
+        debtholder: `The Lion Council: A literal council of lions. They want interesting meat up to the value of your debt. A lioness already hunts you to seek payment.`,
+        gear: `Your last good outfit.`,
+        careerLabel1: `AFTER MUCH DELIBERATION, WHAT IMPRACTICAL WEAPON DID YOU SETTLE ON?`,
+        careerLabel2: `WHAT'S THE CATCH WITH THIS OUTFIT?`,
+        coinTable: {
+            1: `Paired Hook-Swords (d4 individually, d6 each when wielded as a pair).`,
+            2: `Petal-Gun (d6, misfires on a 1, requiring a REST to fix).`,
+            3: `Martial Fan (d6, also works as a fan).`,
+            4: `Hand Scorcher (d6, super-heating metal rod, requires a turn to heat up).`,
+            5: `Black Cane (d6, reflects no light, shatters if an attack has its DAMAGE negated by ARMOUR).`,
+            6: `Macro-Rifle (d8, BULKY, must be carried in two parts and takes a turn to assemble).`
+        },
+        hpTable: {
+            1: `The head-gear means you must Duck Under Doorways.`,
+            2: `It's all Extremely Flammable.`,
+            3: `Water causes it to just Melt Away.`,
+            4: `The Cloak Snags onto anything it can.`,
+            5: `It Glows in the dark.`,
+            6: `It makes a Lot of Noise when you move.`
+        },
+    },
+    {
+        title: 'Humanoid Flotsam',
+        desc: `You weren't entirely raised by amphibians. But you're always slightly damp.`,
+        names: 'Paddy, Marlin, Muel, Parrock',
+        debtholder: `Civic Society of Polishers & Buffers: Mirrored or reflective objects pay off this debt at double the going rate.`,
+        gear: `Brick in a sack (d6).`,
+        careerLabel1: `WHERE WERE YOU BORN?`,
+        careerLabel2: `WHAT STUCK WITH YOU?`,
+        coinTable: {
+            1: `An Industrial Waste Pool, to No Mother: Take a vial of filthy water.`,
+            2: `Under a Bridge, Right into the Canal: Take an old bicycle wheel.`,
+            3: `In a Ritual Birthing Pool: You're effectively cold-blooded.`,
+            4: `Inside the Belly of a Whale to Privateer Parents: Take a tattered tricorne hat.`,
+            5: `On a Sinking Ship: Take a lifebuoy.`,
+            6: `In the Middle of a Swamp Festival: Take some coloured beads.`
+        },
+        hpTable: {
+            1: `You Swim as fast as you run.`,
+            2: `You can Breathe Underwater.`,
+            3: `You can Squirt a mouthful of water with great range and accuracy, but not enough to cause DAMAGE.`,
+            4: `You can Drink any Water without harm, no matter how filthy.`,
+            5: `Your Pet Merkrid (1HP).`,
+            6: `That Lovely Wet Feeling. You're DEPRIVED if you ever have to go a day without a soak.`
+        },
+    },
+    {
+        title: 'Master Blender',
+        desc: `Some sensory gift allowed you to rapidly reach a lofty position. Prestigious within your trade, worth nothing outside.`,
+        names: 'Paddy, Marlin, Muel, Parrock',
+        debtholder: `Civic Society of Polishers & Buffers: Mirrored or reflective objects pay off this debt at double the going rate.`,
+        gear: `Brick in a sack (d6).`,
+        careerLabel1: `WHERE WERE YOU BORN?`,
+        careerLabel2: `WHAT STUCK WITH YOU?`,
+        coinTable: {
+            1: `An Industrial Waste Pool, to No Mother: Take a vial of filthy water.`,
+            2: `Under a Bridge, Right into the Canal: Take an old bicycle wheel.`,
+            3: `In a Ritual Birthing Pool: You're effectively cold-blooded.`,
+            4: `Inside the Belly of a Whale to Privateer Parents: Take a tattered tricorne hat.`,
+            5: `On a Sinking Ship: Take a lifebuoy.`,
+            6: `In the Middle of a Swamp Festival: Take some coloured beads.`
+        },
+        hpTable: {
+            1: `You Swim as fast as you run.`,
+            2: `You can Breathe Underwater.`,
+            3: `You can Squirt a mouthful of water with great range and accuracy, but not enough to cause DAMAGE.`,
+            4: `You can Drink any Water without harm, no matter how filthy.`,
+            5: `Your Pet Merkrid (1HP).`,
+            6: `That Lovely Wet Feeling. You're DEPRIVED if you ever have to go a day without a soak.`
+        },
+    },
 ]
 
 console.log("number of careers: ", careerTable.length);
