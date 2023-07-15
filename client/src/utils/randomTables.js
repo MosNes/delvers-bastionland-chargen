@@ -1580,7 +1580,7 @@ export const careerTable = [
         desc: `A truly modern profession. And you're almost qualified to do it.`,
         names: 'Zastra, Kraber, Smix, Sungeon',
         debtholder: `Sweep's Union: You are strictly forbidden from going onto a rooftop until the debt is paid.They have eyes everywhere.`,
-        gear: `NLong knife (d6), big flask, test tube.`,
+        gear: `Long knife (d6), big flask, test tube.`,
         careerLabel1: `WHAT'S IN THE BIG FLASK?`,
         careerLabel2: `WHAT'S IN THE TEST TUBE?
         `,
@@ -1596,9 +1596,9 @@ export const careerTable = [
             1: `Ultimate Solvent - Dissolves any matter it touches. Enough to dissolve a fist-sized amount`,
             2: `Cryo-Dust - Instantly freeze a bathtub-sized amount of water when poured in.`,
             3: `Seeker's Oil -When uncorked, seeps towards the nearest open flame (no matter the distance) and explodes upon touching it (d10 BLAST).`,
-            4: `A surprisingly deadly Wooden Sword (d6).`,
-            5: `A stolen set of Brass Knuckles (d6).`,
-            6: `A modified Farmer's Scythe (d8, BULKY).`
+            4: `Absolute Adhesive - Permanently bonds any two surfaces together.`,
+            5: `Truth Serum - One dose. For the next minute the subject cannot knowingly lie, but is under no obligation to speak the truth.`,
+            6: `Fool's Transmute - Enough to coat a fist-sized object. Makes mineral objects appear as gold. If chipped or damaged, they return to normal.`
         },
     },
     {
