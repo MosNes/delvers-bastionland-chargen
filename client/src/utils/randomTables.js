@@ -1525,7 +1525,507 @@ export const careerTable = [
             6: `There is Power in Our Minds: Take a useless pink crystal.`
         },
     },
-
+    {
+        title: 'Front of House Host',
+        desc: `You were the face of a company. Now you're a face without a company.`,
+        names: 'Sixer, Lemmin, Tott, Chico',
+        debtholder: `Slugburn Pest Control: Take a very large pack of slug pellets.`,
+        gear: `Knife (d6), apple.`,
+        careerLabel1: `WHO WAS YOUR EMPLOYER?`,
+        careerLabel2: `WHAT MADE YOU MEMORABLE?`,
+        coinTable: {
+            1: `A Fighting Pit: Swap your knife for a heavy club (d8, BULKY).`,
+            2: `A Taboo Restaurant: Take a tortoise shell.`,
+            3: `A Day-Spa: Take a flattering mirror.`,
+            4: `A Confectionery Factory: Take a bag of sherbet.`,
+            5: `A Counterfeit Jeweller:Take a fake ruby (worth £1k to somebody unknowing).`,
+            6: `A Floating Hotel: Take a portable buoy`
+        },
+        hpTable: {
+            1: `You Know Anybody's Name just by looking at them.`,
+            2: `You have a Photographic Memory`,
+            3: `You know a few Street Magic Tricks but nothing truly magical.`,
+            4: `You resemble a Local Celebrity Entertainer.`,
+            5: `On your first day, you attempted a Unique Accent and got stuck with it.`,
+            6: `A Ridiculous Haircut.`
+        },
+    },
+    {
+        title: 'Critter Catcher',
+        desc: `Bastion's gutters and pipes are home to every beast you can imagine. You always wanted to study them all.`,
+        names: 'Bronx, Foggy, Erik, Nicol',
+        debtholder: `Glasshead Psychiatric Tonics: If you all agree to taking an experimental remedy you can remove £2500 from your Debt. The remedy lasts a week, during which time you are physically incapable of lying`,
+        gear: `Net, animal book.`,
+        careerLabel1: `WHAT WAS YOUR SPECIALITY?`,
+        careerLabel2: `WHAT ELSE DID YOU BRING?`,
+        coinTable: {
+            1: `Bugs: Take a trained grasshopper (1HP) in a cage.`,
+            2: `Flying animals: Identify any flyer by its call.`,
+            3: `Small Reptiles: Take a trained gutter lizard (1HP, d4 bite).`,
+            4: `Skitterers: Imitate the noise of any small vermin.`,
+            5: `Stalkers: Even large predators won't attack you if you are behaving correctly`,
+            6: `Biters: Take two vials of universal antivenom.`
+        },
+        hpTable: {
+            1: `A Boomerang (d6, requires a DEX SAVE to catch when thrown).`,
+            2: `An Old Halberd (d6, BULKY, blunt).`,
+            3: `The Family Slug-Gun (d6, BULKY, rusty)`,
+            4: `A surprisingly deadly Wooden Sword (d6).`,
+            5: `A stolen set of Brass Knuckles (d6).`,
+            6: `P A modified Farmer's Scythe (d8, BULKY).`
+        },
+    },
+    {
+        title: 'Practicing Chemist',
+        desc: `A truly modern profession. And you're almost qualified to do it.`,
+        names: 'Zastra, Kraber, Smix, Sungeon',
+        debtholder: `Sweep's Union: You are strictly forbidden from going onto a rooftop until the debt is paid.They have eyes everywhere.`,
+        gear: `NLong knife (d6), big flask, test tube.`,
+        careerLabel1: `WHAT'S IN THE BIG FLASK?`,
+        careerLabel2: `WHAT'S IN THE TEST TUBE?
+        `,
+        coinTable: {
+            1: `Metal-Eating-Acid - Has no effect on any other material.`,
+            2: `Never-Melting Crushed Ice - Tastes faintly salty`,
+            3: `Anti-Water - Indistinguishable from water in every way, but deadly if a full mouthful is consumed.`,
+            4: `Endo-Fluid -White slime that extinguishes anything up to a house fire when splashed around.`,
+            5: `Sonic Oil - Emits a loud squeal when trodden on. Enough to spread over the floor of a normal-sized room.`,
+            6: `Spark Eel Soup - After drinking the whole flask, your body has enough charge to power small devices or release a jolt of electricity (d8, ignore ARMOUR).`
+        },
+        hpTable: {
+            1: `Ultimate Solvent - Dissolves any matter it touches. Enough to dissolve a fist-sized amount`,
+            2: `Cryo-Dust - Instantly freeze a bathtub-sized amount of water when poured in.`,
+            3: `Seeker's Oil -When uncorked, seeps towards the nearest open flame (no matter the distance) and explodes upon touching it (d10 BLAST).`,
+            4: `A surprisingly deadly Wooden Sword (d6).`,
+            5: `A stolen set of Brass Knuckles (d6).`,
+            6: `A modified Farmer's Scythe (d8, BULKY).`
+        },
+    },
+    {
+        title: 'Roof Crawler',
+        desc: `There's a lot of important work that goes on atop the roofs of Bastion. Yours is the more shadowy sort.`,
+        names: 'Gambrel, Mansard, Skillion, Dush',
+        debtholder: `Old Time Bastionian Printworks: You have a voucher for 1,000 units of anything you want printed.`,
+        gear: `Padded shoes.`,
+        careerLabel1: `WHAT DID YOU GET UP TO ON THE ROOF?`,
+        careerLabel2: `WHY DO YOU SHUN THE STREETS?`,
+        coinTable: {
+            1: `Murder: Take a garotte (d6).`,
+            2: `Tile Cracker: Take a hammer (d6).`,
+            3: `Gutter Unclogger: Take a muck-scoop (d6, BULKY).`,
+            4: `Chimney-Smoker: Take a skewer (d6) and a smoked pigeon.`,
+            5: `Lookout: Take a pistol (d6).`,
+            6: `Gargoyle Poacher: Take a crowbar (d6).`
+        },
+        hpTable: {
+            1: `Nobody understands your Roof Dialect.`,
+            2: `You hate the sound of Chewing.You are DEPRIVED if somebody is chewing gum nearby.`,
+            3: `You had a catastrophic attempt at a Musical Career, and everybody remembers it.`,
+            4: `You're Crowd-Phobic.You are DEPRIVED while in a crowd.`,
+            5: `You are hiding from an Arranged Marriage.`,
+            6: `You have Reverse Vertigo.You are DEPRIVED if you don't get to roof-height at least once a day.`
+        },
+    },
+    {
+        title: 'Petty Officer',
+        desc: `You held a low office, but were moved to a special position. You kept your badge but don't get paid, and have no authority.`,
+        names: 'Lolly, Pigeon, Jackdus, Coopard',
+        debtholder: `Old Time Bastionian Printworks: You have a voucher for 1,000 units of anything you want printed.`,
+        gear: `Whistle, pack of gum (brick).`,
+        careerLabel1: `WHAT POSITION DID YOU HOLD?`,
+        careerLabel2: `WHERE DID YOU BLOW YOUR LAST PAY PACKET?`,
+        coinTable: {
+            1: `Judicial Informer: Take binoculars and notepad.`,
+            2: `Tardy Clocksman: Take a clock correcting arm (d6) and pocket-watch.`,
+            3: `Sleeping Guard: Take civilian clothes and concealable pistol (d6, very short range).`,
+            4: `Grit Spreader: Take a sack of grit and a shovel (d6).`,
+            5: `Urchin Herder: Take a shin-stick (d6).`,
+            6: `Moss-Cabinet Agent: Take a moss brush and magnifying glass.`
+        },
+        hpTable: {
+            1: `Dranter & Chone's Bladder Emporium: Take a set of bagpipes.`,
+            2: `The NightWatchman: Take a set of dark-vision goggles.`,
+            3: `Louse & Zoot's Prank Shop: Take a finger trap`,
+            4: `Wickerton's Aromas:Take a bread-scented candle`,
+            5: `Hagar's Pantry:Take a novelty jelly mould and pack of gelatin.`,
+            6: `New Bastion Hygiene Museum: Take a commemorative rubber duck.`
+        },
+    },
+    {
+        title: 'Bailed Prisoner',
+        desc: `You just got out. Your sentence continues.`,
+        names: 'Brek, Kellar, Scodd, Quaykee',
+        debtholder: `Slab & Ruck Breakout Services: You weren't bailed as much as busted out. In addition, you're all wanted criminals.`,
+        gear: `Fork (d6), gum (bread).`,
+        careerLabel1: `WHAT DID YOU BRING OUT WITH YOU?`,
+        careerLabel2: `WHAT WAS WAITING OUT HERE FOR YOU?`,
+        coinTable: {
+            1: `A Tiny Bomb (d8 BLAST, fits underneath your tongue).`,
+            2: `Can of Gruel.`,
+            3: `Pet Cockroach (highly loyal).`,
+            4: `A set of Handcuffs`,
+            5: `Juicy Information from a snitch.`,
+            6: `An impressive array of Bawdy Jokes`
+        },
+        hpTable: {
+            1: `A Very Old Bramblemutt (2HP, too old to bite, still sniffs well).`,
+            2: `Your Prosthetic Hand (hook, d6).`,
+            3: `Personalised Leather Jacket.`,
+            4: `A Metal File in a cake.`,
+            5: `An ornate but Deactivated Pistol.`,
+            6: `Flask of Cold Stewed Tea.`
+        },
+    },
+    {
+        title: 'Street Performer',
+        desc: `Adored by few. Loathed by many.`,
+        names: 'Dabber, Eddien, Marstle, Muttonaro',
+        debtholder: `Penelope Ush, Bureaucratic Law Clerk: Truly clearing the debt requires visiting Bureaucratic Offices in four different corners of Bastion.`,
+        gear: `Staff (d6, BULKY), floppy cap.`,
+        careerLabel1: `WHAT WAS YOUR ACT?`,
+        careerLabel2: `WHAT'S YOUR CLAIM TO FAME?`,
+        coinTable: {
+            1: `Puppetry: Take a sad-looking puppet.`,
+            2: `Dancing Dobraki: Take a disloyal dobraki (4HP, d4 bite).`,
+            3: `Magic Tricks: Take a deck of marked cards.`,
+            4: `Fire Dance: Take a firebomb (d6 DAMAGE each round until extinguished).`,
+            5: `Stilt Acrobatics: Take a set of telescopic stilts.`,
+            6: `Vocalisation: You can make very convincing animal noises.`
+        },
+        hpTable: {
+            1: `You Imperessed a Senior Borough Official. you have a universal pardon for one minor crime.`,
+            2: `A Distant Ancestor Invented This Act, so if you catch anyone else doing it they have to pay you £500`,
+            3: `Your performance helped drum up support for a Political Movement. A band of revolutionaries owe you a favour.`,
+            4: `Your performance only really Works When You're Drunk, so people ply you with drink to try and get you to perform.`,
+            5: `Your act has a Shocking Finale that always makes children cry.`,
+            6: `You're Officially Banned from one Borough (the next one you need to visit).`
+        },
+    },
+    {
+        title: 'Corpse Collector',
+        desc: `More of a Corpse Transporter. But the other name made it easier for people to despise you.`,
+        names: 'Davarse, Stob, Rigrette, Salice',
+        debtholder: `Apocryphal Specimen Museum: Take shared ownership of a poorly-illustrated bestiary.`,
+        gear: `Axe (d6), wheelbarrow.`,
+        careerLabel1: `WHAT'S THE LAST THING YOU FOUND ON A CORPSE?`,
+        careerLabel2: `WHAT WAS YOUR JOB ON THE SIDE?`,
+        coinTable: {
+            1: `CorpseWarts, now on your face.`,
+            2: `A Crawling Hand (1HP) that follows basic instructions with something of a bad attitude.`,
+            3: `An Explosive Cigar (d8)`,
+            4: `A Beautiful Silk Scarf, the smell is mostly gone.`,
+            5: `A one-shot Duelling Pistol (d8, needs a REST to reload).`,
+            6: `A Repeating Doll (can record a single phrase, repeats when you tickle it).`
+        },
+        hpTable: {
+            1: `Plumber:Take a set of spanners.`,
+            2: `Window Cleaner:Take a collapsible ladder and bucket.`,
+            3: `Bleacher:Take a bottle of bleach.`,
+            4: `Paper Seller:Take a bike horn.`,
+            5: `Unclogger: Soup dispensers clog up easily, so you fixed them.Take a plunger.`,
+            6: `Tile Fixer:Take a tub of grout.`
+        },
+    },
+    {
+        title: 'Counterfeit Taxidermist',
+        desc: `Fantastic specimens bought you a small amount of money. Now that's gone, and your name is ruined.`,
+        names: 'Lyndeer, Clancy, Ongel, Esquid',
+        debtholder: `Council for Tarts and Flans: You are blacklisted from all non-bakery food establishments in Bastion until the debt is cleared.`,
+        gear: `Scissors, bag of stuffing, book of made-up beasts.`,
+        careerLabel1: `WHAT TYPE OF ANIMAL DO YOU KNOW EVERYTHING ABOUT?`,
+        careerLabel2: `HOW DID YOU GET FOUND OUT AS A FRAUD?`,
+        coinTable: {
+            1: `Flyers: Take a stuffed gorilla-owl.`,
+            2: `Reptiles: Take a stuffed flying-crocodile.`,
+            3: `Stalkers: Take a stuffed sea-cat.`,
+            4: `Fish: Take a stuffed walking-trout`,
+            5: `Cephalopods: Take a stuffed claw-squid.`,
+            6: `Primates: Take a stuffed frog-monkey.`
+        },
+        hpTable: {
+            1: `Exposed by an Apprentice:Take a beating rod (d6).`,
+            2: `Confessed after Losing a Duel: Take a sabre (d6).`,
+            3: `Debunked by a Deceased Rival: Take a pouch of poison dust.`,
+            4: `Who Knows? You came back to find your workshop burnt to the ground.Take a bloody axe (d6).`,
+            5: `You Spilled all of your Secrets while Drunk: Take a bottle of industrial rum.`,
+            6: `Driven out by a Mob: Take a pitchfork (d6, BULKY).`
+        },
+    },
+    {
+        title: 'Pie-Smuggler',
+        desc: `Recent studies claim 68% of smuggled goods have been pastry-encased. Business was good, but word has spread too far.`,
+        names: 'Shorcrumb, Filou, Flake, Socray',
+        debtholder: `Council for Disbanded Councils: You all have matching badges and wigs for a disbanded council.`,
+        gear: `Pie tin, pie.`,
+        careerLabel1: `WHAT'S IN YOUR PIE?`,
+        careerLabel2: `WHAT WAS YOUR LAST BONUS FOR SMUGGLING?`,
+        coinTable: {
+            1: `Tiny Pistol (d6) and rhubarb.`,
+            2: `Tiny Stiletto (d6) and onion`,
+            3: `Garrote (d6, silent) and plum.`,
+            4: `Tiny Bomb (d8 BLAST) and kidney.`,
+            5: `Miniature Bottle of Coconut Rum and mackerel.`,
+            6: `Single Deadly Mushroom (instant death if even partially eaten), and pigeon.`
+        },
+        hpTable: {
+            1: `A Violent and Disobedient Bramblemutt (4HP, d8 bite)`,
+            2: `A Steel Claw in place of a hand (d6, crushing).`,
+            3: `Bag of Marbles.`,
+            4: `Universal Ticket that gets you into any show in town (one use)`,
+            5: `An elaborate Smoking Pipe.`,
+            6: `A Fortune, now lost gambling.Take a set of dice.`
+        },
+    },
+    {
+        title: 'Council Runner',
+        desc: `With so many councils, a runner is a position of some power. Now your time is finished.`,
+        names: 'Shorcrumb, Filou, Flake, Socray',
+        debtholder: `Mayor Impanzi, a Potoo Bird: A very serious local politician. Doesn't want to acknowledge being a Potoo Bird. For whatever reason, you donated to his campaign`,
+        gear: `Running shoes, letter opener (d6).`,
+        careerLabel1: `WHAT'S THE BEST THING YOU LEARNED DURING YOUR TIME AS A RUNNER?`,
+        careerLabel2: `WHAT DID YOU STEAL?`,
+        coinTable: {
+            1: `The Secret to DrinkingWell.You can out-drink anyone.`,
+            2: `The Quickest Way to the Underground from any point in Bastion.`,
+            3: `Skip-Stride Technique. It looks ridiculous, but when you use it you can easily outrun the others in your group.`,
+            4: `Courier-Throwing.You never miss a catch, or make a bad throw.`,
+            5: `A few CodeWords that get you a free ride on roughly half of Bastion's transport enterprises.`,
+            6: `The Intimate Nickname of a powerful local politician.`
+        },
+        hpTable: {
+            1: `A very soft Feather Duster.`,
+            2: `A turtle-shaped Cocktail Shaker.`,
+            3: `A very loud Klaxon.`,
+            4: `A fancy set of Cake Decorations.`,
+            5: `An unconvincing Dummy Head.`,
+            6: `A big, furry Caterpillar (harmless and stupid).`
+        },
+    },
+    {
+        title: 'Life Servant',
+        desc: `Your masters died. You're free now.`,
+        names: 'Centival, Stilton, Moorlidge, Laykee',
+        debtholder: `The Gallows Theatre: In addition to your normal clothes, you all have stage costumes covered in fake blood.`,
+        gear: `Smart clothes.`,
+        careerLabel1: `WHAT WAS THE WORST PART OF THE JOB?`        ,
+        careerLabel2: `WHAT WAS THE BEST PART OF THE JOB?`,
+        coinTable: {
+            1: `Seeing to Personal Itches: Take a backscratcher (d6).`,
+            2: `Constant Gravedigging: Take a spade (d6, BULKY).`,
+            3: `Walking the Grandmaster: Take a cane (d6)`,
+            4: `Training the Hounds: Take a lashing stick (d6).`,
+            5: `Chasing off Dobroki: Take a sling (d6).`,
+            6: `Everything: Take a concealed dagger (d6).`
+        },
+        hpTable: {
+            1: `Free Access to the Hedge Maze: If you've been somewhere, you know the way there.`,
+            2: `Felling Gigantic Trees: Take a two-person saw (BULKY).`,
+            3: `Breaking Open Family Vaults: Take a pneumatic ram (BULKY, useless as a weapon).`,
+            4: `Indulging Master's Superstitions: Take a crystal ball.`,
+            5: `Feeding the Whale Calf: Take a can of krill.`,
+            6: `Baking a Fresh Birthday Cake Daily: Take a bag of flour.`
+        },
+    },
+    {
+        title: 'Amateur Dramatist',
+        desc: `The whole world is a stage. But you're not good enough to get paid.`,
+        names: 'Vivero, Nelbreen, Jutrey, Silvid',
+        debtholder: `Porkee Sheddam, Owner of Paradiso Park Bastion: Take shared ownership of a very compliant show-pigrat (3HP).`,
+        gear: `Wig and costume collection.`,
+        careerLabel1: `WHAT WAS YOUR SPECIALITY?`,
+        careerLabel2: `WHAT PROP DO YOU STILL HAVE?`,
+        coinTable: {
+            1: `Booming Presence: Your voice carries extremely far.`,
+            2: `Crocodile Tears: You can cry on command.`,
+            3: `Stunt Falling: You can make a safe fall look really bad.`,
+            4: `Impersonations: You can mimic anyone you know.`,
+            5: `Looking Good: You're extremely well-groomed and strikingly attractive to some.`,
+            6: `Triple Threat: You can do it all, barely. Take a decent singing voice, passable dancing skill, and a trombone you can just about play.`
+        },
+        hpTable: {
+            1: `A barely-trained Stage Blork (3HP, d4 bite).`,
+            2: `A flask of Dry Ice.`,
+            3: `A convincing Fake Ferret snake.`,
+            4: `A Stage Rifle (fires blanks).`,
+            5: `A Ventriloquist's Dummy.`,
+            6: `A Fake Blood Pack.`
+        },
+    },
+    {
+        title: 'Wilderness Recluse',
+        desc: `Modernity gets between us and our natural instincts. You're here begrudgingly after a lifetime in the wild of Deep Country.`,
+        names: 'Benson, Looper, Match, Urbroil',
+        debtholder: `Liongoat Ice and Rescue: Take combined ownership of a torso-sized block of ice and a push-barrow for transport.`,
+        gear: `Ragged clothes.`,
+        careerLabel1: `WHERE DID YOU GO?`,
+        careerLabel2: `WHAT HELPED YOU SURVIVE?`,
+        coinTable: {
+            1: `The Woods: Take a bear trap (d8 if sprung).`,
+            2: `The Islands: Take a portable raft (BULKY).`,
+            3: `The Swamp: Take a peatbomb (d8 BLAST, smelly).`,
+            4: `The Desert: Take a spyglass.`,
+            5: `The Jungle: Take a vial of contact poison.`,
+            6: `The Mountains: Take a jar of mountain air (smells great).`
+        },
+        hpTable: {
+            1: `Your old Crossbow (d6, BULKY), stolen from bandits.`,
+            2: `Your Sling (d6), which you used to kill a brushreaver.`,
+            3: `Your Hunting Bow (d6), crafted by your mentor.`,
+            4: `Your Machete (d6), made from meteoric metal.`,
+            5: `An ornately carved Tree Branch (d6, BULKY).`,
+            6: `Your Spear (d6, BULKY), with a dinosaur-tooth tip.`
+        },
+    },
+    {
+        title: 'Squidbagger',
+        desc: `70% of Bastion's products contain cephalopod-derived parts. According to these studies, you keep the city running.`,
+        names: 'Otto, Seffee, Krayker, Polpene',
+        debtholder: `Mister Dick: A colossal mock-shark and loan shark (STR 18, 15HP,ARMOUR 2, d10 jaws). He attacks your ship if you go out to sea without paying your debt.`,
+        gear: `Squid hook (d6, BULKY), bag`,
+        careerLabel1: `WHAT ALWAYS ACCOMPANIED YOU TO SEA?`,
+        careerLabel2: `WHAT DID YOU ALWAYS WANT TO DO INSTEAD?`,
+        coinTable: {
+            1: `A Cute but Violent Merkrid (4HP, d4 bite).`,
+            2: `A Sea-Cricket (1HP, can croak a simple tune).`,
+            3: `A Monkey-Crab (4HP, d6 claws, excellent climber).`,
+            4: `A Salt-Serpent (2HP, d4 bite and paralysis on CRITICAL DAMAGE).`,
+            5: `A Friend-Urchin (1HP, irritating but harmless spines, hums comfortingly).`,
+            6: `A Large but Pacifist Sea-raptoryx (5HP).`
+        },
+        hpTable: {
+            1: `You Live for Squidbagging: Replace your hook with a prototype cephalopole (d6, BULKY, +d8 against anything with tentacles)`,
+            2: `Be a Boxer:Take skipping rope and gloves.`,
+            3: `Be a Dentist: Take pliers and bottle of ether.`,
+            4: `Be a Fortune Teller:Take a deck of cosmic tarot, but you don't really understand it.`,
+            5: `Fight in theWar:Take a fake military uniform and rank.`,
+            6: `Be a Poet: Take a book of bad sonnets.`
+        },
+    },
+    {
+        title: 'Exposed Impostor',
+        desc: `You got yourself into quite a powerful position based on a lie. Then they found out.`,
+        names: 'Dosser, Maxy, Leoger, Oacus',
+        debtholder: `Flasherpoint Aviation: You all have aviation goggles and honorary pilot jackets.`,
+        gear: `Concealed knife (d6).`,
+        careerLabel1: `WHAT WAS YOUR FAKE POSITION?`,
+        careerLabel2: `WHAT DID THEY DO WHEN THEY FOUND OUT?`,
+        coinTable: {
+            1: `Borough Mayor: Take imitation gold chain and cloak.`,
+            2: `Naval Officer: Take a uniform and sabre (d6).`,
+            3: `Factory Accountant: Take a set of fancy stationery.`,
+            4: `Bishop Purifier: Take starry robes and impractical censer (d6, BULKY, exudes smoke).`,
+            5: `Legendary Explorer: Take a boomerang (d6, doesn't return).`,
+            6: `Future Oracle: Take a bag of useless crystals.`
+        },
+        hpTable: {
+            1: `Wanted You Dead:Take a pistol (d6).`,
+            2: `Cast you into the Sea:Take a breather-sponge (holds 5 minutes of air).`,
+            3: `You Escaped Just in Time:Take a listening horn (allows for better hearing through doors).`,
+            4: `Took an Eye: Take an eyepatch.`,
+            5: `Nothing Yet: There's still a £1k bounty on your head.`,
+            6: `Took a Hand: Take a prosthetic.`
+        },
+    },
+    {
+        title: 'Critic-In-Hiding',
+        desc: `Everybody loves a scathing critique, except those under the lens. For safety, you've changed your name and got a new haircut.`,
+        names: 'Janus, Gilren, Cample, Rowenner',
+        debtholder: `Vortex Acquisitions: Share ownership of a portal bomb (one use, anything caught in the BLAST is transported back to an empty vault at Vortex HQ).`,
+        gear: `Concealed club (d6), hidden pen.`,
+        careerLabel1: `WHAT WAS YOUR AREA OF CRITIQUE?`,
+        careerLabel2: `WHAT WENT WRONG?`,
+        coinTable: {
+            1: `Coffee Houses: Take a fancy cup.`,
+            2: `Orphanages: Take a tape measure.`,
+            3: `Chewing Gum: Take a bottle of palate-cleansing mouthwash.`,
+            4: `Experimental Music: Take an electric viola.`,
+            5: `Fine Art: Take a magnifying glass.`,
+            6: `Revolutions: Take a signed antique musket (d8, BULKY, breaks forever on a 7+).`
+        },
+        hpTable: {
+            1: `You Picked the Wrong Target: Any newspaper readers that discover your identity hate you`,
+            2: `You Took a Feud Too Far: Take a firebomb (d6 DAMAGE each round until extinguished).`,
+            3: `You were Floated out to Sea: Take a flare gun (2 Flares).`,
+            4: `You were Taking Bribes: Take a favour token (worth one favour in your former area of critique).`,
+            5: `You were Sent a Warning: Take a skull.`,
+            6: `You Lost your Writing Hand: Take a hook (d6).`
+        },
+    },
+    {
+        title: 'Small Town Refugee',
+        desc: `Your Deep Country home was awful. Finally, the railway came, and you headed to Bastion.`,
+        names: 'Vorgel, Brassica, Pastina, Katskeen',
+        debtholder: `Lucky Mascots Ltd: You have shared ownership of a well-groomed but stupid pack beetle (1HP). No refunds.`,
+        gear: `Whittling knife (d6), outdated clothes, sandwich box.`,
+        careerLabel1: `WHAT WAS SO BAD ABOUT YOUR TOWN?`,
+        careerLabel2: `WHAT'S YOUR FAMILY HEIRLOOM?`,
+        coinTable: {
+            1: `Bird Smell: Giant avian creatures preyed on your people.You spent a year in their nest and nothing can get the scent out. All birds see you as food`,
+            2: `Beetle Addict: They only ate pack beetles, but now you can't live without it. If you go a day without drinking beetle nectar or eating beetle meat, you are DEPRIVED.`,
+            3: `Lost Dialect: It was just you and your immediate family, and you spoke your own dialect that's barely understandable by everyone else. Get good at hand gestures and repeating yourself.`,
+            4: `Pigrat Soul: The village church insisted you follow the governance of the town's oldest pigrat. You can sort-of communicate with pigrats, but hold disdain for all other animals.`,
+            5: `Yokel Magnet: Warriors riding twisted steeds drove your entire town to flee to Bastion. You'll keep bumping into other yokels from back home and they want to cling to you.`,
+            6: `Cannibal Cattle: You spent your life sat in fields, eating happily, unaware that the local monks were fattening you up to be eaten. Take a can of gruel.`
+        },
+        hpTable: {
+            1: `A Fighting Centipede (STR 5, 6HP, d4 claws).`,
+            2: `Old Military Uniform.`,
+            3: `Lucky Grasshopper (just a grasshopper).`,
+            4: `Huge Marrow with wheelbarrow.`,
+            5: `Competition-winning Conker.`,
+            6: `Pumpkin carved into a very good likeness of a family member.`
+        },
+    },
+    {
+        title: 'Paid Fighter',
+        desc: `You've been fighting for money. But not enough to get rich or especially tough.`,
+        names: 'Frax, Koane, Maker, Lorke',
+        debtholder: `Competitive Floristry Board: You each take a single flower of your choice to wear.`,
+        gear: `A vicious nickname.`,
+        careerLabel1: `WHAT TYPE OF FIGHTING EXACTLY?`,
+        careerLabel2: `WHAT GOT YOU OUT OF THE GAME?`,
+        coinTable: {
+            1: `Brass Knuckle Boxing: Take brass knuckles (d6).`,
+            2: `Brushreaver Fighting: Take a bristle suit (anyone trying to maul or grapple you takes d6 DAMAGE).`,
+            3: `Serpent Duelling: Take a semi-trained attack serpent (d6 bite, causes d10 DEX loss on CRITICAL DAMAGE).`,
+            4: `Ice Jousting: Take ice skates and mini-lance (d8 DAMAGE on charge only, otherwise useless).`,
+            5: `Fake Martial Arts: Take an exotic outfit, and you know some fancy but ineffective moves (d6).`,
+            6: `Power Saw Fencing: Take a power saw (d10, stutters on a roll of 1-2, requiring a REST to fix).`
+        },
+        hpTable: {
+            1: `Faking Military Drafting: Take a black market rifle (d8, permanently breaks on a roll of 1).`,
+            2: `You ShotYourWay Out: Take a Pistol (d6).`,
+            3: `Aiding Some Revolutionaries: Take a bomb (d10, BLAST).`,
+            4: `A Generous Benefactor: Take smart clothes.`,
+            5: `You Snuck Away: Take a hooded cloak.`,
+            6: `An Unappealing Injury: Your face is all messed up, and not in a cool way.`
+        },
+    },
+    {
+        title: 'Canal Nomad',
+        desc: `Bastion's waterways are no joke. BSomething about rails and roads just seems wrong to you.`,
+        names: 'Grunion, Fossdike, Sankey, Erwush',
+        debtholder: `Great Xtenza: A hook-handed, red-masked maniac who can age or vivify objects with a touch. As former followers, you all get a red mask.`,
+        gear: `Boat hook (d6, BULKY).`,
+        careerLabel1: `WHAT'S THE MOST USEFUL TOOL FOR CANAL LIFE?`,
+        careerLabel2: `WHAT BROUGHT YOU BACK ASHORE?`,
+        coinTable: {
+            1: `WaterWhistle (if blown underwater, this repels any marine life).`,
+            2: `A Wonder-Towel (whip it to instantly dry).`,
+            3: `Take a bottle of Scented Oil.`,
+            4: `Take a Lifebuoy`,
+            5: `Take a Spot Lamp with a range of coloured lenses.`,
+            6: `Take a Bucket.`
+        },
+        hpTable: {
+            1: `Your Crew Drowned: Take a bottle of rum.`,
+            2: `Your Boat Burned Down: The insurance wouldn't pay out.Take a Firebomb (d6 DAMAGE each round until extinguished).`,
+            3: `Leg Bitten off by Giant Water Serpent: Take a bad prosthetic.`,
+            4: `Late Onset Sea Sickness: When you travel by water you always vomit.`,
+            5: `A Risky Manoeuvre: You are blacklisted from all of Bastion's waterways.`,
+            6: `You Cannot Swim: You finally came to your senses.`
+        },
+    },
 ]
 
 console.log("number of careers: ", careerTable.length);
