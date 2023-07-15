@@ -2627,5 +2627,3 @@ export const careerTable = [
         },
     },
 ]
-
-console.log("number of careers: ", careerTable.length);

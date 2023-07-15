@@ -1,5 +1,3 @@
-import { generateSpecies, generateDescriptors } from "./generators.js";
+import { generateCareer } from "./generators.js";
 
-console.log(generateSpecies());
-
-console.log(generateDescriptors());
+console.log(generateCareer(18, 9, 17));

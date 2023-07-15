@@ -1,5 +1,5 @@
 import { DiceRoll } from '@dice-roller/rpg-dice-roller';
-import { speciesTable, descriptorsTable } from './randomTables.js';
+import { speciesTable, descriptorsTable, careerTable } from './randomTables.js';
 
 export const generateSpecies = () => {
 
@@ -35,7 +35,7 @@ export const generateCareer = (body, speed, mind) => {
     //sort ability scores from lowest to highest
     const abilityArr = [body, speed, mind].sort((a, b) => a - b);
 
-    const careerArray = [];
+    let careerArray = [];
 
     //determine which array of careers to use based on highest ability score
     switch (abilityArr[2]) {
@@ -79,6 +79,8 @@ export const generateCareer = (body, speed, mind) => {
     }
 
     const careerNum = careerArray[lowestScore - 3];
+
+    console.log('Career Num: ',careerNum);
 
     //return career at index of careerNum
     return careerTable[careerNum];
