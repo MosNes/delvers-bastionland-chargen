@@ -2003,7 +2003,7 @@ export const careerTable = [
     },
     {
         title: 'Canal Nomad',
-        desc: `Bastion's waterways are no joke. BSomething about rails and roads just seems wrong to you.`,
+        desc: `Bastion's waterways are no joke. Something about rails and roads just seems wrong to you.`,
         names: 'Grunion, Fossdike, Sankey, Erwush',
         debtholder: `Great Xtenza: A hook-handed, red-masked maniac who can age or vivify objects with a touch. As former followers, you all get a red mask.`,
         gear: `Boat hook (d6, BULKY).`,
@@ -2024,6 +2024,31 @@ export const careerTable = [
             4: `Late Onset Sea Sickness: When you travel by water you always vomit.`,
             5: `A Risky Manoeuvre: You are blacklisted from all of Bastion's waterways.`,
             6: `You Cannot Swim: You finally came to your senses.`
+        },
+    },
+    {
+        title: 'Living Experiment',
+        desc: `You were deemed a success by the Entity that modified you. There were some side effects.`,
+        names: 'Fantza, Kit, Bobob, Lilbert',
+        debtholder: `Froth & Murk Oyster Farms: Take shared ownership of a mollusc mood clamp (clamp it over any shelled mollusc to get a general indicator of its mood, displayed as a colour).`,
+        gear: `Crutch (d6, BULKY).`,
+        careerLabel1: `WHAT WAS THE EXPERIMENT?`,
+        careerLabel2: `ANY SIDE EFFECTS?`,
+        coinTable: {
+            1: `They replaced your head with a functioning Metal Skull.`,
+            2: `You can Breathe Black Fire (d8 BLAST) once between RESTS.`,
+            3: `When you eat a piece of brain you Inherit a Memory.`,
+            4: `Your saliva Burns Through Metal.`,
+            5: `You have an Acute Sense of Smell, but have a disfigured unusual nose`,
+            6: `You can Control your Severed Body Parts and reattach them at will.`
+        },
+        hpTable: {
+            1: `You have a Mechanical Voice that glitches occasionally.`,
+            2: `You cannot willingly Touch Metal.`,
+            3: `If you do not Take your Tonic each morning, you drop dead. You have a stash to last a lifetime hidden somewhere safe.`,
+            4: `Total Amnesia of before the experiment.`,
+            5: `Brain is the only meat that you can eat.`,
+            6: `If you take CRITICAL DAMAGE you can only be roused by a Jolt of Electricity.`
         },
     },
 ]
