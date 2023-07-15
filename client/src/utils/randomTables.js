@@ -801,7 +801,7 @@ export const careerTable = [
         }
     },
     {
-        title: 'Kin Unionist',
+        title: 'Folk Unionist',
         desc: `The world is full of strange and powerful things. None of them deserve our worship.`,
         names: 'Jerigiza, Clovik, Inogus, Tangetta',
         debtholder: `The Masterphagers: You have learned the technique to safely eat anything up to the size of your fist, but only food provides nourishment.`,
@@ -2104,26 +2104,251 @@ export const careerTable = [
     {
         title: 'Master Blender',
         desc: `Some sensory gift allowed you to rapidly reach a lofty position. Prestigious within your trade, worth nothing outside.`,
-        names: 'Paddy, Marlin, Muel, Parrock',
-        debtholder: `Civic Society of Polishers & Buffers: Mirrored or reflective objects pay off this debt at double the going rate.`,
-        gear: `Brick in a sack (d6).`,
-        careerLabel1: `WHERE WERE YOU BORN?`,
-        careerLabel2: `WHAT STUCK WITH YOU?`,
+        names: 'Beth, Walker, Grouze, Shulder',
+        debtholder: `Javerna and Capur Imitation Gems: Take shared ownership of an obviously fake, head-sized ruby.`,
+        gear: `Stirring oar (d6, BULKY).`,
+        careerLabel1: `WHO DID YOU BLEND FOR?`,
+        careerLabel2: `WHAT WENT WRONG?`,
         coinTable: {
-            1: `An Industrial Waste Pool, to No Mother: Take a vial of filthy water.`,
-            2: `Under a Bridge, Right into the Canal: Take an old bicycle wheel.`,
-            3: `In a Ritual Birthing Pool: You're effectively cold-blooded.`,
-            4: `Inside the Belly of a Whale to Privateer Parents: Take a tattered tricorne hat.`,
-            5: `On a Sinking Ship: Take a lifebuoy.`,
-            6: `In the Middle of a Swamp Festival: Take some coloured beads.`
+            1: `The Jerkin & Gherkin Take a jar of pickle brine.`,
+            2: `United Reclaimed Fats: Take a box of suet.`,
+            3: `The Condimentary: Take a bottle of fish sauce.`,
+            4: `Motherford's Still: Take a small barrel of factory rum.`,
+            5: `Masticatory Sensations: Take a vial of gum flavouring.`,
+            6: `Checkle's Choice: Take a tin of pet food.`
         },
         hpTable: {
-            1: `You Swim as fast as you run.`,
-            2: `You can Breathe Underwater.`,
-            3: `You can Squirt a mouthful of water with great range and accuracy, but not enough to cause DAMAGE.`,
-            4: `You can Drink any Water without harm, no matter how filthy.`,
-            5: `Your Pet Merkrid (1HP).`,
-            6: `That Lovely Wet Feeling. You're DEPRIVED if you ever have to go a day without a soak.`
+            1: `The Factory Sank into the Underground: Take a head-lamp.`,
+            2: `You Interrupted the Vat Cleaning Process: Take a curious padded stalker (5HP).`,
+            3: `There were Irregularities with your Batch: Your product is poisoned.`,
+            4: `Insects Overran your Factory: Take another container filled with angry wasps.`,
+            5: `A Machine took your Job: Take a Folk Union member badge.`,
+            6: `You fell into a Cooking Tank: Take serious burns and you always smell faintly of that substance.`
+        },
+    },
+    {
+        title: 'Public Nuisance',
+        desc: `Something about you has always annoyed others. You can't imagine what it is.`,
+        names: 'Harrick, Vasdene, Corley, Bagginton',
+        debtholder: `Black Maze Security: Take shared ownership of a spark bomb (once activated, fires annoying sparks for d4 DAMAGE to everyone in the BLAST and continues to fire for ten minutes. Can be recharged).`,
+        gear: `Long coat, newspaper.`,
+        careerLabel1: `WHAT EXACTLY DO YOU DO?`,
+        careerLabel2: `WHAT'S YOUR REDEEMING FEATURE?`,
+        coinTable: {
+            1: `Dump Scavenger: Take a pole-hook (d6, BULKY).`,
+            2: `Etiquette Enthusiast: Take a stylish defence umbrella (d6, BULKY).`,
+            3: `Tramspotter: Take a leaning stick (d6, BULKY).`,
+            4: `Busybody: Take a dagger (d6), and a pair of binoculars.`,
+            5: `Uncivil Agitator: Take a club (d6) and firebomb (d6 DAMAGE each round until extinguished).`,
+            6: `Vermin Nurturer: Take a rod (d6), and a sack of vermin feed.`
+        },
+        hpTable: {
+            1: `Animals Love You, except for reptiles.`,
+            2: `You Know Somebody on every Borough Council.`,
+            3: `You're a Mathematical Genius.`,
+            4: `You dabble in Alien Languages (you know d6 key phrases).`,
+            5: `You once Raised a Fortune for charity. You get some recognition, but other charities hound you.`,
+            6: `Majestic Hair, but it takes some work each morning.`
+        },
+    },
+    {
+        title: 'Park Steward',
+        desc: `Bastion's parks have grown out of hand. Yours was one of the worst.`,
+        names: 'Harrick, Vasdene, Corley, Bagginton',
+        debtholder: `Fallendine's Mechanical Heart Company: You all have at least partly mechanical hearts. If a strong magnet is placed near your chest you must pass a STR SAVE or die.`,
+        gear: `Machete (d6) and overcoat.`,
+        careerLabel1: `WHAT WAS THE DEAL WITH YOUR PARK?`,
+        careerLabel2: `WHAT EQUIPMENT DID YOU BRING?`,
+        coinTable: {
+            1: `Overrun by Insect Swarms and you're Allergic: If you're ever stung by insect venom, lose d12 DEX.`,
+            2: `Sank into the Underground: Take a very bright spot-lamp.`,
+            3: `Descended into a War Zone: Take a coil of barbed wire.`,
+            4: `Flooded by Industrial Chemicals: Take chemical-proof wading boots.`,
+            5: `Caught Fire and Never Stopped: Take a fire extinguisher (foam).`,
+            6: `Taken over by Wild Beasts: Take a pouch of predatory animal bait.`
+        },
+        hpTable: {
+            1: `Your Crossbow (d6, BULKY).`,
+            2: `A Bee Can (compressed bee-hive in a can, produces a small amount of honey or can be broken to release an angry swarm).`,
+            3: `A Shield (+1 ARMOUR, BULKY) salvaged from an old statue.`,
+            4: `A Flower Reference Book.`,
+            5: `Your Lucky Shovel.`,
+            6: `A sack of Compost (BULKY).`
+        },
+    },
+    {
+        title: 'Civic Butler',
+        desc: `Maintaining the veil of order. All of Bastion's chaos beneath.`,
+        names: 'Aloyus, Pworth, Purrel, Shamberer',
+        debtholder: `Wunspit Spiritual Evictions: You replace your lights with spook lamps.They're identical but have a green tint and cast distracting shadows.`,
+        gear: `A good suit.`,
+        careerLabel1: `WHAT WAS YOUR MORNING JOB?`,
+        careerLabel2: `WHAT WAS YOUR EVENING JOB?`,
+        coinTable: {
+            1: `Wake-Up-Caller: Take a collapsible morning-pole with knocking-end.`,
+            2: `Crossword Consultant: You have an excellent vocabulary.`,
+            3: `Clock-Hander: Take collapsible adjustment-pole with grabbing-end.`,
+            4: `Paper Prepper: Take a writing set and excellent handwriting.`,
+            5: `Breakfast-Snail Gatherer: Take a snail prising tool.`,
+            6: `Coiffeur: Take a can of hairspray.`
+        },
+        hpTable: {
+            1: `Bird Repeller: Take a pigeon gun (d6 BLAST, BULKY).`,
+            2: `Hound Calmer: Take a beating stick (d6).`,
+            3: `Stalker Tender: Take a whip (d6).`,
+            4: `Vagrant Dislodger: Take a pike (d8, BULKY).`,
+            5: `Intruder Watcher: Take a tiny pistol (d4).`,
+            6: `Underling Reprimander: Take a rollocking cane (d6).`
+        },
+    },
+    {
+        title: 'Estate Squire',
+        desc: `Remnants of aristocracy linger between Bastion and Deep Country. History's long shadow, and you were born into their service.`,
+        names: 'Ferruca, Moale, Callas, Lipoma',
+        debtholder: `The Voice of the Hogs: If you consume a pigrat product or harm any pig-like being, the Voice of the Hogs knows and adds £500 to your debt.`,
+        gear: `Blunt spear (d6, BULKY), pack-animal brush.`,
+        careerLabel1: `WHY WERE YOU SENT TO BASTION?`,
+        careerLabel2: `WHAT'S WEIRD ABOUT YOUR MASTER?`,
+        coinTable: {
+            1: `To Bring Down the City (you probably won't): Take a barrow-bomb (d12 BLAST, must be set in place and has a very long fuse, comes with built-in barrow).`,
+            2: `To Fight in a Tournament that Didn't Really Exist: Take a set of Crude Armour (ARMOUR 1, BULKY).`,
+            3: `For an Arranged Marriage: Take fancy wedding clothes.`,
+            4: `To Learn about Modern Society: Take a bicycle.`,
+            5: `To get the Sinning out of your System: Take a bottle of brandy.`,
+            6: `To Spread Word of your Master's Greatness: Take a bugle and flattering painting of Master.`
+        },
+        hpTable: {
+            1: `Technically your Liege is a Pack-Beetle: You can understand the general meaning of beetle noises.`,
+            2: `They Died, but still Haunt the Grounds: Once a day you can ask them a question and get a faint response that only you can hear.`,
+            3: `You've Never Actually Met Them: You get all orders remotely. Take a pocket radio.`,
+            4: `Their Lands were Flooded: Take a back-raft (BULKY, carries one person, can be carried as a backpack).`,
+            5: `They Live Suspended in a Water Tank: You can understand people talking underwater, even if it's just bubbly gibberish.`,
+            6: `You've Never Seen them Sober: But you know how to handle them. Drunk people like talking to you.`
+        },
+    },
+    {
+        title: 'Magitech Whisperer',
+        desc: `Industrial Aethertech sometimes needs a mallet, sometimes a whisper. You carry both.`,
+        names: 'Gram, Elgie, Royce, Jannifer',
+        debtholder: `Cracknuggle Marbles and Jacks: Each of you choose to have either a bag of marbles, jacks, or a yo-yo.`,
+        gear: `Mallet (d6), set of screwdrivers and spanners.`,
+        careerLabel1: `WHAT GAVE YOU YOUR LOVE OF MACHINES?`,
+        careerLabel2: `WHAT'S YOUR PARTICULAR APPROACH?`,
+        coinTable: {
+            1: `Cheating Vending Machines out of Gum: Take a pack of gum (anchovy).`,
+            2: `You were a Gear-Monkey in a Sweatshop: You're still double-jointed from squeezing into gaps.`,
+            3: `You Hate Machinery, but it's your Only Talent: Take a book of sad poetry.`,
+            4: `You were Raised by Clock-Makers: Take a broken pocket-watch.`,
+            5: `An Industrial Accident Killed your Cruel Family: Take a can of aged gruel.`,
+            6: `You Just Don't Like People: Take a bottle of poison.`
+        },
+        hpTable: {
+            1: `By touching your palm to a piece of machinery you can Sense its Purpose and any ailments it is suffering from.`,
+            2: `You Delegated Everything to a brilliant but spineless colleague who still follows you (2HP, toolkit).`,
+            3: `Lack of Subtlety. Swap your mallet for a powered-hammer (d8, BULKY, takes a turn to power up, very loud).`,
+            4: `Oils and Mysticism.Take three bottles of machine oil and some incense sticks.`,
+            5: `Thorough Checking of every option.You can fix any machine but it takes d20 hours.`,
+            6: `You Know Next-to-Nothing about machines, just more than your employer. It got you paid for a while. Take a particularly shiny tool set.`
+        },
+    },
+    {
+        title: 'Agricultural Saboteur',
+        desc: `You carried out dirty jobs for malicious farmers. Now you see Bastion is even more ruthless.`,
+        names: 'Urmer, Ibley, Dayall, Ani',
+        debtholder: `Take shared ownership of a football-sized Void-bird egg (unfertilised).`,
+        gear: `Pitchfork (d6, BULKY).`,
+        careerLabel1: `WHO WAS YOUR LAST EMPLOYER?`,
+        careerLabel2: `WHAT'S THE LAST SCRAP OF YOUR LIFE AS A SABOTEUR?`,
+        coinTable: {
+            1: `Apiary Acreage: Take a big jar of honey.`,
+            2: `Curious Creameries: Take a big urn of strange milk.`,
+            3: `Fromarge & Fray Farms: Take a big wheel of cheese.`,
+            4: `Homestead Heights: Take a pipe and weed.`,
+            5: `Gammon Grange: Take a whole ham.`,
+            6: `Haystacks House: Take a scarecrow's head.`
+        },
+        hpTable: {
+            1: `A Flamethrower (d6, BLAST, BULKY).`,
+            2: `A Haywire Bomb (crackling explosion that does no harm, but disables anything electric in the BLAST).`,
+            3: `One last Firebomb (d6 DAMAGE each round until extinguished).`,
+            4: `A Sack of Machine-Scrap (1-in-6 chance of any machine part you need being in there).`,
+            5: `Rust Wax (Enough to spread over a hand-sized patch of metal, causing it to rust in seconds).`,
+            6: `Anti-Plant Bomb (d6 BLAST, destroys plant life and +d12 DAMAGE against plant-creatures).`
+        },
+    },
+    {
+        title: 'Eldritch Vassal',
+        desc: `You are property of an Eldritch Patron, but crave a normal life. You know better than to displease your liege.`,
+        names: 'Sapp, Minnred, Homis, Wammel',
+        debtholder: `The Standards Unification Office: You are bound by oath to use an obscure time system rather than more popular standards. None of you can read a normal clock or calendar.`,
+        gear: `Dagger (d6, decorated to suit your patron), ridiculous garment marking you as property of an animal.`,
+        careerLabel1: `WHICH ELDRITCH PATRON DID YOU SERVE?`,
+        careerLabel2: `WHAT ERRAND HAVE YOU ABANDONED?`,
+        coinTable: {
+            1: `The Brushreaver Parliament: Seemingly no intelligence beyond normal brushreavers, but they know that they own you.`,
+            2: `A Mummified Platypus: Can communicate telepathically. Mostly desires food that it cannot eat.`,
+            3: `A Big Old Evil Serpent: Talks very slowly and weaves complex plots that never amount to anything.`,
+            4: `A Tentacled Octopoid: Stuck in a tank somewhere. Speaks through a child translator.`,
+            5: `A Talking Mantis: Eloquent but stupid. Always carries their insubordination rod (d8).`,
+            6: `Giant Groundwurm: Delivers typed instructions, then burrows back underground.`
+        },
+        hpTable: {
+            1: `Capturing a Deserter: Take a blowgun and 3 tranquiliser darts (DEX SAVE to avoid sedation).`,
+            2: `Hunting Down Somebody Known for Eating your Patron's Species: Take a pistol (d6).`,
+            3: `Retrieving a Specialist Food that they Love: Take one piece of fine food suitable for your patron.`,
+            4: `Buying Fine Clothes for your Patron: Take a formal suit to fit them.`,
+            5: `Delivering a Declaration of War to an Old Rival: Take a ceremonial bugle.`,
+            6: `Punitive Pilgrimage to Repent for a Past Mistake: You are missing one eye.`
+        },
+    },
+    {
+        title: 'Massifist of Massifcountry',
+        desc: `Everything is big in Massifcountry. You stopped growing just below the ceiling.`,
+        names: 'Throngon, Paximart, Ulvulca, Jeckeride',
+        debtholder: `Doggarly Artful Latturs: Share ownership of a set of foot-tall capital letters.There are plenty of each letter but no Es or Ns.`,
+        gear: `Huge fists (d6 each when unarmed), huge body (swap your highest ABILITY SCORE into STR).`,
+        careerLabel1: `WHAT BIG THING DO YOU HAVE?`,
+        careerLabel2: `HOW HAVE YOU FITTED IN TO LIFE AMONGST THE SMALL?`,
+        coinTable: {
+            1: `Big Cauldron (BULKY).`,
+            2: `Big Crossbow (d8, BULKY).`,
+            3: `Big Armour (ARMOUR 1, BULKY).`,
+            4: `Big Spoon (d8, BULKY).`,
+            5: `Big Bramblemutt (6HP, d8 bite).`,
+            6: `Big Hammer (d8, BULKY).`
+        },
+        hpTable: {
+            1: `Unerringly Careful: You move in complete silence.`,
+            2: `Food and Medicine Tester: Ignore the effect of any toxins or poisons.`,
+            3: `Gravestone Carver: Take a chisel and brush.`,
+            4: `Wind Prodigy: You can play wind instruments without stopping for breath. Take an oversized clarinet.`,
+            5: `Clerk at Large: You know the fundamentals of bureaucracy. Take an oversized pen.`,
+            6: `Experimental Vocal Softening: Now you can only speak in a whisper.`
+        },
+    },
+    {
+        title: 'Massifist of Massifcountry',
+        desc: `Everything is big in Massifcountry. You stopped growing just below the ceiling.`,
+        names: 'Throngon, Paximart, Ulvulca, Jeckeride',
+        debtholder: `Doggarly Artful Latturs: Share ownership of a set of foot-tall capital letters.There are plenty of each letter but no Es or Ns.`,
+        gear: `Huge fists (d6 each when unarmed), huge body (swap your highest ABILITY SCORE into STR).`,
+        careerLabel1: `WHAT BIG THING DO YOU HAVE?`,
+        careerLabel2: `HOW HAVE YOU FITTED IN TO LIFE AMONGST THE SMALL?`,
+        coinTable: {
+            1: `Big Cauldron (BULKY).`,
+            2: `Big Crossbow (d8, BULKY).`,
+            3: `Big Armour (ARMOUR 1, BULKY).`,
+            4: `Big Spoon (d8, BULKY).`,
+            5: `Big Bramblemutt (6HP, d8 bite).`,
+            6: `Big Hammer (d8, BULKY).`
+        },
+        hpTable: {
+            1: `Unerringly Careful: You move in complete silence.`,
+            2: `Food and Medicine Tester: Ignore the effect of any toxins or poisons.`,
+            3: `Gravestone Carver: Take a chisel and brush.`,
+            4: `Wind Prodigy: You can play wind instruments without stopping for breath. Take an oversized clarinet.`,
+            5: `Clerk at Large: You know the fundamentals of bureaucracy. Take an oversized pen.`,
+            6: `Experimental Vocal Softening: Now you can only speak in a whisper.`
         },
     },
 ]
