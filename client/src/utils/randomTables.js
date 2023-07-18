@@ -1,3 +1,7 @@
+// needed to import tables from JSON files
+import {createRequire} from 'module';
+const require = createRequire(import.meta.url);
+
 export const speciesTable = [
     {
         name: 'Canid',
@@ -2626,4 +2630,10 @@ export const careerTable = [
             6: `One Useless Arm.`
         },
     },
-]
+];
+
+export const artifactTable = require('../data/artifact_table.json');
+
+export const cypherTable = require('../data/cypher_table.json');
+
+export const oddityTable = require('../data/oddity_table.json');

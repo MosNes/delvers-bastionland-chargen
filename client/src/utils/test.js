@@ -1,3 +1,7 @@
 import { generateCareer } from "./generators.js";
+import {createRequire} from 'module';
 
-console.log(generateCareer(18, 9, 17));
+const require = createRequire(import.meta.url);
+const artifacts = require('../data/artifact_table.json');
+
+console.log(artifacts);
