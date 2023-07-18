@@ -1,7 +1,8 @@
-import { generateCareer } from "./generators.js";
-import {createRequire} from 'module';
+import { randomOddity, randomCypher, randomArtifact } from "./generators.js";
+// import {createRequire} from 'module';
 
-const require = createRequire(import.meta.url);
-const artifacts = require('../data/artifact_table.json');
+// const require = createRequire(import.meta.url);
+// const artifacts = require('../data/artifact_table.json');
 
-console.log(artifacts);
+
+console.log(randomArtifact());

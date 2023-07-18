@@ -1,5 +1,5 @@
 import { DiceRoll } from '@dice-roller/rpg-dice-roller';
-import { speciesTable, descriptorsTable, careerTable } from './randomTables.js';
+import { speciesTable, descriptorsTable, careerTable, artifactTable, cypherTable, oddityTable } from './randomTables.js';
 
 export const generateSpecies = () => {
 
@@ -93,4 +93,31 @@ export const randomCareer = () => {
     const diceString = `1d${careerTable.length}`
 
     return careerTable[simpleRoll(diceString)];
-} 
+} ;
+
+//randomly generates an oddity
+export const randomOddity = () => {
+
+    const diceString = `1d${oddityTable.length}`
+
+    return oddityTable[simpleRoll(diceString)].description;
+
+};
+
+//randomly generates a cypher
+export const randomCypher = () => {
+
+    const diceString = `1d${cypherTable.length}`;
+
+    return cypherTable[simpleRoll(diceString)];
+
+};
+
+//randomly generates an artifact
+export const randomArtifact  = () => {
+
+    const diceString = `1d${artifactTable.length}`;
+
+    return artifactTable[simpleRoll(diceString)];
+
+};
