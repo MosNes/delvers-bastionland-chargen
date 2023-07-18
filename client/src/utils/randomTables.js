@@ -449,7 +449,7 @@ export const careerTable = [
             until the victim coughs out d6 Terrormite larva and returns to normal.`,
             5: `Snake-Cat - A cloth toy with a snake body and cat head.
             If you're confronted by a hostile snake, it transforms into a cat (4HP, d4 claws), If you're confronted by a
-            hostile cat it transforms into a snake (4HP, d6 bite, d6 STR loss on CRITICAL DAMAGE).
+            hostile cat it transforms into a snake (4HP, d6 bite, d6 BODY loss on CRITICAL DAMAGE).
             It fights the hostile creature and returns to cloth when it is defeated.`,
             6: `Large and Peaceful Five-Eyed Dog - The only animal you can tolerate (6HP, d6 bite in retaliation only).`
         }
@@ -477,7 +477,7 @@ export const careerTable = [
             first thing it touches. On a mental command it returns to the surface, dragging up whatever it attached to.`,
             3: `Dire Barnacle - A vicious little mollusc (1HP,ARMOUR 1) that taunts quietly and explodes as a bomb (d12
                 BLAST) when it dies.`,
-            4: `Savage Vine Berry - If eaten, vines erupt from the mouth (d6 STR loss) and grow into a sprawling mass,
+            4: `Savage Vine Berry - If eaten, vines erupt from the mouth (d6 BODY loss) and grow into a sprawling mass,
             clinging to whatever surface they can. One use.`,
             5: `Ambrosia Seed - A bag of golden seed that no animal can resist if thrown.`,
             6: `Skeletal Dove - Carefully assembled. Can be crushed to unleash a cloud of confused doves.`
@@ -506,7 +506,7 @@ export const careerTable = [
             3: `Stem-Stone - Pebble that transforms into whatever non-living material it last touched. Currently the
             leather of your pouch.`,
             4: `Plague Wart - A carefully extracted wart sealed in a jar. Anyone that touches it contracts a disgusting
-            plague, losing d6 STR every hour.The victim's touch immediately spreads the plague.There is no cure that
+            plague, losing d6 BODY every hour.The victim's touch immediately spreads the plague.There is no cure that
             you know of.`,
             5: `Jerk Sprite - A statuette of dried meat.Whatever eats this acts like an utter jerk for the next hour, even
             to their most loved ones.`,
@@ -532,13 +532,13 @@ export const careerTable = [
         },
         hpTable: {
             1: `Master Monocle - Can move any object through telekinesis, but more than a coin's weight requires a
-            CHA SAVE, or else the monocle shatters.`,
+            MIND SAVE, or else the monocle shatters.`,
             2: `Ego-Mirror - A pocket mirror that reflects the most offensive version of whoever is looking in.`,
             3: `Anti-Matter Key - When placed in a keyhole, utterly annihilates the door and itself`,
             4: `Tiny Shield Generator - A rat-sized collar that creates a force-field (ARMOUR 3) around the tiny
             wearer.`,
-            5: `Gamma Tube - If broken, fires a green beam that causes d6 STR gain.The target grows 50% in size, and
-            their physical attacks receive +d10. If their STR would exceed 18 they can only act in rage. Any effects
+            5: `Gamma Tube - If broken, fires a green beam that causes d6 BODY gain.The target grows 50% in size, and
+            their physical attacks receive +d10. If their BODY would exceed 18 they can only act in rage. Any effects
             wear off when combat dies down. One use.`,
             6: `Terror Salts - Awakens any creature from sleep or unconsciousness, but they flail and scream in terror
             for a few seconds first.They have no memory of this afterwards.`
@@ -594,7 +594,7 @@ export const careerTable = [
             3: `Evacuation Syrup - Removes any ill effects the drinker is suffering from, including anything short of
             death, but flushes the body clean in every sense. One dose.`,
             4: `Genesis Molasses - A tin of deep green treacle that causes lush vegetation to grow within minutes, no
-            matter where it is spread. If eaten, the victim loses d6 STR and begins coughing up moss. One use.`,
+            matter where it is spread. If eaten, the victim loses d6 BODY and begins coughing up moss. One use.`,
             5: `CocoonWax - Anything covered in this wax is sealed off in a cocoon. After 24 hours it bursts free as a
             winged, hostile version of its previous self. One use.`,
             6: `Agony-Tendon - Causes instant agony when touched by bare skin (you have gloves). 10m in length when
@@ -625,7 +625,7 @@ export const careerTable = [
             increase its heat. One turn of focus warms, two turns burns/melts, and three turns reduces to ashes.`,
             4: `Mirror Engine - A perfect duplicate of you is formed. It acts independently, just like you, but cannot
             interact with anything physically. Lasts until dismissed or a new double is created.`,
-            5: `Bone Magnet - Attract or repel a single target that has a skeleton, unless they pass a STR SAVE. No effect
+            5: `Bone Magnet - Attract or repel a single target that has a skeleton, unless they pass a BODY SAVE. No effect
             on cartilage.`,
             6: `Gallon-Syringe - A tiny syringe that can draw up to a bath-sized amount of liquid.`
         }
@@ -647,7 +647,7 @@ export const careerTable = [
             6: `Snail Crew:Take a pistol (d6) and pot of grease.`
         },
         hpTable: {
-            1: `Mind Probe -The target must pass a CHA SAVE or you learn one of their innermost secrets.`,
+            1: `Mind Probe -The target must pass a MIND SAVE or you learn one of their innermost secrets.`,
             2: `Inferno Device - Cause an open flame you can see to explode (d8 BLAST, further d6 per round in the
                 flames).`,
             3: `Ovality Bomb - Explodes in a cloud of beige dust, forming a 2m high egg around the BLAST area. Nothing
@@ -710,7 +710,7 @@ export const careerTable = [
         },
         hpTable: {
             1: `A symbolic, but aggressive Raptoryx (3HP, d6 claws, Flies).`,
-            2: `Your Loyal Scribe (1HP, STR 5, DEX 7, CHA 7, elderly, does nothing but scribe).`,
+            2: `Your Loyal Scribe (1HP, BODY 5, SPEED 7, MIND 7, elderly, does nothing but scribe).`,
             3: `Pop-Up Gallows with noose and hood.`,
             4: `Smoke Bomb and a sense of showmanship`,
             5: `Prosthetic Leg with grasping talon.`,
@@ -762,12 +762,12 @@ export const careerTable = [
         },
         hpTable: {
             1: `Broken Basilisk Symbol - Two pieces of an eye-like symbol set in lead. Anyone holding the pieces
-            together while looking at it loses d20 CHA.`,
+            together while looking at it loses d20 MIND.`,
             2: `Wild Tongue - You can talk with any living thing, but what they tell you might not make sense.`,
             3: `Noble Tumour - This visible growth absorbs the next harmful effect to enter your body, whether poison,
             parasite, curse, or otherwise, before dropping off and turning to dust.`,
             4: `Alien Bone - Looks like a wishbone, but if broken sends out a psychic wave of pain to all within 10m
-            (d20 CHA loss).`,
+            (d20 MIND loss).`,
             5: `Air-Sac - A membranous sac on your chest that you can inflate to 2m in diameter.Your lungs can draw
             on the air within, but remember the inflated sac floats.`,
             6: `Saucer Burn - Tingles in the presence of artificial light.You can will yourself to levitate slowly towards
@@ -979,7 +979,7 @@ export const careerTable = [
             1: `Magnetism over unheld metal objects, with the force of your own hand.`,
             2: `Phase Throug hWalls or doors at will. If the wall is too thick, you don't phase into it at all.`,
             3: `You can Transfer your Consciousness into a fresh corpse. Each time you undertake a stressful situation
-            in your new body you must pass a CHA SAVE or return to your own body`,
+            in your new body you must pass a MIND SAVE or return to your own body`,
             4: `You can Perfectly Predict coin tosses that other people make.`,
             5: `You Appear Invisible to one person that you focus on.`,
             6: `You can Sense the Motives of anyone you touch.`
@@ -1041,7 +1041,7 @@ export const careerTable = [
         names: 'Do, Jincey, Gognon, Zephryne',
         debtholder: `The Jolity Engine: A sentient, building-sized gambling machine.Whenever you visit it offers a spin of its wheels to halve the debt, or double in the case of a loss. Odds are 52% in favour of the Engine.`,
         gear: 'Sombre formal wear, shovel.',
-        careerLabel1: `HOW DID YOU GET YOUR START IN THE CORPSE DISPOSAL INDUSTRY?`,
+        careerLabel1: `HOW DID YOU GET YOUR START IN THE CORPSE DISPOSAL INDUBODYY?`,
         careerLabel2: `WHAT WAS YOUR GREAT PROJECT? (YOU COULDN'T GET FUNDING)`,
         coinTable: {
             1: `Digging the Deepest Graves for Uncooperative Cadavers: Replace your shovel with a powered grave-burrower (d8, BULKY, extremely loud, tears through earth at an alarming rate).`,
@@ -1268,7 +1268,7 @@ export const careerTable = [
         },
         hpTable: {
             1: `You attempt a Fancy Finishing Move with your signature weapon for +d10 DAMAGE, but if it doesn't cause CRITICAL DAMAGE then you take CRITICAL DAMAGE yourself.`,
-            2: `Take a pocket of Blinding Powder (DEX SAVE or blinded for one turn. After use, you must visit your supplier for a free refill).`,
+            2: `Take a pocket of Blinding Powder (SPEED SAVE or blinded for one turn. After use, you must visit your supplier for a free refill).`,
             3: `Take a pack of Tiny Smoke Bombs (Make enough smoke for you to quickly dash away. After use, you must visit your supplier for a free refill).`,
             4: `You can HurlYourWeapon for d8 DAMAGE. If you roll an 8 the weapon is broken.`,
             5: `You can Mimic Any Voice you hear, and use it mockingly`,
@@ -1292,7 +1292,7 @@ export const careerTable = [
             6: `Prison Riots: Take a pack of gum (bread) and a pair of handcuffs.`
         },
         hpTable: {
-            1: `Paper-Boy that has nowhere else to go (DEX 15, 2HP) and blindly obeys you.`,
+            1: `Paper-Boy that has nowhere else to go (SPEED 15, 2HP) and blindly obeys you.`,
             2: `Snubbed Shotgun (d6, +d6 at point blank range) from the editor's office.`,
             3: `Sabre (d6) owned by some famous revolutionary.`,
             4: `Cricket Bat (d6, BULKY) signed by a disgraced general.`,
@@ -1367,7 +1367,7 @@ export const careerTable = [
             6: `Burglar Shotgun (d6, +d6 at point blank range, silent).`
         },
         hpTable: {
-            1: `Offices: Take a poison pen (d4, d12 DEX Loss on CRITICAL DAMAGE).`,
+            1: `Offices: Take a poison pen (d4, d12 SPEED Loss on CRITICAL DAMAGE).`,
             2: `Alienist Temples: Take a handful of incense sticks`,
             3: `Barracks: Take a military uniform and medals.`,
             4: `Hospitals: Take a stethoscope.`,
@@ -1567,7 +1567,7 @@ export const careerTable = [
             6: `Biters: Take two vials of universal antivenom.`
         },
         hpTable: {
-            1: `A Boomerang (d6, requires a DEX SAVE to catch when thrown).`,
+            1: `A Boomerang (d6, requires a SPEED SAVE to catch when thrown).`,
             2: `An Old Halberd (d6, BULKY, blunt).`,
             3: `The Family Slug-Gun (d6, BULKY, rusty)`,
             4: `A surprisingly deadly Wooden Sword (d6).`,
@@ -1608,7 +1608,7 @@ export const careerTable = [
         debtholder: `Old Time Bastionian Printworks: You have a voucher for 1,000 units of anything you want printed.`,
         gear: `Padded shoes.`,
         careerLabel1: `WHAT DID YOU GET UP TO ON THE ROOF?`,
-        careerLabel2: `WHY DO YOU SHUN THE STREETS?`,
+        careerLabel2: `WHY DO YOU SHUN THE BODYEETS?`,
         coinTable: {
             1: `Murder: Take a garotte (d6).`,
             2: `Tile Cracker: Take a hammer (d6).`,
@@ -1880,7 +1880,7 @@ export const careerTable = [
         title: 'Squidbagger',
         desc: `70% of Bastion's products contain cephalopod-derived parts. According to these studies, you keep the city running.`,
         names: 'Otto, Seffee, Krayker, Polpene',
-        debtholder: `Mister Dick: A colossal mock-shark and loan shark (STR 18, 15HP,ARMOUR 2, d10 jaws). He attacks your ship if you go out to sea without paying your debt.`,
+        debtholder: `Mister Dick: A colossal mock-shark and loan shark (BODY 18, 15HP,ARMOUR 2, d10 jaws). He attacks your ship if you go out to sea without paying your debt.`,
         gear: `Squid hook (d6, BULKY), bag`,
         careerLabel1: `WHAT ALWAYS ACCOMPANIED YOU TO SEA?`,
         careerLabel2: `WHAT DID YOU ALWAYS WANT TO DO INSTEAD?`,
@@ -1968,7 +1968,7 @@ export const careerTable = [
             6: `Cannibal Cattle: You spent your life sat in fields, eating happily, unaware that the local monks were fattening you up to be eaten. Take a can of gruel.`
         },
         hpTable: {
-            1: `A Fighting Centipede (STR 5, 6HP, d4 claws).`,
+            1: `A Fighting Centipede (BODY 5, 6HP, d4 claws).`,
             2: `Old Military Uniform.`,
             3: `Lucky Grasshopper (just a grasshopper).`,
             4: `Huge Marrow with wheelbarrow.`,
@@ -1987,7 +1987,7 @@ export const careerTable = [
         coinTable: {
             1: `Brass Knuckle Boxing: Take brass knuckles (d6).`,
             2: `Brushreaver Fighting: Take a bristle suit (anyone trying to maul or grapple you takes d6 DAMAGE).`,
-            3: `Serpent Duelling: Take a semi-trained attack serpent (d6 bite, causes d10 DEX loss on CRITICAL DAMAGE).`,
+            3: `Serpent Duelling: Take a semi-trained attack serpent (d6 bite, causes d10 SPEED loss on CRITICAL DAMAGE).`,
             4: `Ice Jousting: Take ice skates and mini-lance (d8 DAMAGE on charge only, otherwise useless).`,
             5: `Fake Martial Arts: Take an exotic outfit, and you know some fancy but ineffective moves (d6).`,
             6: `Power Saw Fencing: Take a power saw (d10, stutters on a roll of 1-2, requiring a REST to fix).`
@@ -2155,12 +2155,12 @@ export const careerTable = [
         title: 'Park Steward',
         desc: `Bastion's parks have grown out of hand. Yours was one of the worst.`,
         names: 'Harrick, Vasdene, Corley, Bagginton',
-        debtholder: `Fallendine's Mechanical Heart Company: You all have at least partly mechanical hearts. If a strong magnet is placed near your chest you must pass a STR SAVE or die.`,
+        debtholder: `Fallendine's Mechanical Heart Company: You all have at least partly mechanical hearts. If a strong magnet is placed near your chest you must pass a BODY SAVE or die.`,
         gear: `Machete (d6) and overcoat.`,
         careerLabel1: `WHAT WAS THE DEAL WITH YOUR PARK?`,
         careerLabel2: `WHAT EQUIPMENT DID YOU BRING?`,
         coinTable: {
-            1: `Overrun by Insect Swarms and you're Allergic: If you're ever stung by insect venom, lose d12 DEX.`,
+            1: `Overrun by Insect Swarms and you're Allergic: If you're ever stung by insect venom, lose d12 SPEED.`,
             2: `Sank into the Underground: Take a very bright spot-lamp.`,
             3: `Descended into a War Zone: Take a coil of barbed wire.`,
             4: `Flooded by Industrial Chemicals: Take chemical-proof wading boots.`,
@@ -2293,7 +2293,7 @@ export const careerTable = [
             6: `Giant Groundwurm: Delivers typed instructions, then burrows back underground.`
         },
         hpTable: {
-            1: `Capturing a Deserter: Take a blowgun and 3 tranquiliser darts (DEX SAVE to avoid sedation).`,
+            1: `Capturing a Deserter: Take a blowgun and 3 tranquiliser darts (SPEED SAVE to avoid sedation).`,
             2: `Hunting Down Somebody Known for Eating your Patron's Species: Take a pistol (d6).`,
             3: `Retrieving a Specialist Food that they Love: Take one piece of fine food suitable for your patron.`,
             4: `Buying Fine Clothes for your Patron: Take a formal suit to fit them.`,
@@ -2306,7 +2306,7 @@ export const careerTable = [
         desc: `Everything is big in Massifcountry. You stopped growing just below the ceiling.`,
         names: 'Throngon, Paximart, Ulvulca, Jeckeride',
         debtholder: `Doggarly Artful Latturs: Share ownership of a set of foot-tall capital letters.There are plenty of each letter but no Es or Ns.`,
-        gear: `Huge fists (d6 each when unarmed), huge body (swap your highest ABILITY SCORE into STR).`,
+        gear: `Huge fists (d6 each when unarmed), huge body (swap your highest ABILITY SCORE into BODY).`,
         careerLabel1: `WHAT BIG THING DO YOU HAVE?`,
         careerLabel2: `HOW HAVE YOU FITTED IN TO LIFE AMONGST THE SMALL?`,
         coinTable: {
@@ -2445,7 +2445,7 @@ export const careerTable = [
         hpTable: {
             1: `You Served a Machine: Take a mechanical eye (limited zoom function).`,
             2: `You Served under the Void: 1-in-3 chance that you speak a little of any Alien language.`,
-            3: `You have Unreliable Grav-Boots: You can land from any height with a DEX SAVE, otherwise you hit the ground as normal.`,
+            3: `You have Unreliable Grav-Boots: You can land from any height with a SPEED SAVE, otherwise you hit the ground as normal.`,
             4: `You Swore an Oath Against Pack Animals: You are DEPRIVED for the remainder of the day if you have to ride or serve a pack animal.`,
             5: `You were Stitched into your Uniform: It can only be removed by destroying it.`,
             6: `You would only Fight Drunk: Take a bottle of brandy and you're DEPRIVED when sober.`
@@ -2590,7 +2590,7 @@ export const careerTable = [
             3: `No Bones (Supported by cartilage).`,
             4: `Fly Wings (Clumsy flight).`,
             5: `Stubby Metallic Horns (+d6 when you charge).`,
-            6: `Tiny Second Head (Roll a separate d12 for CHA and give them a name).`
+            6: `Tiny Second Head (Roll a separate d12 for MIND and give them a name).`
         },
         hpTable: {
             1: `Your Pet: Take a misshapen dog-thing (2HP, d4 bite).`,
@@ -2611,11 +2611,11 @@ export const careerTable = [
         careerLabel2: `WHAT DOES THE YOUNGER TWIN GET?`,
         coinTable: {
             1: `The Family Hunting Rifle (d8, BULKY).`,
-            2: `All of the Athletic Prowess. Gain 7 STR.`,
+            2: `All of the Athletic Prowess. Gain 7 BODY.`,
             3: `A Shield (BULKY, +1 ARMOUR) with the family crest.`,
-            4: `All of the Grace and Subtlety. Gain 7 DEX.`,
+            4: `All of the Grace and Subtlety. Gain 7 SPEED.`,
             5: `Significantly Nicer Clothes.`,
-            6: `Beautiful Hair and Voice. Gain 7 CHA.`
+            6: `Beautiful Hair and Voice. Gain 7 MIND.`
         },
         hpTable: {
             1: `Yes indeed you have 0HP. You're alive, just Ultra-Sickly.You never gain more HP, and always face the worst consequences for exposure to disease or toxins.`,
