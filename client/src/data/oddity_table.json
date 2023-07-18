@@ -1,0 +1,1602 @@
+[
+ {
+   "id": 1,
+   "description": "Crystal that shatters easily but then instantly reforms"
+ },
+ {
+   "id": 2,
+   "description": "Egg-shaped metallic bauble that occasionally spins and speaks in a language no one knows"
+ },
+ {
+   "id": 3,
+   "description": "Aerosol can that sprays sparkling paint that hangs in the air"
+ },
+ {
+   "id": 4,
+   "description": "Device that emits a projection of a human face that changes expression depending on the direction in which it’s looking"
+ },
+ {
+   "id": 5,
+   "description": "Unknown musical instrument that plays only soft, unpleasant sounds"
+ },
+ {
+   "id": 6,
+   "description": "Circular stone plate with a human face that occasionally changes expression or appears to speak (but has no voice)"
+ },
+ {
+   "id": 7,
+   "description": "Box with a tiny group of musicians in it who play when it is opened and look horriﬁed when it is closed"
+ },
+ {
+   "id": 8,
+   "description": "Remote-controlled dragonﬂy with a tiny, handheld controller"
+ },
+ {
+   "id": 9,
+   "description": "Pants that ﬁt perfectly and never seem to get dirty but are always chilly"
+ },
+ {
+   "id": 10,
+   "description": "Blob of clay that takes on various mysterious shapes when left alone"
+ },
+ {
+   "id": 11,
+   "description": "Crystal that hums"
+ },
+ {
+   "id": 12,
+   "description": "Necklace made of gears and other machine parts"
+ },
+ {
+   "id": 13,
+   "description": "Flute with buttons rather than holes so you can play music without blowing into it"
+ },
+ {
+   "id": 14,
+   "description": "Lightning bug in a glass globe"
+ },
+ {
+   "id": 15,
+   "description": "Plastic disk that displays ever-changing but meaningless symbols"
+ },
+ {
+   "id": 16,
+   "description": "Small rod that emits a voice saying the same thing in an unknown language every time a button is pushed"
+ },
+ {
+   "id": 17,
+   "description": "Glass plate that shows what seems to be a live image of the moon, but from a closer vantage"
+ },
+ {
+   "id": 18,
+   "description": "Comb that glows when used"
+ },
+ {
+   "id": 19,
+   "description": "Small square cage that puts whatever single creature is inside it into stasis"
+ },
+ {
+   "id": 20,
+   "description": "Plastic bottle containing a spray that cleans any stain and never runs out"
+ },
+ {
+   "id": 21,
+   "description": "Metallic device that creates one sheet of new paper each day"
+ },
+ {
+   "id": 22,
+   "description": "Pen that writes in invisible ink revealed only at a very low temperature"
+ },
+ {
+   "id": 23,
+   "description": "Tiny toy ornithopter made of a solid piece of material that seems indestructible"
+ },
+ {
+   "id": 24,
+   "description": "Fuzzy stuffed bear that makes growling noises when you squeeze it"
+ },
+ {
+   "id": 25,
+   "description": "Goggles that tint everything green"
+ },
+ {
+   "id": 26,
+   "description": "Series of thin plastic cards that show all kinds of unknown creatures"
+ },
+ {
+   "id": 27,
+   "description": "Candle that never runs down"
+ },
+ {
+   "id": 28,
+   "description": "Bag of sixteen rubber balloons"
+ },
+ {
+   "id": 29,
+   "description": "Three silken gloves with six ﬁngers each"
+ },
+ {
+   "id": 30,
+   "description": "Metallic jar that maintains the temperature of liquid inside indeﬁnitely"
+ },
+ {
+   "id": 31,
+   "description": "Blue crystal that glows as bright as a candle when held"
+ },
+ {
+   "id": 32,
+   "description": "Small coin pouch that holds twice as much as it appears it should"
+ },
+ {
+   "id": 33,
+   "description": "Small wandlike device that keeps away normal insects in a 5-foot (1.5 m) radius"
+ },
+ {
+   "id": 34,
+   "description": "Unknown plastic device with lights that occasionally blink"
+ },
+ {
+   "id": 35,
+   "description": "Powerful magnifying glass"
+ },
+ {
+   "id": 36,
+   "description": "Bag that contains dice each with a different number of sides"
+ },
+ {
+   "id": 37,
+   "description": "Small mirrored cube"
+ },
+ {
+   "id": 38,
+   "description": "Piece of extremely strong and thin cable 8 feet (2.4 m) long"
+ },
+ {
+   "id": 39,
+   "description": "Feathered hat that occasionally makes bird noises"
+ },
+ {
+   "id": 40,
+   "description": "Wooden rod that increases in length by about 1 inch (2.5 cm) a month"
+ },
+ {
+   "id": 41,
+   "description": "Brass device with nested circular plates that rotate and click"
+ },
+ {
+   "id": 42,
+   "description": "Cape that billows as if blown by the wind when worn even in still air"
+ },
+ {
+   "id": 43,
+   "description": "Glass cube that shows what seems to be a live aerial view of an unknown ruined city"
+ },
+ {
+   "id": 44,
+   "description": "Armband that tightens slightly when within 100 feet (30 m) of abhumans"
+ },
+ {
+   "id": 45,
+   "description": "Small jar of black paint that reﬁlls itself each day"
+ },
+ {
+   "id": 46,
+   "description": "Metallic mask that ﬁts perfectly on your face and changes expression when you do"
+ },
+ {
+   "id": 47,
+   "description": "Five metallic plates that orbit around your head and display ever-changing unknown symbols"
+ },
+ {
+   "id": 48,
+   "description": "Green glass sphere that ﬂoats next to you and whistles when you are angry"
+ },
+ {
+   "id": 49,
+   "description": "Metal canister that ﬁlls with 4 quarts (3.8 liters) of water at the same time each day"
+ },
+ {
+   "id": 50,
+   "description": "Metal and glass disk that when pressed against ﬂesh instantly etches a tattoo of a black scorpion"
+ },
+ {
+   "id": 51,
+   "description": "Small mirror that shows someone other than you when you gaze into it"
+ },
+ {
+   "id": 52,
+   "description": "Canister that produces an extremely foul odor and a puff of dark red smoke when opened"
+ },
+ {
+   "id": 53,
+   "description": "Goggles that allow you to see perfectly through steam or smoke"
+ },
+ {
+   "id": 54,
+   "description": "Box that produces a 3-inch (7.6 cm) cube of a ﬁrm but gelatinous substance at the same time each day"
+ },
+ {
+   "id": 55,
+   "description": "Shirt that displays your muscles, bones, and internal organs when you wear it"
+ },
+ {
+   "id": 56,
+   "description": "Small leather case of cosmetics that never seem to run out"
+ },
+ {
+   "id": 57,
+   "description": "Amulet that, when worn, projects holographic images of ﬁsh swimming around you"
+ },
+ {
+   "id": 58,
+   "description": "Bracelet with a tiny bell charm that rings like a massive bell when intentionally rung"
+ },
+ {
+   "id": 59,
+   "description": "Metallic, pointed-toe boots designed to ﬁt a horse or a similar creature"
+ },
+ {
+   "id": 60,
+   "description": "Cup that instantly boils any liquid poured into it"
+ },
+ {
+   "id": 61,
+   "description": "Spectacles that project strange images on the lenses so the wearer sees things that are not there"
+ },
+ {
+   "id": 62,
+   "description": "Box of a dozen matchsticks that, when burned, release puffs of lingering smoke that take on the shapes of faces, creatures, or other things"
+ },
+ {
+   "id": 63,
+   "description": "Blanket that makes a pleasant, soft humming noise while covering a living creature"
+ },
+ {
+   "id": 64,
+   "description": "Semicircular device of metal and glass that projects a harmless, thin red beam up to 50 feet (15 m) when activated"
+ },
+ {
+   "id": 65,
+   "description": "Two 5-inch (12.7 cm) metal and glass disks that hover around your wrists"
+ },
+ {
+   "id": 66,
+   "description": "Six small, clear plastic bags that can be sealed and are very durable"
+ },
+ {
+   "id": 67,
+   "description": "Glass orb that always drips perfumed water very slowly"
+ },
+ {
+   "id": 68,
+   "description": "Jar of sixteen seeds; when planted, each seed grows into a daffodil made of gold in six months"
+ },
+ {
+   "id": 69,
+   "description": "Rose made of nigh-indestructible glass"
+ },
+ {
+   "id": 70,
+   "description": "Octagon-shaped amulet that is black during the day and sky blue at night"
+ },
+ {
+   "id": 71,
+   "description": "Mummiﬁed ﬁsh with feathered wings in a wooden box"
+ },
+ {
+   "id": 72,
+   "description": "Two-headed cat fetus in a glass jar"
+ },
+ {
+   "id": 73,
+   "description": "Saddle sized for a very small animal, such as a squirrel or a small cat"
+ },
+ {
+   "id": 74,
+   "description": "Small rectangular device that makes a chirping sound at the same time each day"
+ },
+ {
+   "id": 75,
+   "description": "Pair of tiny metal rods that, when brought within 1 inch (2.5 cm) of each other, vibrate exactly ﬁfteen minutes before the sun rises on any given day"
+ },
+ {
+   "id": 76,
+   "description": "Ceramic ring that makes you feel as though gentle hands are caressing your body"
+ },
+ {
+   "id": 77,
+   "description": "Bottle of twenty-four pills that make you vividly dream about your favorite memory when you next sleep"
+ },
+ {
+   "id": 78,
+   "description": "Cylinder that clears the air of smoke, foul smells and the like in an enclosed room in one minute’s time"
+ },
+ {
+   "id": 79,
+   "description": "A pair of small ﬂoating cubes that keep a small, enclosed room at the temperature, at which water freezes"
+ },
+ {
+   "id": 80,
+   "description": "Bracelet that renders you unable to reproduce while worn"
+ },
+ {
+   "id": 81,
+   "description": "Chair that can be stored in an extradimensional space when activated"
+ },
+ {
+   "id": 82,
+   "description": "Synth disk that will restore a rotten piece of fruit or a vegetable"
+ },
+ {
+   "id": 83,
+   "description": "Cylinder that, if you speak through it, makes your voice sound wavering and strange"
+ },
+ {
+   "id": 84,
+   "description": "Scarf that appears to be made of silk but is virtually indestructible and cannot be dirtied or stained"
+ },
+ {
+   "id": 85,
+   "description": "Egg-shaped device that temporarily negates all odor within 3 feet (.09 m)"
+ },
+ {
+   "id": 86,
+   "description": "Short metal rod that is insubstantial to all matter except the special synth glove that goes with it"
+ },
+ {
+   "id": 87,
+   "description": "Cube that, when activated, disappears for one minute and then reappears in the same spot"
+ },
+ {
+   "id": 88,
+   "description": "Wristband that buzzes when in complete darkness"
+ },
+ {
+   "id": 89,
+   "description": "Plate of glass that, when you view the night sky through it, reveals ten times as many stars"
+ },
+ {
+   "id": 90,
+   "description": "Ceramic pot that produces a tiny puff of colored smoke once every hour and a half"
+ },
+ {
+   "id": 91,
+   "description": "Hoop that sharpens any blade passed through it"
+ },
+ {
+   "id": 92,
+   "description": "Sphere that produces vigorous bubbles when placed in water"
+ },
+ {
+   "id": 93,
+   "description": "Tiny awl that inﬂicts no pain when it pierces ﬂesh"
+ },
+ {
+   "id": 94,
+   "description": "Contact lenses that make your eyes seem completely white with no pupils"
+ },
+ {
+   "id": 95,
+   "description": "Silken string 3 feet (0.9 m) long that coils around whatever it touches"
+ },
+ {
+   "id": 96,
+   "description": "Large, clear plastic bag that keeps food inside it fresh indeﬁnitely"
+ },
+ {
+   "id": 97,
+   "description": "Stockings that are always warm"
+ },
+ {
+   "id": 98,
+   "description": "Single rubber glove that is extremely durable and resistant"
+ },
+ {
+   "id": 99,
+   "description": "Box ﬁlled with two dozen spherical magnets, each about the size of a pea"
+ },
+ {
+   "id": 100,
+   "description": "Pair of clear drinking glasses that change color depending on the contents"
+ },
+ {
+   "id": 101,
+   "description": "Tiny lidded box that opens, revealing the emptiness of space"
+ },
+ {
+   "id": 102,
+   "description": "Square of cloth that changes texture and color randomly"
+ },
+ {
+   "id": 103,
+   "description": "Neverending spray canister of harmless foam that evaporates quickly"
+ },
+ {
+   "id": 104,
+   "description": "Crystal antiprism about 4 inches (10 cm) across that is mildly repelled away from living flesh"
+ },
+ {
+   "id": 105,
+   "description": "Lenses that make everything appear upside-down"
+ },
+ {
+   "id": 106,
+   "description": "Lenses that tint everything pink"
+ },
+ {
+   "id": 107,
+   "description": "A pair of rose-colored spectacles that, when worn, cause everyone to appear to be in the prime of their lives or dead"
+ },
+ {
+   "id": 108,
+   "description": "Goggles with glowing lenses (although you can see through them normally)"
+ },
+ {
+   "id": 109,
+   "description": "A black box from which issue faint calls of 'Hello?'"
+ },
+ {
+   "id": 110,
+   "description": "A bottle of clear liquid whose flavor changes to match whatever you most desire"
+ },
+ {
+   "id": 111,
+   "description": "A small blue stone that stays wherever you put it, even if you release it in the air, but it can hold no weight"
+ },
+ {
+   "id": 112,
+   "description": "A black wedge that weighs 1 pound (0.5 kg) and becomes 1 pound (0.5 kg) heavier each month it remains in your possession"
+ },
+ {
+   "id": 113,
+   "description": "An unbreakable clear crystal sphere filled with green smoke"
+ },
+ {
+   "id": 114,
+   "description": "A ceramic tile that etches itself with strange markings whenever someone speaks to it"
+ },
+ {
+   "id": 115,
+   "description": "A synth pyramid that gives off light for one hour at a random time each day"
+ },
+ {
+   "id": 116,
+   "description": "A tiny harp with strings made of glowing energy"
+ },
+ {
+   "id": 117,
+   "description": "A crystal that always hovers an inch above a metal ring"
+ },
+ {
+   "id": 118,
+   "description": "A pouch of six seeds that, when planted, grow over the next twenty days into hollow shelters large enough to accommodate one hound-sized animal each"
+ },
+ {
+   "id": 119,
+   "description": "A small metal box that makes a clicking noise when in the presence of smoke"
+ },
+ {
+   "id": 120,
+   "description": "A metal wand with a tip that glows in the dark"
+ },
+ {
+   "id": 121,
+   "description": "A 1-foot (0.3 m) length of silver cord with both ends neatly cut"
+ },
+ {
+   "id": 122,
+   "description": "A ring that makes the wearer's fingertips glow blue"
+ },
+ {
+   "id": 123,
+   "description": "An oblong metal object from which issues a faint ticking sound"
+ },
+ {
+   "id": 124,
+   "description": "A silver needle that always remains sharp but can puncture nothing"
+ },
+ {
+   "id": 125,
+   "description": "A wedge of glass that shows the image of three strangely garbed children playing and one frightened child watching you"
+ },
+ {
+   "id": 126,
+   "description": "Shoes that fit anyone who wears them but leave bizarre, seemingly random prints behind"
+ },
+ {
+   "id": 127,
+   "description": "A bottle of ink that never goes dry or runs out"
+ },
+ {
+   "id": 128,
+   "description": "A human-faced insect trapped in a piece of amber"
+ },
+ {
+   "id": 129,
+   "description": "A ceramic box holding a tiny worm with a head at each end"
+ },
+ {
+   "id": 130,
+   "description": "A mummified nonhuman hand that twitches as if still alive"
+ },
+ {
+   "id": 131,
+   "description": "A glass ball filled with fluid through which swims a bloodshot eye trailing its nerve endings"
+ },
+ {
+   "id": 132,
+   "description": "A small metal container that keeps liquid poured inside lukewarm but makes it bitter"
+ },
+ {
+   "id": 133,
+   "description": "A horn that, when blown, blows bubbles instead of making a sound"
+ },
+ {
+   "id": 134,
+   "description": "Three glowing synth rings that orbit whatever they are placed around (like a wrist)"
+ },
+ {
+   "id": 135,
+   "description": "A dozen small stones in a narrow, thin box that burst with vibrant colors when tossed into a fire"
+ },
+ {
+   "id": 136,
+   "description": "A leather belt with metal plates that glow faintly with light"
+ },
+ {
+   "id": 137,
+   "description": "A set of garish clothes that never get dirty or show signs of wear and tear"
+ },
+ {
+   "id": 138,
+   "description": "A pouch of six pellets that, when dropped into liquid, remove its flavor and color"
+ },
+ {
+   "id": 139,
+   "description": "A small metal box that produces sounds of hysterical laughter when shaken"
+ },
+ {
+   "id": 140,
+   "description": "A large piece of fabric that does not reflect in mirrors"
+ },
+ {
+   "id": 141,
+   "description": "A fist-sized glass sphere that floats through the air, never straying more than 2 feet (0.6 m) from a glass token"
+ },
+ {
+   "id": 142,
+   "description": "A glass jar filled with an edible, creamy white substance that fills back to the top each day at dawn"
+ },
+ {
+   "id": 143,
+   "description": "A vial of red liquid that causes anything that touches even a drop to turn bright purple for 28 hours"
+ },
+ {
+   "id": 144,
+   "description": "A metal wedge that always points east when placed on the ground"
+ },
+ {
+   "id": 145,
+   "description": "Small pink stone that, when placed under the tongue, causes harmless vapor to spill from your mouth"
+ },
+ {
+   "id": 146,
+   "description": "A synth hemisphere that occasionally puffs out harmless green mist"
+ },
+ {
+   "id": 147,
+   "description": "A tiny synth cube with two metal prongs on one side that hum"
+ },
+ {
+   "id": 148,
+   "description": "A metal baton that feels as though it is filled with fluid"
+ },
+ {
+   "id": 149,
+   "description": "A small metal box filled with blue powder that, when snuffed, causes profound feelings of ecstasy for about a minute, followed by painful cramps that are alleviated only by a messy and noisy bowel movement"
+ },
+ {
+   "id": 150,
+   "description": "A mirror that shows anything reflected in it, but something is always missing"
+ },
+ {
+   "id": 151,
+   "description": "A pair of eyes made of bronze that appear slightly human and occasionally blink"
+ },
+ {
+   "id": 152,
+   "description": "An invisible, empty, hollow cylinder that is 9 inches (23 cm) long"
+ },
+ {
+   "id": 153,
+   "description": "A powerful magnet that appears to be in the shape of a stylized spider"
+ },
+ {
+   "id": 154,
+   "description": "Bit of moldable synth that generates constant, soft static noise"
+ },
+ {
+   "id": 155,
+   "description": "Shoes that produce sound and light with each step"
+ },
+ {
+   "id": 156,
+   "description": "Synth sleeves that fit over one's fingertips"
+ },
+ {
+   "id": 157,
+   "description": "Cloth mask that makes each breath taste like mint"
+ },
+ {
+   "id": 158,
+   "description": "Small synth squares that taste good but are inedible"
+ },
+ {
+   "id": 159,
+   "description": "Metal sphere that floats like a balloon"
+ },
+ {
+   "id": 160,
+   "description": "Crystal pendant that causes the wearer's hair to stop growing"
+ },
+ {
+   "id": 161,
+   "description": "Five-inch (13 cm) square of cloth that is uncannily pleasant to touch"
+ },
+ {
+   "id": 162,
+   "description": "Synth paper that absorbs ink (and stains) after one hour"
+ },
+ {
+   "id": 163,
+   "description": "Six-inch (15 cm) synth string that stretches to 8 feet (2 m) without breaking"
+ },
+ {
+   "id": 164,
+   "description": "Unbreakable glass pyramid filled with what appears to be ice or snow"
+ },
+ {
+   "id": 165,
+   "description": "Synth sphere that is always warm"
+ },
+ {
+   "id": 166,
+   "description": "Glass cube that is always cold"
+ },
+ {
+   "id": 167,
+   "description": "Synth rod that changes color based on who holds it (always the same color for the same people)"
+ },
+ {
+   "id": 168,
+   "description": "Metal hemisphere with a glass handle that constantly repeats words in an unknown language"
+ },
+ {
+   "id": 169,
+   "description": "Glass panel that appears to show the surrounding area from a high vantage, but it is always completely wrong"
+ },
+ {
+   "id": 170,
+   "description": "Clear synth globe with an arrow inside it that always points at the sun"
+ },
+ {
+   "id": 171,
+   "description": "Synth panel about 8 inches (20 cm) square that shows meaningless, complex diagrams"
+ },
+ {
+   "id": 172,
+   "description": "Round pendant with a blinking red light that syncs with the wearer's heartbeat"
+ },
+ {
+   "id": 173,
+   "description": "Small jar that produces 1 ounce (28 g) of green paint when the sun rises"
+ },
+ {
+   "id": 174,
+   "description": "Synth panel that constantly shows unknown creatures cavorting in a woodland of unknown plants"
+ },
+ {
+   "id": 175,
+   "description": "Small metal container that produces a peculiar (but not unpleasant) odor when opened"
+ },
+ {
+   "id": 176,
+   "description": "Small, warm metal blade that gives a very close shave"
+ },
+ {
+   "id": 177,
+   "description": "Small metal disk with a crystal at its center that causes a buzzing noise in the ears of anyone holding it"
+ },
+ {
+   "id": 178,
+   "description": "Eight-inch (20 cm) length of synth cord that is invisible"
+ },
+ {
+   "id": 179,
+   "description": "Pea-sized sphere that reduces the pull of gravity within about 4 feet (1 m), just enough to notice"
+ },
+ {
+   "id": 180,
+   "description": "A pair of 1-foot-tall (0.3 m) metal stilts that can strap onto boots or shoes"
+ },
+ {
+   "id": 181,
+   "description": "A jar of putty that hardens after being exposed to air for one hour, but softens again if touched"
+ },
+ {
+   "id": 182,
+   "description": "A small disk that bears the image of the father of whoever is touching it"
+ },
+ {
+   "id": 183,
+   "description": "Six-inch (15 cm) wand of glass that can be bent and even tied in a knot"
+ },
+ {
+   "id": 184,
+   "description": "Small metal container that makes a loud (but brief) shrill tone when opened"
+ },
+ {
+   "id": 185,
+   "description": "A small sphere nested within a cube, but the cube exists out of phase and cannot be touched"
+ },
+ {
+   "id": 186,
+   "description": "Eye lenses that glow in the dark"
+ },
+ {
+   "id": 187,
+   "description": "Three shoes meant for an unknown, nonhuman creature"
+ },
+ {
+   "id": 188,
+   "description": "Seven-inch (18 cm) square of cloth to which nothing'dirt, muck, tar, adhesive, and so on'will adhere"
+ },
+ {
+   "id": 189,
+   "description": "Metal rod bent into a triangle that frightens off small animals with its mere presence"
+ },
+ {
+   "id": 190,
+   "description": "Glow-in-the-dark hair dye (enough for twenty uses)"
+ },
+ {
+   "id": 191,
+   "description": "Glove that, when worn, makes the wearer's voice sound very high and squeaky"
+ },
+ {
+   "id": 192,
+   "description": "Ring that reduces the wearer's sense of touch"
+ },
+ {
+   "id": 193,
+   "description": "Brush that produces a cleansing soap when used"
+ },
+ {
+   "id": 194,
+   "description": "Tiny box that produces a small synth figurine in the image of someone within immediate range at random times"
+ },
+ {
+   "id": 195,
+   "description": "Synth cup that turns any liquid placed within it purple (no other change is made)"
+ },
+ {
+   "id": 196,
+   "description": "Cloth mask that gives anyone who wears it itchy hives for one hour"
+ },
+ {
+   "id": 197,
+   "description": "Rod that projects the two-dimensional image of an unknown creature on any flat surface"
+ },
+ {
+   "id": 198,
+   "description": "Metal rod that makes anyone who touches it sneeze, but never more than once every few minutes"
+ },
+ {
+   "id": 199,
+   "description": "Two magnets that become one hundred times heavier when put together"
+ },
+ {
+   "id": 200,
+   "description": "Tiny glass cube that distorts visibility within 6 inches (15 cm) around it"
+ },
+ {
+   "id": 201,
+   "description": "A small cloth sphere that one can thrust a hand through to put things in the insideThe hole made always instantly repairs itself."
+ },
+ {
+   "id": 202,
+   "description": "A metal cube that, when touched, turns to thick liquid for one minute"
+ },
+ {
+   "id": 203,
+   "description": "A ball of unbreakable twine that, when fully unraveled, is 100 feet (30 m) long"
+ },
+ {
+   "id": 204,
+   "description": "A tiny box with a button that makes a faint chiming noise when pressed"
+ },
+ {
+   "id": 205,
+   "description": "Twenty red cigarettes that, when smoked, let you exhale monstrous shapes"
+ },
+ {
+   "id": 206,
+   "description": "A coin stamped with the profile of a man that changes each month"
+ },
+ {
+   "id": 207,
+   "description": "A bag that always has twenty-seven marbles inside, no matter how many are removed"
+ },
+ {
+   "id": 208,
+   "description": "Small metal half-ring that forces anyone touching it to say 'Fanoshil"
+ },
+ {
+   "id": 209,
+   "description": "Device that makes everyone within immediate range experience the last one to two seconds again, though nothing can be changed"
+ },
+ {
+   "id": 210,
+   "description": "Silver pendant with an invisible chain"
+ },
+ {
+   "id": 211,
+   "description": "Small sphere that always remains 1 inch (3 cm) from the tip of a short rod, even though they are not physically connected"
+ },
+ {
+   "id": 212,
+   "description": "Crystal that pulses in time with the heartbeat of anyone holding it"
+ },
+ {
+   "id": 213,
+   "description": "Glowglobe that, if taken underwater, is never moved or disturbed by currents"
+ },
+ {
+   "id": 214,
+   "description": "A 1-inch (3 cm) square of folded black paper that can be unfolded until it becomes a 10-foot (3 m) square of paper"
+ },
+ {
+   "id": 215,
+   "description": "A black diamond that causes erotic dreams when it is placed under a sleeper's head"
+ },
+ {
+   "id": 216,
+   "description": "A box of twenty oddly shaped stones in different shades of red that can be used like chalk but never run out"
+ },
+ {
+   "id": 217,
+   "description": "A box of toothpicks that each have a different and sometimes strange flavor"
+ },
+ {
+   "id": 218,
+   "description": "A pouch of powder that can be sprinkled over rotten meat to freshen it and make it safe to eat"
+ },
+ {
+   "id": 219,
+   "description": "A cube of ice that never melts"
+ },
+ {
+   "id": 220,
+   "description": "A wooden ball that cannot be burned, but freezing it turns it to vapor"
+ },
+ {
+   "id": 221,
+   "description": "A plate of glass that turns frosty in freezing temperatures and sometimes shows handprints in the frost"
+ },
+ {
+   "id": 222,
+   "description": "A monocle that shows different colored auras around people depending on the time of day they were born"
+ },
+ {
+   "id": 223,
+   "description": "A metal box with a glass panel in the center that displays different undecipherable symbols each sunrise"
+ },
+ {
+   "id": 224,
+   "description": "A quivering mass of gelatin that hardens whenever it is about to storm"
+ },
+ {
+   "id": 225,
+   "description": "A 6-inch (15 cm) metal bar that is impervious to all damage"
+ },
+ {
+   "id": 226,
+   "description": "A fist-sized hunk of wet flesh that never dries out and makes a purring noise when stroked"
+ },
+ {
+   "id": 227,
+   "description": "A vial containing six droplets that, when added to a pile of excrement, turn it back into what it was before it was digested (though the droplets don't restore life to something that was killed by being eaten)"
+ },
+ {
+   "id": 228,
+   "description": "A metal ring that issues a faint ringing noise when rubbed"
+ },
+ {
+   "id": 229,
+   "description": "A dark glass trapezohedron that, if held behind someone's head, makes him state his name, even though he is unaware that he did so"
+ },
+ {
+   "id": 230,
+   "description": "A glass box containing a living, beating heart wrapped in a golden mesh of wires"
+ },
+ {
+   "id": 231,
+   "description": "A piece of flexible plastic that emits soft blue, green, or pink light when worn around the ankle or wrist"
+ },
+ {
+   "id": 232,
+   "description": "A clear elastic sheet, 7 feet (2 m) wide and 2 feet (0.6 m) long, of unknown waterproof material that sparkles under starlight"
+ },
+ {
+   "id": 233,
+   "description": "A rubber ball that, when thrown with any strength at all, flies for 1 mile (2 km) or until it comes into contact with a solid object and then falls"
+ },
+ {
+   "id": 234,
+   "description": "An oblong metal plate covered with strange inscriptions and diagrams"
+ },
+ {
+   "id": 235,
+   "description": "A fist-sized metal object filled with holes that gives anyone touching it a brief glimpse of an endless sea"
+ },
+ {
+   "id": 236,
+   "description": "A crystal that prevents the person holding it from perspiring"
+ },
+ {
+   "id": 237,
+   "description": "A glass ball that, when placed on the ground, rolls around in a circle until it's picked up"
+ },
+ {
+   "id": 238,
+   "description": "Shoes with such slippery soles that they are impossible to walk in"
+ },
+ {
+   "id": 239,
+   "description": "A tiny square of foil that always feels warm to the touch"
+ },
+ {
+   "id": 240,
+   "description": "A small metal box that changes the color of anything placed inside it"
+ },
+ {
+   "id": 241,
+   "description": "A sponge that can absorb up to 10 gallons (38 L) of liquid"
+ },
+ {
+   "id": 242,
+   "description": "Five synth-sealed edible bars that provide nourishment for seven days each"
+ },
+ {
+   "id": 243,
+   "description": "A porous stone that can be used like soap and has a fresh smell"
+ },
+ {
+   "id": 244,
+   "description": "A hat that disappears when the wearer wishes, but returns in a few hours"
+ },
+ {
+   "id": 245,
+   "description": "A cup that turns any liquid poured into it into alcohol"
+ },
+ {
+   "id": 246,
+   "description": "Oddly shaped plastic box with a button on one side that, when depressed, causes a random word in the viewer's language to appear in a tiny display"
+ },
+ {
+   "id": 247,
+   "description": "A rubber ball that, when thrown against a hard surface, creates a second rubber ball that lasts for a few minutes before disappearing"
+ },
+ {
+   "id": 248,
+   "description": "A piece of cloth that polishes any metal object it touches"
+ },
+ {
+   "id": 249,
+   "description": "A synth dodecahedron that allows one to see for about two seconds through the eyes of a person touched"
+ },
+ {
+   "id": 250,
+   "description": "A pomander that always smells of freshly baked bread"
+ },
+ {
+   "id": 251,
+   "description": "A metal rod that quickly melts ice touched to it, despite its cool temperature"
+ },
+ {
+   "id": 252,
+   "description": "The face of a person stretched and pressed between two panes of glass"
+ },
+ {
+   "id": 253,
+   "description": "A long piece of cloth never moved by the wind"
+ },
+ {
+   "id": 254,
+   "description": "A synth torc that makes the wearer so dizzy that it's almost impossible to walk a straight line"
+ },
+ {
+   "id": 255,
+   "description": "A metal sphere the size of a pebble that weighs 50 pounds (23 kg)"
+ },
+ {
+   "id": 256,
+   "description": "A ball of fur that squeals when submerged in water"
+ },
+ {
+   "id": 257,
+   "description": "A floating orb that removes all odors from the air for a few minutes"
+ },
+ {
+   "id": 258,
+   "description": "A crystal that creates a tiny flame when rubbed"
+ },
+ {
+   "id": 259,
+   "description": "A bottle of pills that have no nutritional value but take away feelings of hunger"
+ },
+ {
+   "id": 260,
+   "description": "Synth full helmet with six eyeholes and a buzzing sound within"
+ },
+ {
+   "id": 261,
+   "description": "A metal octahedron that, when held, causes the user's voice to change pitch"
+ },
+ {
+   "id": 262,
+   "description": "A synth bowl that nothing adheres to, so it's always dry and clean"
+ },
+ {
+   "id": 263,
+   "description": "A 1-foot (0.3 m) bar that has the weight of steel but the flexibility of rubber"
+ },
+ {
+   "id": 264,
+   "description": "A synth sphere that always displays the current temperature with a moving set of lines"
+ },
+ {
+   "id": 265,
+   "description": "A metal ring that grows warm in cool temperatures or cool in warm temperatures"
+ },
+ {
+   "id": 266,
+   "description": "Synth heptahedron that, when touched to other synth, makes everyone in an immediate radius very hungry"
+ },
+ {
+   "id": 267,
+   "description": "A device that fits over your ears and plays strange noises that sound like atonal, mostly unpleasant music"
+ },
+ {
+   "id": 268,
+   "description": "A pair of multifaceted lenses set into leather goggles that make the wearer see things as an insect would"
+ },
+ {
+   "id": 269,
+   "description": "An orange contact lens that occasionally lets you see a person's spoken words float above his head in written form"
+ },
+ {
+   "id": 270,
+   "description": "An asymmetrical polygon about the size of a fist that spins whenever placed on the ground with a particular side down"
+ },
+ {
+   "id": 271,
+   "description": "A gyroscopic toy top that spins indefinitely if undisturbed"
+ },
+ {
+   "id": 272,
+   "description": "A copper ring about the size of a braceletIf spun around a small shaft (like a finger or a pen), it spins indefinitely."
+ },
+ {
+   "id": 273,
+   "description": "Three separate silver lozenges about 1 inch (3 cm) long that attach to flesh (and can be pried off with difficulty), but only if all three are on the same creature"
+ },
+ {
+   "id": 274,
+   "description": "A slab of clear synth that encases a dozen items, most of which appear to be fossils of some kindThere is writing in an unknown language beneath each item."
+ },
+ {
+   "id": 275,
+   "description": "A coated piece of paper about 1 foot (0.3 m) square that folds itself into a different complex design each day"
+ },
+ {
+   "id": 276,
+   "description": "A knitted square that adds a new row of stitches on its own"
+ },
+ {
+   "id": 277,
+   "description": "A synth honeycomb about 3 inches (8 cm) square that produces a tangy blue syrup"
+ },
+ {
+   "id": 278,
+   "description": "A small marble that howls in response to the sounds of laughter"
+ },
+ {
+   "id": 279,
+   "description": "A miniature ball on a chain that hovers in the air"
+ },
+ {
+   "id": 280,
+   "description": "Purple goo that sometimes shows a lit map of unknown constellations"
+ },
+ {
+   "id": 281,
+   "description": "A chime of synth objects that sounds like people talking"
+ },
+ {
+   "id": 282,
+   "description": "A belt made of unknown leather and metal that makes you feel full all the time"
+ },
+ {
+   "id": 283,
+   "description": "A glass prism that provides a kaleidoscope of scents"
+ },
+ {
+   "id": 284,
+   "description": "An incredibly soft pillow that sometimes cuts your hair while you sleep"
+ },
+ {
+   "id": 285,
+   "description": "An ankle bracelet that sometimes eases muscle aches"
+ },
+ {
+   "id": 286,
+   "description": "A needle with thread that never runs out but constantly changes color"
+ },
+ {
+   "id": 287,
+   "description": "A mass of gel that vibrates in time to any sound"
+ },
+ {
+   "id": 288,
+   "description": "A synth box that shows a new image of a place in the Ninth World every couple of days"
+ },
+ {
+   "id": 289,
+   "description": "A hairpiece that does not seem to have been made for humans"
+ },
+ {
+   "id": 290,
+   "description": "A tiny mirror that reflects your face exactly as it looked yesterday"
+ },
+ {
+   "id": 291,
+   "description": "A small grey bottle with a screw-off lid that looks like a piece of rock"
+ },
+ {
+   "id": 292,
+   "description": "A ceramic bird with a razor-sharp metal beak"
+ },
+ {
+   "id": 293,
+   "description": "A piece of felt that expands into a large, flat waterproof bowl"
+ },
+ {
+   "id": 294,
+   "description": "A piece of waterproof paper that can't be crumpled and shows a map of somewhere unknown"
+ },
+ {
+   "id": 295,
+   "description": "A clear synth hole punch that will make a tiny circular hole in almost any thin material"
+ },
+ {
+   "id": 296,
+   "description": "A stronglass shell that sometimes has a ghostly visage of a crab inside it"
+ },
+ {
+   "id": 297,
+   "description": "A ring that erases most scratches, scuffs, and ink when passed over them"
+ },
+ {
+   "id": 298,
+   "description": "A tube of purple smoke that changes to a liquid when exposed to sunlight"
+ },
+ {
+   "id": 299,
+   "description": "A lock of hair that whispers constantly"
+ },
+ {
+   "id": 300,
+   "description": "A bottle of liquid that releases bubbles that glow in the dark"
+ },
+ {
+   "id": 301,
+   "description": "A small stamp that creates a bizarre design on anything edible"
+ },
+ {
+   "id": 302,
+   "description": "A small ring that can be scanned over anything and becomes the color of the item scanned"
+ },
+ {
+   "id": 303,
+   "description": "A metal disk with a hole in it that reveals shapes in the clouds when you look through it"
+ },
+ {
+   "id": 304,
+   "description": "An antler from an unknown creature that continues to slowly grow"
+ },
+ {
+   "id": 305,
+   "description": "A clock face that marks the passage of time with unreadable and unsolvable equations"
+ },
+ {
+   "id": 306,
+   "description": "A wooden tube with a creature carved inside itEvery few days, the creature moves into a different position."
+ },
+ {
+   "id": 307,
+   "description": "A ring that vibrates when the sun rises in your location"
+ },
+ {
+   "id": 308,
+   "description": "A hat that rests just on top of your head but never blows or falls off"
+ },
+ {
+   "id": 309,
+   "description": "A 3-inch (8 cm) tall tornado that never stops moving when you hold it in your hand"
+ },
+ {
+   "id": 310,
+   "description": "Two small blue disks that seem attracted to your skin and are hard to pull off when they come in contact with you"
+ },
+ {
+   "id": 311,
+   "description": "Teardrop-shaped object that forms salt crystals along the bottom surface"
+ },
+ {
+   "id": 312,
+   "description": "Button that seems to fit through any buttonhole"
+ },
+ {
+   "id": 313,
+   "description": "Living orange and green frog encased inside a clear stronglass bubble"
+ },
+ {
+   "id": 314,
+   "description": "Necklace that, when worn, temporarily turns your hair grey"
+ },
+ {
+   "id": 315,
+   "description": "Unbreakable stemmed glass that always looks empty, even when it's full"
+ },
+ {
+   "id": 316,
+   "description": "A petrified anomalous octopus with multiple branched arms"
+ },
+ {
+   "id": 317,
+   "description": "A can of liquid propellant that turns all dust in the air into rainbow colors"
+ },
+ {
+   "id": 318,
+   "description": "An empty hinged box that sounds like it's full of rocks when shaken"
+ },
+ {
+   "id": 319,
+   "description": "A tiny tube that, when blown through, produces small pebbles (and sometimes a surprisingly large rock)"
+ },
+ {
+   "id": 320,
+   "description": "An egg-shaped stone that, when cracked open, squeals and then puts itself back together"
+ },
+ {
+   "id": 321,
+   "description": "A bag of small green scales that sometimes seem to mold themselves into a tail"
+ },
+ {
+   "id": 322,
+   "description": "A bizarrely shaped paintbrush that, when licked, becomes coated with a sparkling clear substance that smells like the sea"
+ },
+ {
+   "id": 323,
+   "description": "A tube of lip gloss that temporarily makes the user's lips invisible"
+ },
+ {
+   "id": 324,
+   "description": "A winged circlet that whispers endlessly about jumping when worn"
+ },
+ {
+   "id": 325,
+   "description": "A leather headdress that turns your eyes black when worn"
+ },
+ {
+   "id": 326,
+   "description": "A small round mirror that reflects nothing during the day and reflects only the moon at night"
+ },
+ {
+   "id": 327,
+   "description": "A small, ornate bead that adjusts to fit over any diameter of rope or string"
+ },
+ {
+   "id": 328,
+   "description": "A mesh teabag shaped like a star that can be used over and over and never seems to get used up"
+ },
+ {
+   "id": 329,
+   "description": "A tiny tiara that seems too small for even a newborn baby"
+ },
+ {
+   "id": 330,
+   "description": "A tiny synth mouth that spits out words all day long, at random"
+ },
+ {
+   "id": 331,
+   "description": "A handful of small blue stones that randomly turn into sacs full of waterThey appear to be drinkable if you open them while in their liquid state."
+ },
+ {
+   "id": 332,
+   "description": "A long-handled spoon that brings everything in it to the perfect eating or drinking temperature"
+ },
+ {
+   "id": 333,
+   "description": "A living plant that turns into a different type of edible herb each night"
+ },
+ {
+   "id": 334,
+   "description": "A length of chain that glows blue if touched by sweat or salt water"
+ },
+ {
+   "id": 335,
+   "description": "A teardrop-shaped bauble that always leans to the south"
+ },
+ {
+   "id": 336,
+   "description": "A leaf pin that gradually turns different colors as time passes"
+ },
+ {
+   "id": 337,
+   "description": "A glob of chewing putty that never loses its flavor or texture"
+ },
+ {
+   "id": 338,
+   "description": "A slab of petrified wood that glows with a soft green hue"
+ },
+ {
+   "id": 339,
+   "description": "A preserved flower that lights up when you blow on it"
+ },
+ {
+   "id": 340,
+   "description": "A 5-foot (2 m) length of string that hangs perfectly horizontal without being tied to anything"
+ },
+ {
+   "id": 341,
+   "description": "Small stone that sings a lullaby in an unknown tongue when you rub your thumb over it"
+ },
+ {
+   "id": 342,
+   "description": "A small colored-glass sculpture of a bird that flaps its wings in sunlight"
+ },
+ {
+   "id": 343,
+   "description": "A net with holes so large you can't imagine what it's designed to capture"
+ },
+ {
+   "id": 344,
+   "description": "A leather mask that, when worn, causes you to hear meaningless voices in your head"
+ },
+ {
+   "id": 345,
+   "description": "A jar of face paint that starts out black and changes color to match your mood while you wear it"
+ },
+ {
+   "id": 346,
+   "description": "A feather necklace that seems to attract all small birds in the area to you"
+ },
+ {
+   "id": 347,
+   "description": "A small square of cloth that is always clean, cool, and slightly damp"
+ },
+ {
+   "id": 348,
+   "description": "A square of ice 3 inches by 3 inches by 1 inch (8 cm by 8 cm by 3 cm) that never melts, never feels cold, and cools liquids"
+ },
+ {
+   "id": 349,
+   "description": "A bit of yeast in an inflatable synth packet that occasionally expandsWhen placed in the sun for a day, it turns into a fully cooked loaf of breadIf eaten, a new bit of yeast appears inside the packet."
+ },
+ {
+   "id": 350,
+   "description": "A glass pentagonal cupola 2 inches (5 cm) wide that makes one's hair stand on end if touched"
+ },
+ {
+   "id": 351,
+   "description": "A self-stick bandage that changes size to fit any wound up to 4 inches (10 cm)"
+ },
+ {
+   "id": 352,
+   "description": "A pair of black and blue feathers that float on the wind and flap in the presence of varjellens"
+ },
+ {
+   "id": 353,
+   "description": "A handheld rake that scratches only synthetic materialsIf used on dirt or rock, it softens in your hands."
+ },
+ {
+   "id": 354,
+   "description": "A piece of strong paper full of written symbolsEvery few days, one of the symbols rises off the paper, becoming three-dimensional, and disengages from the paperA new symbol appears on the page to take its place."
+ },
+ {
+   "id": 355,
+   "description": "A jar full of glitter that always goes back into the jar in the morning, no matter what you used it on"
+ },
+ {
+   "id": 356,
+   "description": "A pillow in the shape of a creature's face that never bites you while you sleep"
+ },
+ {
+   "id": 357,
+   "description": "A skull of an unknown creature that is covered in ornate tattoos, one of which shows the face of someone you used to know"
+ },
+ {
+   "id": 358,
+   "description": "A small handheld box that projects a series of shadows on a flat surfaceThe shadows seem to be asking for help."
+ },
+ {
+   "id": 359,
+   "description": "A wire sculpture of a flower that releases petals when you blow on itThe petals 'grow' back eventually."
+ },
+ {
+   "id": 360,
+   "description": "A crystalline stellated dodecahedron that changes color based on how much numenera is nearby (more numenera makes it redder)"
+ },
+ {
+   "id": 361,
+   "description": "A stub of paper with writing on it that says something different to everyone who looks at it"
+ },
+ {
+   "id": 362,
+   "description": "A metal bell that releases the scent of animal dung when you ring it"
+ },
+ {
+   "id": 363,
+   "description": "A synth bracelet with a tiny pocket that manufactures potable water every time it rains"
+ },
+ {
+   "id": 364,
+   "description": "A charm bracelet that randomly adds new charms (and occasionally shins)"
+ },
+ {
+   "id": 365,
+   "description": "A soft, big-brimmed hat that sometimes drips water when it's not raining"
+ },
+ {
+   "id": 366,
+   "description": "A rolled-up piece of synth that plays music when it gets warm"
+ },
+ {
+   "id": 367,
+   "description": "A piece of natural stone that, when you press your ear to it, makes noise that sounds like people screaming"
+ },
+ {
+   "id": 368,
+   "description": "A pair of glasses that purr and coo softly when you breathe rapidly"
+ },
+ {
+   "id": 369,
+   "description": "A double-handled mug that appears to be made for nonhuman hands"
+ },
+ {
+   "id": 370,
+   "description": "A scarf that releases a soothing odor when you're scared or hurt"
+ },
+ {
+   "id": 371,
+   "description": "A fossilized curled shell that sometimes uncurls"
+ },
+ {
+   "id": 372,
+   "description": "A sticky piece of synth that shows a series of bones and adheres to almost anything"
+ },
+ {
+   "id": 373,
+   "description": "A crystal that sometimes attracts living things, such as insects and plants, to its surfaceThe living things appear to be unharmed, and eventually they are released."
+ },
+ {
+   "id": 374,
+   "description": "A tiny cage in which different things appear, sometimes living, sometimes notThere appears to be no way to open or break the cage."
+ },
+ {
+   "id": 375,
+   "description": "A bit of synth that is full of holesThe holes collect and hold fluid, despite the fact that they go all the way through the material."
+ },
+ {
+   "id": 376,
+   "description": "A synth star about 3 inches (8 cm) across that allows one to levitate about 1 inch (3 cm) for about three seconds, usable at random intervals (about once a day)"
+ },
+ {
+   "id": 377,
+   "description": "A mask with a set of eyes drawn on the outsideThe eyes blink rapidly in bright sunlight."
+ },
+ {
+   "id": 378,
+   "description": "A heart-shaped piece of synth that you can smoke through, and it always tastes faintly of wood"
+ },
+ {
+   "id": 379,
+   "description": "A pyramid made of heavy metal that always stands straight up from its narrowest end"
+ },
+ {
+   "id": 380,
+   "description": "A synth ball that perfectly camouflages itself to whatever it's touchingIt turns white when you whistle at it."
+ },
+ {
+   "id": 381,
+   "description": "A flexible synth mold of a creature you've never seen before, except in your dreams"
+ },
+ {
+   "id": 382,
+   "description": "A piece of lavarock that is cool to the touch but never stops flowing with bright red lava"
+ },
+ {
+   "id": 383,
+   "description": "A ceramic cup that lights up when it's full of liquid"
+ },
+ {
+   "id": 384,
+   "description": "A handheld shredder that seems to work only on plants"
+ },
+ {
+   "id": 385,
+   "description": "A synth flower that stays mostly in bud form but blooms when you place it under certain people's chins"
+ },
+ {
+   "id": 386,
+   "description": "A tiny hose made of rubber that squirms around, as if it's trying to connect to something"
+ },
+ {
+   "id": 387,
+   "description": "Two metal rings that sometimes become one"
+ },
+ {
+   "id": 388,
+   "description": "A tiny stuffed seskii doll that growls when you kiss it"
+ },
+ {
+   "id": 389,
+   "description": "A set of tassels that attach to your clothing and flutter when you're near someone you love"
+ },
+ {
+   "id": 390,
+   "description": "A set of stick-on nails that were clearly created for someone with much larger hands than a normal human"
+ },
+ {
+   "id": 391,
+   "description": "A stone with a mouth carved into it that sometimes has a pinkish tongue"
+ },
+ {
+   "id": 392,
+   "description": "A stone snail that grows edible mushrooms instead of a shell"
+ },
+ {
+   "id": 393,
+   "description": "A black metal box that makes the sound of a broken hound when you shake it"
+ },
+ {
+   "id": 394,
+   "description": "Shoes that make the ground ripple like water when the wearer walks"
+ },
+ {
+   "id": 395,
+   "description": "A mask made of a long jaw and sharp teethWhen you wear it, it makes your tongue numb."
+ },
+ {
+   "id": 396,
+   "description": "A jar of oil that, when spread on metal, makes the metal glow with a faint radiance"
+ },
+ {
+   "id": 397,
+   "description": "Metal boots that sizzle and steam as if very hot, although their temperature is normal"
+ },
+ {
+   "id": 398,
+   "description": "Metal wristband that smells strongly of sugar"
+ },
+ {
+   "id": 399,
+   "description": "Rhomboid of solid stone that sometimes turns to liquid, but always reforms"
+ },
+ {
+   "id": 400,
+   "description": "Glowing, 6-inch (15 cm) elongated teardrop made of synth that seems to have no weight and very little substance}"
+ }
+]

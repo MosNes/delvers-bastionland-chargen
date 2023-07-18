@@ -93,4 +93,4 @@ export const randomCareer = () => {
     const diceString = `1d${careerTable.length}`
 
     return careerTable[simpleRoll(diceString)];
-}
+} 

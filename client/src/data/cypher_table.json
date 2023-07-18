@@ -1,0 +1,2702 @@
+[
+ {
+   "id": 1,
+   "name": "Ablative thrower",
+   "source": "Destiny"
+ },
+ {
+   "id": 2,
+   "name": " Access glasses",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 3,
+   "name": "Acidic resonator",
+   "source": "Destiny"
+ },
+ {
+   "id": 4,
+   "name": " Access token",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 5,
+   "name": " Adamant foam",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 6,
+   "name": " Adhesion clamps",
+   "source": "Discovery"
+ },
+ {
+   "id": 7,
+   "name": " Airfins",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 8,
+   "name": " Alarm worm",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 9,
+   "name": " Amplification parasite",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 10,
+   "name": " Analysis daemon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 11,
+   "name": " Analysis scanner",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 12,
+   "name": " Anchor stone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 13,
+   "name": " Antipathy field emitter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 14,
+   "name": " Antivenom",
+   "source": "Discovery"
+ },
+ {
+   "id": 15,
+   "name": " Anxiety engine",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 16,
+   "name": " Armor patch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 17,
+   "name": " Artificial leech",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 18,
+   "name": " Atmospheric hyperskin",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 19,
+   "name": " Attractor",
+   "source": "Discovery"
+ },
+ {
+   "id": 20,
+   "name": " Awareness enhancer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 21,
+   "name": " Banishing nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 22,
+   "name": " Battle vapor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 23,
+   "name": " Beauty mask",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 24,
+   "name": " Bezoar discharge",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 25,
+   "name": " Biofeedback glove",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 26,
+   "name": " Biological transpiercer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 27,
+   "name": " Biometric reference",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 28,
+   "name": " Biomorph",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 29,
+   "name": " Blinking nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 30,
+   "name": " Blood boiler",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 31,
+   "name": " Blood magnet",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 32,
+   "name": " Bloom (fireflower)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 33,
+   "name": " Bloom (serpent)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 34,
+   "name": " Bloom (spore)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 35,
+   "name": " Blue crystal",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 36,
+   "name": " Body enhancer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 37,
+   "name": " Bone dress",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 38,
+   "name": " Brain lightning",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 39,
+   "name": " Breather symbiote",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 40,
+   "name": " Buoyancy",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 41,
+   "name": " Burrowing bubble",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 42,
+   "name": " Butterfly drone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 43,
+   "name": " Cable projector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 44,
+   "name": " Camouflage screen",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 45,
+   "name": " Camouflage spray",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 46,
+   "name": " Catholicon",
+   "source": "Discovery"
+ },
+ {
+   "id": 47,
+   "name": " Catseye",
+   "source": "Discovery"
+ },
+ {
+   "id": 48,
+   "name": " Caustic storm",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 49,
+   "name": " Chemical factory",
+   "source": "Discovery"
+ },
+ {
+   "id": 50,
+   "name": " Chitin colony",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 51,
+   "name": " Cicerone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 52,
+   "name": " Clamp trap",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 53,
+   "name": " Cleaner",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 54,
+   "name": " Cloaking pin",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 55,
+   "name": " Clone tank",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 56,
+   "name": " Cloud seed",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 57,
+   "name": " Cloudskimmer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 58,
+   "name": " Colorless grease",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 59,
+   "name": " Communication disks",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 60,
+   "name": "Community beacon",
+   "source": "Destiny"
+ },
+ {
+   "id": 61,
+   "name": " Complex fluid wall projector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 62,
+   "name": " Comprehension graft",
+   "source": "Discovery"
+ },
+ {
+   "id": 63,
+   "name": " Concrete casting",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 64,
+   "name": " Conflict advisor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 65,
+   "name": " Construction foam",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 66,
+   "name": " Contingent Subroutine",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 67,
+   "name": " Controlled blinking nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 68,
+   "name": " Countermeasure (magnetic)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 69,
+   "name": " Countermeasure (membrane)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 70,
+   "name": " Countermeasure (Technological)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 71,
+   "name": "Crafter’s eyes",
+   "source": "Destiny"
+ },
+ {
+   "id": 72,
+   "name": " Crystal virus",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 73,
+   "name": " Cyberflesh",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 74,
+   "name": " Cypher replicator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 75,
+   "name": " Cypher seed",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 76,
+   "name": " Data flood",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 77,
+   "name": " Data merge",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 78,
+   "name": " Data mine",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 79,
+   "name": " Data spike",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 80,
+   "name": " Data vault",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 81,
+   "name": " Datasphere siphon",
+   "source": "Discovery"
+ },
+ {
+   "id": 82,
+   "name": " Deadly mist",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 83,
+   "name": " Death messenger",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 84,
+   "name": "Deception filter",
+   "source": "Destiny"
+ },
+ {
+   "id": 85,
+   "name": " Deficiency detector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 86,
+   "name": " Demonsphere",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 87,
+   "name": " Density nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 88,
+   "name": " Deployer (atmospheric)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 89,
+   "name": " Deployer (hypersound)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 90,
+   "name": " Deployer (muscular)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 91,
+   "name": " Deployer (optical)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 92,
+   "name": " Desiccation bag",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 93,
+   "name": "Destiny nodule",
+   "source": "Destiny"
+ },
+ {
+   "id": 94,
+   "name": " Detonation (coma)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 95,
+   "name": " Detonation (crystal)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 96,
+   "name": " Detonation (desiccating)",
+   "source": "Discovery"
+ },
+ {
+   "id": 97,
+   "name": " Detonation (distress)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 98,
+   "name": " Detonation (electromagnetic)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 99,
+   "name": " Detonation (filament)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 100,
+   "name": " Detonation (flash)",
+   "source": "Discovery"
+ },
+ {
+   "id": 101,
+   "name": " Detonation (flashfire)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 102,
+   "name": " Detonation (flesh warping)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 103,
+   "name": " Detonation (foam)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 104,
+   "name": " Detonation (gravity)",
+   "source": "Discovery"
+ },
+ {
+   "id": 105,
+   "name": " Detonation (healing)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 106,
+   "name": "Detonation (horde suppressor)",
+   "source": "Destiny"
+ },
+ {
+   "id": 107,
+   "name": " Detonation (living metal)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 108,
+   "name": " Detonation (massive)",
+   "source": "Discovery"
+ },
+ {
+   "id": 109,
+   "name": " Detonation (matter disruption)",
+   "source": "Discovery"
+ },
+ {
+   "id": 110,
+   "name": " Detonation (plant transformation)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 111,
+   "name": " Detonation (pressure)",
+   "source": "Discovery"
+ },
+ {
+   "id": 112,
+   "name": " Detonation (singularity)",
+   "source": "Discovery"
+ },
+ {
+   "id": 113,
+   "name": " Detonation (smoke)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 114,
+   "name": " Detonation (sonic)",
+   "source": "Discovery"
+ },
+ {
+   "id": 115,
+   "name": " Detonation (spatial warping)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 116,
+   "name": " Detonation (spawn)",
+   "source": "Discovery"
+ },
+ {
+   "id": 117,
+   "name": " Detonation (stasis)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 118,
+   "name": " Detonation (suggestion)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 119,
+   "name": " Detonation (tendril)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 120,
+   "name": " Detonation (web)",
+   "source": "Discovery"
+ },
+ {
+   "id": 121,
+   "name": " Detonation delay",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 122,
+   "name": " Detonation trigger",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 123,
+   "name": " Detonation",
+   "source": "Discovery"
+ },
+ {
+   "id": 124,
+   "name": " Device enhancer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 125,
+   "name": " Dimensional sheath",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 126,
+   "name": " Dimensional trap",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 127,
+   "name": " Disintegration gel",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 128,
+   "name": " Displacement cloak",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 129,
+   "name": " Disrupting nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 130,
+   "name": " Dissonance cube",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 131,
+   "name": " Distance activator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 132,
+   "name": " Distortion field emitter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 133,
+   "name": " Doomsday device",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 134,
+   "name": " Drastic propulsion",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 135,
+   "name": " Dreamachine",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 136,
+   "name": " Dry water",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 137,
+   "name": " Duplicator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 138,
+   "name": " Dynamic hourglass",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 139,
+   "name": " Eagleseye",
+   "source": "Discovery"
+ },
+ {
+   "id": 140,
+   "name": " Ear worm",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 141,
+   "name": " Echo crystal",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 142,
+   "name": " Ecstasy glass",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 143,
+   "name": "Effort enhancement",
+   "source": "Destiny"
+ },
+ {
+   "id": 144,
+   "name": " Effulgent body",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 145,
+   "name": " Ejection nodule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 146,
+   "name": " Electronic nose",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 147,
+   "name": " Emoacoustic weapon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 148,
+   "name": "Emotion smoother",
+   "source": "Destiny"
+ },
+ {
+   "id": 149,
+   "name": " Energy module",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 150,
+   "name": " Energy siphon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 151,
+   "name": " Energy token",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 152,
+   "name": " Eraser",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 153,
+   "name": " Erosion ray",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 154,
+   "name": " Essence transfer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 155,
+   "name": " Exalted vapor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 156,
+   "name": " Explosive nodule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 157,
+   "name": " Extra time",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 158,
+   "name": " Eye in the sky",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 159,
+   "name": " Eyebug",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 160,
+   "name": " Eyestalk graft",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 161,
+   "name": " Fact finder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 162,
+   "name": " Fallback clone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 163,
+   "name": " Fangs of the reaver",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 164,
+   "name": " Faraway ear",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 165,
+   "name": "Farspeaker",
+   "source": "Destiny"
+ },
+ {
+   "id": 166,
+   "name": " Fast hail",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 167,
+   "name": " Fertility barrier",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 168,
+   "name": " Firebreather",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 169,
+   "name": " Fireproofing spray",
+   "source": "Discovery"
+ },
+ {
+   "id": 170,
+   "name": " Flame catcher",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 171,
+   "name": " Flame hand",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 172,
+   "name": " Flame-retardant wall",
+   "source": "Discovery"
+ },
+ {
+   "id": 173,
+   "name": " Flesh eater",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 174,
+   "name": " Floating bubble",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 175,
+   "name": " Flow",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 176,
+   "name": " Flowstone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 177,
+   "name": " Fluttering recorder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 178,
+   "name": " Flying cap",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 179,
+   "name": " Foam limb",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 180,
+   "name": " Foam sprayer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 181,
+   "name": " Fool killer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 182,
+   "name": " Force cube projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 183,
+   "name": " Force nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 184,
+   "name": " Force screen projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 185,
+   "name": " Force shield projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 186,
+   "name": " Freeze inducer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 187,
+   "name": " Friction-reducing gel",
+   "source": "Discovery"
+ },
+ {
+   "id": 188,
+   "name": " Frigid wall projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 189,
+   "name": " Fungal garden",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 190,
+   "name": " Gas bomb",
+   "source": "Discovery"
+ },
+ {
+   "id": 191,
+   "name": " Gel suit",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 192,
+   "name": " Ghostly duplicate",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 193,
+   "name": " Ghostly intruder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 194,
+   "name": " Ghostly veil",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 195,
+   "name": " Glass flame pellets",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 196,
+   "name": " Glass scorpion",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 197,
+   "name": " Glowing tracker",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 198,
+   "name": " Goss",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 199,
+   "name": " Grasshopper",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 200,
+   "name": "Gravity changer",
+   "source": "Destiny"
+ },
+ {
+   "id": 201,
+   "name": " Gravity dampener",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 202,
+   "name": " Gravity nodule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 203,
+   "name": " Gravity nullifier",
+   "source": "Discovery"
+ },
+ {
+   "id": 204,
+   "name": " Gravity-nullifying spray",
+   "source": "Discovery"
+ },
+ {
+   "id": 205,
+   "name": " Ground orb",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 206,
+   "name": " Grow ray",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 207,
+   "name": " Growth harness",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 208,
+   "name": " Growth serum",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 209,
+   "name": " Growth stimulator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 210,
+   "name": " Grub armor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 211,
+   "name": " Gyre loop",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 212,
+   "name": " Habiliment mirage",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 213,
+   "name": " Hand of the conqueror",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 214,
+   "name": " Hanging cocoon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 215,
+   "name": " Harassing companion",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 216,
+   "name": "Harmony lamp",
+   "source": "Destiny"
+ },
+ {
+   "id": 217,
+   "name": " Head transference collar",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 218,
+   "name": " Healing nodule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 219,
+   "name": "Health resonator",
+   "source": "Destiny"
+ },
+ {
+   "id": 220,
+   "name": " Health symbiote",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 221,
+   "name": " Health viewer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 222,
+   "name": " Heartbeat lock",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 223,
+   "name": " Heartburst",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 224,
+   "name": " Heartlink",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 225,
+   "name": " Heat nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 226,
+   "name": " Heat sensor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 227,
+   "name": " Heat sheath",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 228,
+   "name": " Heat stone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 229,
+   "name": " Heatvision lenses",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 230,
+   "name": " Heliolithic halo",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 231,
+   "name": " Helping hand",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 232,
+   "name": " Hidden reviver",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 233,
+   "name": "Hiding alarm nodule",
+   "source": "Destiny"
+ },
+ {
+   "id": 234,
+   "name": " History tap",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 235,
+   "name": " Homunculus",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 236,
+   "name": " Hover disk",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 237,
+   "name": " Hover module",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 238,
+   "name": " Hunter/seeker",
+   "source": "Discovery"
+ },
+ {
+   "id": 239,
+   "name": " Image caster",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 240,
+   "name": " Image projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 241,
+   "name": "Immobilizer",
+   "source": "Destiny"
+ },
+ {
+   "id": 242,
+   "name": " Indestructible oil",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 243,
+   "name": " Inertia shield",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 244,
+   "name": " Inferno wall projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 245,
+   "name": "Infrastructure drill",
+   "source": "Destiny"
+ },
+ {
+   "id": 246,
+   "name": " Infiltrator",
+   "source": "Discovery"
+ },
+ {
+   "id": 247,
+   "name": " Inflatable companion",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 248,
+   "name": " Inflatable suit",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 249,
+   "name": " Insanity mask",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 250,
+   "name": "Installation enhancer",
+   "source": "Destiny"
+ },
+ {
+   "id": 251,
+   "name": "Installation mover",
+   "source": "Destiny"
+ },
+ {
+   "id": 252,
+   "name": " Instant boat",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 253,
+   "name": " Instant companion",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 254,
+   "name": " Instant guardian",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 255,
+   "name": "Instant item",
+   "source": "Destiny"
+ },
+ {
+   "id": 256,
+   "name": " Instant servant",
+   "source": "Discovery"
+ },
+ {
+   "id": 257,
+   "name": " Instant shelter",
+   "source": "Discovery"
+ },
+ {
+   "id": 258,
+   "name": " Instant shield",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 259,
+   "name": "Instant wall",
+   "source": "Destiny"
+ },
+ {
+   "id": 260,
+   "name": " Instant weapon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 261,
+   "name": " Instant wings",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 262,
+   "name": "Instant workshop",
+   "source": "Destiny"
+ },
+ {
+   "id": 263,
+   "name": " Intellect enhancement",
+   "source": "Discovery"
+ },
+ {
+   "id": 264,
+   "name": " Interaction advisor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 265,
+   "name": " Internal detector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 266,
+   "name": " Invisibility nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 267,
+   "name": " Invulnerable mesh",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 268,
+   "name": "Iotum stabilizer",
+   "source": "Destiny"
+ },
+ {
+   "id": 269,
+   "name": "Iotum upgrader",
+   "source": "Destiny"
+ },
+ {
+   "id": 270,
+   "name": "Iron wind resistance",
+   "source": "Destiny"
+ },
+ {
+   "id": 271,
+   "name": " Jolter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 272,
+   "name": " Jonah ice",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 273,
+   "name": " Kinetic rod",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 274,
+   "name": " Knowledge enhancement",
+   "source": "Discovery"
+ },
+ {
+   "id": 275,
+   "name": " Leap belt",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 276,
+   "name": " Lie eater",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 277,
+   "name": " Life sensor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 278,
+   "name": " Light binder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 279,
+   "name": " Light flyer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 280,
+   "name": " Light shield",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 281,
+   "name": " Light steed",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 282,
+   "name": " Light writer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 283,
+   "name": " Lightning lance",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 284,
+   "name": " Lightning wall projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 285,
+   "name": " Living solvent",
+   "source": "Discovery"
+ },
+ {
+   "id": 286,
+   "name": " Living weaponmaster nodule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 287,
+   "name": " Lobal sheath",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 288,
+   "name": " Lotus paste",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 289,
+   "name": " Lutin (bioengineered insects)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 290,
+   "name": " Lutin (combos)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 291,
+   "name": " Lutin (engineered spores)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 292,
+   "name": " Lutin (light drops)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 293,
+   "name": " Lutin (metal shrapnel)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 294,
+   "name": " Lutin (nanites)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 295,
+   "name": " Machine control implant",
+   "source": "Discovery"
+ },
+ {
+   "id": 296,
+   "name": " Magnetic attack drill",
+   "source": "Discovery"
+ },
+ {
+   "id": 297,
+   "name": " Magnetic boots",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 298,
+   "name": " Magnetic ink",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 299,
+   "name": " Magnetic master",
+   "source": "Discovery"
+ },
+ {
+   "id": 300,
+   "name": " Magnetic shield",
+   "source": "Discovery"
+ },
+ {
+   "id": 301,
+   "name": " Magnetic winch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 302,
+   "name": " Malady maker",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 303,
+   "name": " Mass destructor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 304,
+   "name": " Mass nodule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 305,
+   "name": " Matter converter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 306,
+   "name": "Mechanical wright",
+   "source": "Destiny"
+ },
+ {
+   "id": 307,
+   "name": " Memory cube",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 308,
+   "name": " Memory dust",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 309,
+   "name": " Memory gel",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 310,
+   "name": " Memory lenses",
+   "source": "Discovery"
+ },
+ {
+   "id": 311,
+   "name": " Mental coupling",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 312,
+   "name": " Mental director",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 313,
+   "name": " Mental scrambler",
+   "source": "Discovery"
+ },
+ {
+   "id": 314,
+   "name": " Mental thieves",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 315,
+   "name": " Message capsule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 316,
+   "name": " Message detonation",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 317,
+   "name": " Metal death",
+   "source": "Discovery"
+ },
+ {
+   "id": 318,
+   "name": " Metal patch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 319,
+   "name": " Metamagnetizer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 320,
+   "name": " Mind control implant",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 321,
+   "name": " Mind killer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 322,
+   "name": " Mind module",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 323,
+   "name": " Mind oculus",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 324,
+   "name": " Mind sled",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 325,
+   "name": " Mini gate",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 326,
+   "name": " Miniaturized weapon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 327,
+   "name": " Mist animator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 328,
+   "name": " Mist energizer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 329,
+   "name": " Mist producer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 330,
+   "name": " Momentum dampener",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 331,
+   "name": " Monoblade",
+   "source": "Discovery"
+ },
+ {
+   "id": 332,
+   "name": " Mood patch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 333,
+   "name": " Motion activator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 334,
+   "name": " Motion sensor",
+   "source": "Discovery"
+ },
+ {
+   "id": 335,
+   "name": " Muscle cart",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 336,
+   "name": " Mystery box",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 337,
+   "name": " Navigator daemon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 338,
+   "name": " Nectar dispenser",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 339,
+   "name": " Needle sphere",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 340,
+   "name": " Needleburst",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 341,
+   "name": " Neuron disruptor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 342,
+   "name": " Nevermind",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 343,
+   "name": " Numbing oil",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 344,
+   "name": " Numenera analyzer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 345,
+   "name": " Numenera net",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 346,
+   "name": "Object replicator",
+   "source": "Destiny"
+ },
+ {
+   "id": 347,
+   "name": " One perfect cut",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 348,
+   "name": " Orbital armor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 349,
+   "name": " Orbital launcher",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 350,
+   "name": "Organ factory",
+   "source": "Destiny"
+ },
+ {
+   "id": 351,
+   "name": " Organ patch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 352,
+   "name": " Ostracized vapor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 353,
+   "name": " Overwatch defender",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 354,
+   "name": " Overwatch slayer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 355,
+   "name": " Pain inverter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 356,
+   "name": " Panoramic capture ball",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 357,
+   "name": " Parous cypher ball",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 358,
+   "name": " Parous oddity box",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 359,
+   "name": " Perma-damp",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 360,
+   "name": " Permanent handle",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 361,
+   "name": " Personal environment field",
+   "source": "Discovery"
+ },
+ {
+   "id": 362,
+   "name": " Phase changer",
+   "source": "Discovery"
+ },
+ {
+   "id": 363,
+   "name": " Phase disruptor",
+   "source": "Discovery"
+ },
+ {
+   "id": 364,
+   "name": "Phasing gloves",
+   "source": "Destiny"
+ },
+ {
+   "id": 365,
+   "name": " Photon igniter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 366,
+   "name": " Photonic fabricator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 368,
+   "name": " Photonic hand",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 369,
+   "name": " Photonic smasher",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 370,
+   "name": " Piezoelectric engine",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 367,
+   "name": " Pleasure center",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 371,
+   "name": " Poison (emotion)",
+   "source": "Discovery"
+ },
+ {
+   "id": 372,
+   "name": " Poison (explosive)",
+   "source": "Discovery"
+ },
+ {
+   "id": 373,
+   "name": " Poison (mind-controlling)",
+   "source": "Discovery"
+ },
+ {
+   "id": 374,
+   "name": " Poison (mind-disrupting)",
+   "source": "Discovery"
+ },
+ {
+   "id": 375,
+   "name": " Portable biolab",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 376,
+   "name": " Portable steed",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 377,
+   "name": " Portable vortex",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 378,
+   "name": " Portal ring",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 379,
+   "name": " Power siphon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 380,
+   "name": " Prismatic field projector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 381,
+   "name": " Projectile module (homing)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 382,
+   "name": " Projectile module (mindblasting)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 383,
+   "name": " Projectile module (poison)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 384,
+   "name": " Projectile module (teleport)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 385,
+   "name": " Psychic communiqué",
+   "source": "Discovery"
+ },
+ {
+   "id": 386,
+   "name": "Psychic defense nodule",
+   "source": "Destiny"
+ },
+ {
+   "id": 387,
+   "name": " Psychic focus",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 388,
+   "name": " Purgspitter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 389,
+   "name": " Purity",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 390,
+   "name": " Pushpull beam",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 391,
+   "name": " Pyrolytic pulser",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 392,
+   "name": " Quadraturin",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 393,
+   "name": " Radiant web",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 394,
+   "name": "Rage thrower",
+   "source": "Destiny"
+ },
+ {
+   "id": 395,
+   "name": " Ranged protector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 396,
+   "name": " Ranged retaliator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 397,
+   "name": " Ray emitter (molecular rearrangement)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 398,
+   "name": " Ray emitter (numbing)",
+   "source": "Discovery"
+ },
+ {
+   "id": 399,
+   "name": " Ray emitter (paralysis)",
+   "source": "Discovery"
+ },
+ {
+   "id": 400,
+   "name": " Ray emitter",
+   "source": "Discovery"
+ },
+ {
+   "id": 401,
+   "name": " Reality spike",
+   "source": "Discovery"
+ },
+ {
+   "id": 402,
+   "name": " Reanimator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 403,
+   "name": " Regrow",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 404,
+   "name": " Rejuvenating shield",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 405,
+   "name": " Rejuvenation field",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 406,
+   "name": " Rejuvenator",
+   "source": "Discovery"
+ },
+ {
+   "id": 407,
+   "name": " Rejuvenator",
+   "source": "Discovery"
+ },
+ {
+   "id": 408,
+   "name": " Remake",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 409,
+   "name": " Remote scarificator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 410,
+   "name": " Remote sensorium",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 411,
+   "name": " Remote viewer",
+   "source": "Discovery"
+ },
+ {
+   "id": 412,
+   "name": " Repair unit",
+   "source": "Discovery"
+ },
+ {
+   "id": 413,
+   "name": " Reproductive bud",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 414,
+   "name": " Repulsion field",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 415,
+   "name": " Reset",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 416,
+   "name": " Retaliation nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 417,
+   "name": "Retriever",
+   "source": "Destiny"
+ },
+ {
+   "id": 418,
+   "name": " Revealer dart",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 419,
+   "name": " Reviver",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 420,
+   "name": " Root spike",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 421,
+   "name": " Rynrad skin",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 422,
+   "name": "Salvage graft",
+   "source": "Destiny"
+ },
+ {
+   "id": 423,
+   "name": " Sanity assassin",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 424,
+   "name": " Screaming madness",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 425,
+   "name": " Second sight symbiote",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 426,
+   "name": " Secret finder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 427,
+   "name": " Secret pocket",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 428,
+   "name": " Security clamp",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 429,
+   "name": " See you goggles",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 430,
+   "name": " Seed boat",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 431,
+   "name": " Seed of knowledge",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 432,
+   "name": " Sense record",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 433,
+   "name": " Sensory disruptor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 434,
+   "name": " Sexual alteration device",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 435,
+   "name": " Shadow net",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 436,
+   "name": "Shapemetal",
+   "source": "Destiny"
+ },
+ {
+   "id": 437,
+   "name": " Sheen",
+   "source": "Discovery"
+ },
+ {
+   "id": 438,
+   "name": " Shock nodule",
+   "source": "Discovery"
+ },
+ {
+   "id": 439,
+   "name": " Shocker",
+   "source": "Discovery"
+ },
+ {
+   "id": 440,
+   "name": " Shrink ray",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 441,
+   "name": " Shudder stones",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 442,
+   "name": " Sidestep portal",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 443,
+   "name": " Signal detector",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 444,
+   "name": " Skill boost",
+   "source": "Discovery"
+ },
+ {
+   "id": 445,
+   "name": "Slash-retardant spray",
+   "source": "Destiny"
+ },
+ {
+   "id": 446,
+   "name": " Sleep inducer",
+   "source": "Discovery"
+ },
+ {
+   "id": 447,
+   "name": " Sleep watch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 448,
+   "name": " Sleeper spray",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 449,
+   "name": " Smart bugs",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 450,
+   "name": " Snake eye",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 451,
+   "name": " Snake in the grass",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 452,
+   "name": " Snow lens",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 453,
+   "name": " Solar reviver",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 454,
+   "name": " Solid light gloves",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 455,
+   "name": " Solid light retribution",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 456,
+   "name": " Sonic hole",
+   "source": "Discovery"
+ },
+ {
+   "id": 457,
+   "name": " Sound amplifier",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 458,
+   "name": " Sound dampener",
+   "source": "Discovery"
+ },
+ {
+   "id": 459,
+   "name": " Sparkle",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 460,
+   "name": " Spatial distorter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 461,
+   "name": " Spatial warp",
+   "source": "Discovery"
+ },
+ {
+   "id": 462,
+   "name": " Speed boost",
+   "source": "Discovery"
+ },
+ {
+   "id": 463,
+   "name": " Speed heal",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 464,
+   "name": " Spike balls",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 465,
+   "name": " Spine spheres",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 466,
+   "name": " Standstill",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 467,
+   "name": " Stasis field emitter",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 468,
+   "name": "Stealth thrower",
+   "source": "Destiny"
+ },
+ {
+   "id": 469,
+   "name": " Stealthy serpent",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 470,
+   "name": " Steel sentinel",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 471,
+   "name": " Still field",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 472,
+   "name": " Stim",
+   "source": "Discovery"
+ },
+ {
+   "id": 473,
+   "name": " Stim",
+   "source": "Discovery"
+ },
+ {
+   "id": 474,
+   "name": " Stone form",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 475,
+   "name": " Stone guts",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 476,
+   "name": " Stone melt",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 477,
+   "name": " Store-all",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 478,
+   "name": " Strength boost",
+   "source": "Discovery"
+ },
+ {
+   "id": 479,
+   "name": " Stronghold",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 480,
+   "name": " Subdual field",
+   "source": "Discovery"
+ },
+ {
+   "id": 481,
+   "name": "Summoning alarm nodule",
+   "source": "Destiny"
+ },
+ {
+   "id": 482,
+   "name": " Summoning staff",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 483,
+   "name": "Sustenance implant",
+   "source": "Destiny"
+ },
+ {
+   "id": 484,
+   "name": " Swarm herder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 485,
+   "name": " Sweeping glove",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 486,
+   "name": " Synth corroder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 487,
+   "name": " Talio’s compass",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 488,
+   "name": " Targeting oculus",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 489,
+   "name": " Task drone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 490,
+   "name": " Telepathy implant",
+   "source": "Discovery"
+ },
+ {
+   "id": 491,
+   "name": " Teleport seal",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 492,
+   "name": " Teleport trap",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 493,
+   "name": " Teleporter (bounder)",
+   "source": "Discovery"
+ },
+ {
+   "id": 494,
+   "name": " Teleporter (mass)",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 495,
+   "name": " Teleporter (traveler)",
+   "source": "Discovery"
+ },
+ {
+   "id": 496,
+   "name": " Temporal sheath",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 497,
+   "name": " Temporal viewer",
+   "source": "Discovery"
+ },
+ {
+   "id": 498,
+   "name": " Tendril gloves",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 499,
+   "name": " Tether",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 500,
+   "name": " Third man",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 501,
+   "name": " Three-part alarm",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 502,
+   "name": " Time auger",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 503,
+   "name": " Time capsule",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 504,
+   "name": " Time delay",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 505,
+   "name": " Time dilation nodule (defensive)",
+   "source": "Discovery"
+ },
+ {
+   "id": 506,
+   "name": " Time dilation nodule (offensive)",
+   "source": "Discovery"
+ },
+ {
+   "id": 507,
+   "name": " Tracer",
+   "source": "Discovery"
+ },
+ {
+   "id": 508,
+   "name": "Trail blazer",
+   "source": "Destiny"
+ },
+ {
+   "id": 509,
+   "name": " Tranquility pod",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 510,
+   "name": " Transdimensional gate",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 511,
+   "name": "Transdimensional sense",
+   "source": "Destiny"
+ },
+ {
+   "id": 512,
+   "name": " Transference beam",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 513,
+   "name": " Transformation torque",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 514,
+   "name": " Transient inscriber",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 515,
+   "name": " Transposer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 516,
+   "name": "Travel bubble",
+   "source": "Destiny"
+ },
+ {
+   "id": 517,
+   "name": " True speak",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 518,
+   "name": " Truth inducer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 519,
+   "name": " Variable tool",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 520,
+   "name": " Verdant nectar",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 521,
+   "name": " Visage changer",
+   "source": "Discovery"
+ },
+ {
+   "id": 522,
+   "name": " Vision subjugator",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 523,
+   "name": " Visual displacement device",
+   "source": "Discovery"
+ },
+ {
+   "id": 524,
+   "name": " Vocal changer",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 525,
+   "name": " Vocal translator",
+   "source": "Discovery"
+ },
+ {
+   "id": 526,
+   "name": " Volcanic heart",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 527,
+   "name": " War mites",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 528,
+   "name": " Warming pouch",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 529,
+   "name": " Warmth projector",
+   "source": "Discovery"
+ },
+ {
+   "id": 530,
+   "name": " Water breather",
+   "source": "Discovery"
+ },
+ {
+   "id": 531,
+   "name": " Water repellant plates",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 532,
+   "name": " Water weapon",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 533,
+   "name": " Way back",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 534,
+   "name": " Weaver drone",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 535,
+   "name": " Wing symbiote",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 536,
+   "name": " Wish disk",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 537,
+   "name": " Witless powder",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 538,
+   "name": " Wrist launcher",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 539,
+   "name": " X-ray extractor",
+   "source": "Technology Compendium"
+ },
+ {
+   "id": 540,
+   "name": " X-Ray viewer",
+   "source": "Discovery"
+ }
+]
